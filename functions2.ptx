@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-functions2">
+  <title>Module Name</title>
+  <xi:include href="domain-range.ptx" />
+  <xi:include href="piecewise.ptx" />
+  <xi:include href="inverse.ptx" />
+  <xi:include href="functions2-activity.ptx" />
+</chapter>

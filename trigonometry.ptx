@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-trigonometry">
+  <title>Trigonometry</title>
+  <xi:include href="trigonometry-concepts.ptx" />
+  <xi:include href="trigonometric-functions.ptx" />
+  <xi:include href="inverse-trig.ptx" />
+  <xi:include href="trigonometry-activity.ptx" />
+</chapter>

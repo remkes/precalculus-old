@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-cartesian-geometry">
+  <title>Cartesian Geometry</title>
+  <xi:include href="plane.ptx" />
+  <xi:include href="lines.ptx" />
+  <xi:include href="graphs.ptx" />
+  <xi:include href="cartesian-activity.ptx" />
+</chapter>

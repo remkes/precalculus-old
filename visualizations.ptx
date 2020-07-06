@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-visualization">
+  <title>Visualization of Information</title>
+  <xi:include href="scatterplots.ptx" />
+  <xi:include href="bar-graphs.ptx" />
+  <xi:include href="visualization-activity.ptx" />
+</chapter>

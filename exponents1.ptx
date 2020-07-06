@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-exponents1">
+  <title>Exponents Part 1 Name</title>
+  <xi:include href="exponents-definition.ptx" />
+  <xi:include href="exponent-laws.ptx" />
+  <xi:include href="exponents1-activity.ptx" />
+</chapter>

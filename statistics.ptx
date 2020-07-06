@@ -1,0 +1,6 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-statistics">
+  <title>Statistics</title>
+  <xi:include href="statistics-concepts.ptx" />
+  <xi:include href="statistics-activity.ptx" />
+</chapter>

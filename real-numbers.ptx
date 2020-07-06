@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-real-numbers">
+  <title>The Real Numbers</title>
+  <xi:include href="number-line.ptx" />
+  <xi:include href="fractions-and-decimals.ptx" />
+  <xi:include href="real-numbers-activity.ptx" />
+</chapter>

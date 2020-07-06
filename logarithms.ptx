@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-logarithms">
+  <title>Logarithms</title>
+  <xi:include href="logarithm-concept.ptx" />
+  <xi:include href="logarithm-laws.ptx" />
+  <xi:include href="logarithm-solving.ptx" />
+  <xi:include href="logarithms-activity.ptx" />
+</chapter>

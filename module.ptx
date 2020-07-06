@@ -1,0 +1,5 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-module">
+  <title>Module Name</title>
+  <xi:include href="somesection.ptx" />
+</chapter>

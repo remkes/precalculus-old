@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-fractions2">
+  <title>Fractions Part 2 Name</title>
+  <xi:include href="fractions-variables.ptx" />
+  <xi:include href="fractions-factoring.ptx" />
+  <xi:include href="fractions2-activity.ptx" />
+</chapter>

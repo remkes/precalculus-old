@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" 
+  xml:id="chapter-polynomials1">
+  <title>Polynomials Part 1 Name</title>
+  <xi:include href="polynomial-concept.ptx" />
+  <xi:include href="quadratics.ptx" />
+  <xi:include href="polynomials1-activity.ptx" />
+</chapter>
