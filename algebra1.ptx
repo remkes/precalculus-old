@@ -2,9 +2,7 @@
   xml:id="chapter-algebra1">
   <title>Algebra Part 1</title>
   <xi:include href="arithmetic.ptx" />
-  <xi:include href="operations.ptx" />
   <xi:include href="variables.ptx" />
-  <xi:include href="manipulations.ptx" />
   <xi:include href="algebra-models.ptx" />
   <xi:include href="algebra1-activity.ptx" />
 </chapter>

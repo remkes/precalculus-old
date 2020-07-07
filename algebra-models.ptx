@@ -1,8 +1,122 @@
 <section xml:id="section-algebra-models">
   <title>Translating Problems Into Algebra</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-word-problems">
+    <title>Word Problems</title>
     <p>
+      Word problems have historically plagued K-12 mathematics
+      students, and with good reason. Many of the conventional word
+      problems mocked in jokes and memes deserved to be mocked, with
+      their strange first-name setups and contrived situations.
+      However, the idea behind them is fundamentally sound.
+      Mathematics, and algebra in particular, is useful for describing
+      all the parts of the world which can be reasonable described
+      with numbers. 
+    </p>
+    <p>
+      Let me try to make the case with some <q>word problems</q> of my
+      own. Hopefully, though, these are somehow less contrived that
+      those historically found in many mathematics textbooks. In this
+      section, I'm just going to state problems and talk about how to
+      translate them into mathematical terms; I'm not also going to
+      give solutions.
+    </p>
+    <example>
+      <p>
+        These notes were written in the summer of 2020, in the midst of
+        the CoVid-19 pandemic. The following type of problem was
+        extremely relevant. 
+      </p>
+      <p>
+        A certain small community has 143 active CoViD-19 cases. The
+        number of active cases in this community is doubling every 23
+        days. The hospital capacity for CoVid cases in this community
+        is 47 beds. Assuming that 10% of cases require hospitalization,
+        if the rate of transmission stays the same, how long until the
+        hospital reaches capacity?
+      </p>
+      <p>
+        Solving this question would involved translating the problem
+        into algebra. If <m>t</m> is time measured in days, then
+        doubling every 23 days is the same as multipling by 
+        <me>
+          2^{\frac{t}{23}}
+        </me>.
+        If we start at 143 cases and double from there, then the
+        number of case after <m>t</m> days is 
+        <me>
+          (143) 2^{\frac{t}{23}}
+        </me>.
+        Finally, if we want to count hospitalization rate, we need 10%
+        of this. To get that, we multiply by <m>\frac{1}{10}</m>.
+        <me>
+          \frac{143}{10} 2^{\frac{t}{23}}
+        </me>.
+        The problem, then, is what is the smallest value of <m>t</m>
+        such that this expression is larger than 47: 
+        <me>
+          \frac{143}{10} 2^{\frac{t}{23}} > 47 
+        </me>.
+        Such a problem can be solved with logarithms, as in <xref
+        ref="chapter-logarithms" />. 
+      </p>
+    </example>
+    <example>
+      <p>
+        (The numbers in this example are fabricated -- I haven't done
+        the research to get the actual numbers). Say that 75% of
+        employed Canadians commute by car and that the average commute is
+        7km one way. If some program could convince 5% of these
+        commuters to use other modes of transport (walk, bicycle,
+        transit), how much less fuel would be used for commuting
+        purposes?
+      </p>
+      <p>
+        To translate this into mathematics, let <m>p</m> be the
+        population of employed Canadians. Then <m>14p</m> is the
+        number of daily kilometers these Canadian drive. From this
+        point, we would need to know how much fuel is used for these
+        drives, and perhaps how many days in a year these Canadians
+        commute is we want year statistics. Finally, we'd subtract 5%
+        to see what the change in fuel consumption would be. 
+      </p>
+    </example>
+    <example>
+      <p>
+        In a very oversimplified model, let's assume that the cost of
+        running a particular airline route consists of a fixed cost
+        <m>F</m> (representing the plane, a share of the company
+        infrastructure and other costs which don't depend on the
+        number of flights) and a cost per trip <m>T</m> (representing
+        the fuel costs, airport fees, staff costs for the pilots and
+        crew, and other costs that are encured per flight). The income
+        from a flight (again, oversimplified) is given by the price
+        <m>P</m> per passanger. If we know the numbers <m>F,T,P</m>
+        how many passangers are required per flight for the flight to
+        be profitable>?
+      </p>
+      <p>
+        We can translate this into an algebraic equation (or
+        inequality). The costs are <m>F + Tn</m> and the revenue is
+        <m>Pn</m>. If we want the break even point, we would solve
+        this equation
+        <me>
+          F + Tn = Pn 
+        </me>.
+        If we wanted the range where <m>n</m> leads to profitable
+        flights, we would solve the inequality 
+        <me>
+          F + Tn \lt Pn 
+        </me>.
+      </p>
+    </example>
+    <p>
+      Hopefully, those were not contrived examples. Hopefully, they
+      give a sense in which translating from quantitative real-world
+      situation into mathematics is a reasonable and useful thing to
+      do. Those these examples are simplified, the more complicated
+      versions of these calculations are actually being done, in the
+      world, by public health administrators, by environmental
+      planners, or by airline executives. 
     </p>
   </subsection>
 </section>

@@ -2,6 +2,6 @@
   xml:id="chapter-algebra2">
   <title>Algebra Part 2</title>
   <xi:include href="factoring.ptx" />
-  <xi:include href="simplification.ptx" />
+  <xi:include href="manipulations.ptx" />
   <xi:include href="algebra2-activity.ptx" />
 </chapter>

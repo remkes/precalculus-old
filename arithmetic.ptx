@@ -1,8 +1,212 @@
 <section xml:id="section-arithmetic">
   <title>Arithmetic</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-operations">
+    <title>Basic Operations</title>
     <p>
+      I assume that you are comfortable with the basic arithmetic
+      operations of addition, subtraction, multiplication and
+      division of numbers. The notations for addition and subtraction
+      are consistent across mathematics. 
     </p>
+    <p>
+      The notations for multiplication and division, however, tend to
+      change with context. In early context, multiplication is, of
+      course, written with a times sign.
+      <me>
+        3 \times 7 = 21 
+      </me>
+      As our mathematical context grows, however, multiplication is
+      more often written with adjacent symbols. For numbers, which
+      requires parantheses.
+      <me>
+        (3)(7) = 21 
+      </me>
+      For variable, writing adjacent variables implies multiplication.
+      <me>
+        ab = a \times b 
+      </me>
+      Division has the same evolution. In first presentation, division
+      is usually written with a division sign.
+      <me>
+        12 \div 4 = 3 
+      </me>
+      Again as out mathematical context grows, division is often
+      written in fractional notation.
+      <me>
+        \frac{12}{4} = 3 
+      </me>
+      These is an important subtlety here: the notation <m>
+      \frac{12}{4}</m> means two things at the same time: it is a
+      fraction that we can work with and analyse as a fraction (with
+      detail in <xref ref="chapter-fractions1" />, but it is also the
+      division <m>12 \div 4</m>. When working with this symbol and
+      similar symbols, people switch between these meanings
+      automatically, usually without noticing or announcing the
+      change. 
+    </p>
+    <p>
+      In addition to the four basic arithmetic operations, we also
+      have exponents to indicate iterated multiplication.
+      <me>
+        2^6 = 2 \times 2 \times 2 \times 2 \times 2 \times 2 =
+        (2)(2)(2)(2)(2)(2) = 32 
+      </me>
+      <xref ref="chapter-exponents1" /> works on the properties and
+      rules of exponents. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-order-of-operations">
+    <title>Order of Operations</title>
+    <p>
+      With multiple operations, we have conventions about how to write
+      mathematical expressions so that the operations are clear. Most
+      importantly, we have an order or precedence for operations. 
+      <ol>
+        <li>  
+          We use parentheses to group pieces of a mathematical
+          expression. Parantheses take precedence over all 
+          operations, so they can always be use to be explicit and
+          clear about how we want our expression to be understood. 
+        </li>
+        <li>
+          Sometimes one operations is <emph>inside</emph> another
+          operation. For example, here is addition inside a square
+          root.
+          <me>
+            \sqrt{9 + 15}
+          </me>
+          Similarly, here is an exponent and a subtraction inside a
+          fraction (hence inside a division operation).
+          <me>
+            \frac{50}{2^3+3}
+          </me>
+          Any of these inside pieces have to happen before the outside
+          operation can happen. This is sort of like parenthesis, and
+          we could rewrite these with parentheses to make them more
+          transparent. 
+          <me>
+            \sqrt{(9 + 15)}
+          </me>
+          <me>
+            \frac{50}{(2^3+3)}
+          </me>
+          Even without the explicit parentheses, these inside pieces
+          take precedence as if they had parentheses.
+        </li>
+        <li>
+          Exponents take precedence over the four basic arithmetic
+          operations. Square roots (and other roots) are essentially
+          exponents (as discussed in <xref ref="chapter-exponents1"
+          />, so they happen in this step as well. 
+        </li>
+        <li>
+          Multiplication and division take precedence over addition
+          and subtraction. We can treat multiplication and division as
+          one step since we can interchange the order of
+          multiplication and division without problem.
+        </li>
+        <li>
+          Finally, addition and subtraction have the lowest
+          precedence. Again, we can treat these two in one step
+          because we can interchange the order of additions and
+          subtractions without problem. 
+        </li>
+      </ol>
+    </p>
+    <example>
+      <me>
+        (5-2)^2 + \frac{21}{7}
+      </me>
+      The parentheses take first precedence, so we do the subtraction
+      in the paranethesis. 
+      <me>
+        (3)^2 + \frac{21}{7}
+      </me>
+      Exponents are next. 
+      <me>
+        9 + \frac{21}{7}
+      </me>
+      Division is next. 
+      <me>
+        9 + 3 
+      </me>
+      Addition is last.
+      <me>
+        12
+      </me>
+    </example>
+    <example>
+      <me>
+        \frac{(10)(6)(4)}{(2)(5)}
+      </me>
+      This is all multiplication and division, so we can do the
+      operations in any order we wish. To demonstrate that the order
+      doesn't matter, I'll do this in a variety of order. First, I'll
+      multiply the numerator. 
+      <me>
+        \frac{(60)(4)}{(2)(5)} = \frac{240}{(2)(5) 
+      </me>
+      Then I'll multiply the denominator. 
+      <me>
+        \frac{240}{(2)(5) = \frac{240}{10} 
+      </me>
+      Then I'll finish with the division.
+      <me>
+        \frac{240}{10} = 24
+      </me>
+      Alternatively, I could have started with 10 divided by 2, which
+      is 5. 
+      <me>
+        \frac{(10)(6)(4)}{(2)(5)} = \frac{(5)(6)(4)}{(5)}
+      </me>
+      Then I could do 5 divided by 5, which is 1. 
+      <me>
+        \frac{(5)(6)(4)}{(5)} = (1)(6)(4) 
+      </me>
+      Finally, multiplying by 1 doesn't do anything and <m>6 \times 4
+      = 24</m>, so I recover the same answer. There are many more
+      possible orders for all these multiplications and divisions, but
+      all of them will still result in an answer of 24. 
+    </example>
+    <example>
+      <me>
+        \frac{\sqrt{5^2 + 11}}{(4)(5) - 14} 
+      </me>
+      We have two inside pieces: something inside a square root and
+      something inside a fraction (in the denominator). Therefore, we
+      have to do these two pieces before evaluating the square root or
+      the division. First we do the square root. Inside the square
+      root, we have an exponent and addition; we do the exponent
+      first. 
+      <me>
+        \frac{\sqrt{25 + 11}}{(4)(5) - 14} 
+      </me>
+      Then we do the addition. 
+      <me>
+        \frac{\sqrt{36}}{(4)(5) - 14} 
+      </me>
+      The inside of the square root is finished, so we can now do the
+      square root (which has the precedence of an exponent, so it
+      happens before the division). 
+      <me>
+        \frac{6}{(4)(5) - 14} 
+      </me>
+      Now we look to the inside of the division; we can't do the
+      division before the operations in the denominator. The
+      denominator has multiplication and subtraction; we do the
+      multiplication first. 
+      <me>
+        \frac{6}{20 - 14} 
+      </me>
+      Then we do the subtraction.
+      <me>
+        \frac{6}{6} 
+      </me>
+      Finally, since the inside pieces are finished, we can do the
+      division. 
+      <me>
+        \frac{6}{6} = 1
+      </me>
+    </example>
   </subsection>
 </section>

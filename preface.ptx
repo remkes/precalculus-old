@@ -1,8 +1,84 @@
 <section xml:id="section-preface">
   <title>Preface</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <paragraphs>
+    <title>Welcome</title>
     <p>
+      Welcome to this set of modules for prerequisite mathematics.
+      There are many reasons why you may have found your ways to these
+      notes: among other possibilities, you might be a high school
+      student wanting some review or preparation before entering
+      unviersity; you may be a prospective student who needs a math
+      prerequisite for entry into one of our programs; you may be a
+      current university student who likewise needs a high-school
+      prerequisite mathematics credit; or you might be a student in a
+      university math course who wants to review their background
+      skills and concepts. Whatever the case, I hope you find these
+      modules useful and helpful. 
     </p>
-  </subsection>
+    <p>
+      These notes are designed to accompany a set of videos explaining
+      the concepts and walking through various examples. The videos
+      can be found <url
+      href="https://www.youtube.com/playlist?list=PLOC72MX4yo5Yp2LoDCoVKyV9h9seQYgk7">at
+      this YouTube playlist</url>. 
+    </p>
+    <p>
+      These notes include activities in each section. Mathematics is
+      learned by practice and activity. I suggest you try each
+      activity on your own and then compare your attempt with the
+      solutions. All the solutions are provided in these notes, to aid
+      in self-study. 
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Skill and Concepts</title>
+    <p>
+      There is a temptation to treat mathematics as simply a set of
+      skills or tools. Certainly, skills are important and the
+      majority of these modules focus on specific skills. But skills
+      without concepts are not mathematics. For success in courses
+      that require mathematics, we need you to understand the
+      mathematical concepts just as much (if not more) than we need
+      you to have the mathematical skills. In these notes and the
+      accompanying videos, I focus heavily on concepts. Likewise, each
+      activity includes a set of conceptual questions. I encourage you
+      to use these questions to test yourself. If the concepts are not
+      clear, go back to the videos and the notes again and see if you
+      can pick on the concepts presented. 
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Scope</title>
+    <p>
+      For many of you working through this material, your goal will be
+      writing the assessment test for a Math 30-2 or Math 30-1
+      prerequisite to allow you to register in a course or enrol in a
+      program. These notes and the accompanying videos are designed to
+      prepare you for those tests. However, this should not be treated
+      as a full replacement for Math 30-2 or Math 30-1 (and nothing in
+      this sytem is designed to allow you to apply to the province of
+      Alberta for credit for those courses). Instead of trying to
+      cover all of the content in those high-school courses, we've
+      chosen particular concepts and skills which are actually used in
+      our university courses. Practically and pragmatically, this is
+      more focus on what you specifically need to succeed in
+      university, as opposed to covering the whole swath of
+      high-school level mathematics. 
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Level</title>
+    <p>
+      These notes and the accompanying videos are designed for
+      multiple audiences with a wide variety of skill levels in
+      mathematics. The level of this material ranges over many grade
+      levels when compared to the Alberta school curriculum. Since
+      these notes and the accompanying videos are designed mostly for
+      self study, I encourage you to spend your time on whichever
+      parts of the material that are challenging to you. For most of
+      you, there will be pieces of this material that are well known;
+      proceed quickly through those pieces to the concepts and skills
+      where you need work and review. 
+    </p>
+  </paragraphs>
 </section>

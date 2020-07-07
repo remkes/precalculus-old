@@ -4,7 +4,7 @@
     <xi:include href="./macros.ptx" />  
   </docinfo>
   <book>
-    <title>Modules for Math 30-1 and Math 30-2 Equivalence</title>
+    <title>Modules for Prerequisite Mathematics</title>
     <xi:include href="./frontmatter.ptx" /> 
     <xi:include href="./algebra1.ptx" />
     <xi:include href="./algebra2.ptx" />

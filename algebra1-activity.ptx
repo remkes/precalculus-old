@@ -1,16 +1,216 @@
 <section xml:id="section-algebra1-activity">
   <title>Algebra Part 1 Activity</title>
-  <subsection xml:id="subsection-activity-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-activity-order-of-operations">
+    <title>Order Of Operations</title>
     <activity>
       <statement>
         <p>
+          Evaluate this expression, noting the order of operations.
+          <me>
+            \sqrt{\frac{(2)(73) + 254}{4}} - \sqrt{9} 
+          </me>
         </p>
       </statement>
       <solution>
         <p>
+          <me>
+            \sqrt{\frac{(2)(73) + 254}{4}} - \sqrt{9} 
+          </me>
+          The second square root just has a number in
+          it, so it can be evaluted. The first square root has
+          several operations inside it, so those operations must
+          be done before the square root. We'll start with the
+          multiplication in the numerator.
+          <me>
+            = \sqrt{\frac{146 + 254}{4}} - 3
+          </me>
+          There is a division (or fraction) inside the
+          square root. However, the numerator of the fraction has
+          a sum in it; we must do this sum before we can complete
+          the fraction, as it is an inside piece of the fraction.
+          <me>
+            = \sqrt{\frac{400}{4}} - 3
+          </me>
+          How we can do the division.
+          <me>
+            = \sqrt{100} - 3
+          </me>
+          Now all the pieces inside the square root have been finished
+          and we can evaluate the square root.
+          <me>
+            = 10 - 3 = 7
+          </me>
         </p>
       </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Evaluate this expression, noting the order of operations.
+          <me>
+            3 - \frac{(6)(10)}{12} + (5-3)^2
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            3 - \frac{(6)(10)}{12} + (5-3)^2
+          </me>
+          We'll evalute the term in brackets first.
+          <me>
+            = 3 - \frac{(6)(10)}{12} + 2^2
+          </me>
+          Next we'll evaluate the exponent.
+          <me>
+            = 3 - \frac{(6)(10)}{12} + 4
+          </me>
+          Then we can do the multiplication and divisiosn in any
+          order. I'll do the multiplication first.
+          <me>
+            = 3 - \frac{60}{12} + 4
+          </me>
+          Then I'll do the division.
+          <me>
+            = 3 - 5 + 4
+          </me>
+          Finally, we do the addition and subtraction.
+          <me>
+            3 - 5 + 4 =  -2 + 4 = 2
+          </me>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-solving">
+    <title>Solving</title>
+    <activity>
+      <statement>
+        <p>
+          Solve for the variable <m>c</m>.
+          <me>
+            4c + 3(2-5c) + 9 = 0
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            4c + 3(2-5c) + 9 = 0
+          </me>
+          First we'll distribute the 3.
+          <me>
+            4c + 6 - 10c + 9 = 0
+          </me>
+          Then we can add the constants and the variable terms.
+          <me>
+            4c + 6 - 10c + 9 = 0
+          </me>
+          Then we can add the constants and the variable terms.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve for the variable <m>z</m>.
+          <me>
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            4z - 8z + 5z = 9z
+          </me>
+          All the terms are mutliples of the variable.
+          Let's get them all on one side of the equation. We can
+          do this by subtracting <m>9z</m> from both sides of the
+          equation.
+          <me>
+            4z - 8z + 5z -9z = 0 
+          </me>
+          Then we can add/subtract all the termx on the right.
+          <md>
+            <mrow>
+              - 4z + 5z -9z \amp = 0 
+            </mrow>
+            <mrow>
+              z  -9z \amp = 0 
+            </mrow>
+            <mrow>
+              -8z  \amp = 0 
+            </mrow>
+          </md>
+          Finally, we can divide by <m>-8</m>
+          <me>
+            z = \frac{0}{-8} = 0 
+          </me>
+          <m>z=0</m> is the only solution. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve for the variable <m>r</m>.
+          <me>
+            \sqrt{5r + 9} = 7 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            \sqrt{5r + 9} = 7 
+          </me>
+          We need to get the variable out of the square
+          root. We can do this by squaring both sides of the
+          equation. (Again, we always perform the same operation
+          to both sides to preserve the inequality.)
+          <md>
+            <mrow>
+              (\sqrt{5r + 9})^2 = (7)^2 
+            </mrow>
+            <mrow>
+              5r + 9 = 49 
+            </mrow>
+          </md>
+          Then we can subtract 9 from both sides of the
+          equation.}
+          <me>
+            5r = 40 
+          </me>
+          Finally, we divide both sides of the equation
+          by 5.
+          <me>
+            r = 8
+          </me>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-module-concepts">
+    <title>Conceptual Questions</title>
+    <activity>
+      <statement>
+        <ul>
+          <li>
+            What is a variable? What does it mean to solve an
+            equation?
+          </li>
+          <li>
+            How can (some) real world problems be translated into
+            algebraic language? What becomes a constant and what
+            becomes a variable?
+          </li>
+          <li>
+            Fundamentally, what does equality mean in mathematics?
+            What does it mean to perform operations and preserve
+            equality?
+          </li>
+        </ul>
+      </statement>
     </activity>
   </subsection>
 </section>

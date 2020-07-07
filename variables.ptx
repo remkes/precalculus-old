@@ -1,8 +1,263 @@
 <section xml:id="section-variables">
   <title>Variables and Solving</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-variables-in-equations">
+    <title>Variables In Equations</title>
     <p>
+      When variables are first introduced, the are symbols that stand
+      for some unknown or undetermined number. This is how they
+      operate in equation. The most conventional variable is the
+      letter <m>x</m>. The equation
+      <me>
+        4 + x = 13
+      </me>
+      is a question. It asks: what number, when added to 4, produced
+      13? All equations with a single variable are implicitly
+      questions: what value could the variable have to make the
+      equation work? In this example, <m>x = 9</m> is the only
+      possibility. Some equation have more than one possibility.
+      The equation
+      <me>
+        p^2 - 7p + 10 = 0 
+      </me>
+      asks what values of the variable <m>p</m> produce zero when put
+      into this expression. This equation has two answers: <m>p=2</m>
+      and <m>p=5</m>, since <m>2^2 - 7(2) + 10 = 4 - 14 + 10 = 0</m>
+      and also <m>5^2 - 7(5) + 10 = 25 - 35 + 10 = 0</m>. We could
+      even have the silly equation 
+      <me>
+        h = h
+      </me>.
+      This equation asks which numbers are equal to themselves.
+      Obviously, all numbers are, so the variable <m>h</m> could be
+      any number whatsoever. 
     </p>
+  </subsection>
+  <subsection xml:id="subsection-variable-solving">
+    <title>Solving Equation</title>
+    <p>
+      If we have an equation with a variable
+      <me>
+        5q - 6 = 25q + 9
+      </me>
+      and we want to know what value(s) of <m>q</m> satisfy the
+      equation, we have to solve the equation. Solving here means
+      making alterations to the equation to try to figure out what the
+      variable might be, usually by isolating the variable. This leads
+      us to a major, central idea in mathematics.
+      <blockquote>
+        WE CAN PERFORM ANY OPERATIONS TO AN EQUATION AS LONG AS WE
+        PERFORM THE SAME OPERATION TO BOTH SIDES OF THE EQUATION!
+      </blockquote>
+      This is the principle we use to solve equation. Take the
+      equation above. The first operation I'm going to do is add 6 to
+      both sides of the equation.
+      <md>
+        <mrow>
+          5q - 6 + 6 \amp = 25q + 9 + 6 
+        </mrow>
+        <mrow>
+          5q \amp = 25q + 15  
+        </mrow>
+      </md>
+      Then I'll divide both sides of the equation by 5.
+      <md>
+        <mrow>
+          \frac{5q}{5} \amp = \frac{25q + 15}{5}
+        </mrow>
+      </md>
+      I can split up the fraction on the right (we are allowed to
+      split up addition and subtraction in numerators of fractions;
+      we'll talk more about manipulation of fraction in <xref
+      ref="chapter-fractions1" />. 
+      <md>
+        <mrow>
+          \frac{5q}{5} \amp = \frac{25q}{5} + \frac{15}{5}
+        </mrow>
+        <mrow>
+          q \amp = 5q  + 3
+        </mrow>
+      </md>
+      Then I'll subtract <m>5q</m> from both sides of the equation. 
+      <md>
+        <mrow>
+          q - 5q \amp = 5q  + 3 - 5q
+        </mrow>
+        <mrow>
+          -4q = 3
+        </mrow>
+      </md>
+      Finally, I'll divide both sides of the equation by <m>-4</m>.
+      <md>
+        <mrow>
+          \frac{-4q}{-4} = \frac{3}{-4}
+        </mrow>
+        <mrow>
+          q = \frac{-3}{4}
+        </mrow>
+      </md>
+      And I've solved the equation. The only value of the variable
+      <m>q</m> that satisfies the original equation is
+      <m>\frac{-3}{4}</m>. We could also write this as <m>q =
+      -0.75</m> if we wished. 
+    </p>
+    <p>
+      Solving can get quite complicated and there are many techniques.
+      However, fundamentally the whole idea is that we preserve the
+      equality of the situations by doing the same things to both
+      sides of the equations; solving is the process of choosing the
+      right operations to try to isolate the variable. (Sadly, there
+      are many equations where no sequence of applying operations to both
+      sides of the equation will produce a solution. The only such
+      example that you'll need to be familiar with is quadratic
+      equations, which are discussed in <xref
+      ref="chapter-polynomials1" />.) 
+    </p>
+    <example>
+      <md>
+        <mrow>
+          5(x-7) \amp = \frac{x}{3} 
+        </mrow>
+        <mrow>
+          \intertext{Multiply both sides by 3.}
+        </mrow>
+        <mrow>
+          (3)(5)(x-7)) \amp = x 
+        </mrow>
+        <mrow>
+          \intertext{Multiply the 3 and 5.}
+        </mrow>
+        <mrow>
+          15(x-7) \amp = x 
+        </mrow>
+        <mrow>
+          \intertext{Distribute the 15.}
+        </mrow>
+        <mrow>
+          15x - 35 \amp = x 
+        </mrow>
+        <mrow>
+          \intertext{Subtract <m>x</m> from both sides.}
+        </mrow>
+        <mrow>
+          15x - 35 - x \amp = x - x 
+        </mrow>
+        <mrow>
+          14x - 35 \amp = 0
+        </mrow>
+        <mrow>
+          \intertext{Add 35 to both sides.}
+        </mrow>
+        <mrow>
+          14x \amp = 35
+        </mrow>
+        <mrow>
+          \intertext{Divide by 14 on both sides.}
+        </mrow>
+        <mrow>
+          x \amp = \frac{35}{14}
+        </mrow>
+      </md>
+      The solution to the original equation is <m>x =
+      \frac{35}{14}</m>.
+    </example>
+    <example>
+      <md>
+        <mrow>
+          12t = \frac{4t-7}{3} 
+        </mrow>
+        <mrow>
+          \intertext{Multiply both sides by 3.}
+        </mrow>
+        <mrow>
+          36t = 4t-7
+        </mrow>
+        <mrow>
+          \intertext{Subtract <m>4t</m> from both sides.}
+        </mrow>
+        <mrow>
+          36t - 4t = 4t - 7 - 4t 
+        </mrow>
+        <mrow>
+          32t = - 7  
+        </mrow>
+        <mrow>
+          \intertext{Divide both sides by 32.}
+        </mrow>
+        <mrow>
+          t = \frac{-7}{32}   
+        </mrow>
+      </md>
+      This is the solution to the original equation. 
+    </example>
+    <example xml:id="example-variables1">
+      <md>
+        <mrow>
+          \frac{7k-2}{k} = 4
+        </mrow>
+        <mrow>
+          \intertext{Multiply both sides by <m>k</m>.}
+        </mrow>
+        <mrow>
+          7k-2 = 4k
+        </mrow>
+        <mrow>
+          \intertext{Subtract <m>4k</m> from both sides.}
+        </mrow>
+        <mrow>
+          3k - 2 = 0 
+        </mrow>
+        <mrow>
+          \intertext{Add 2 to both sides.}
+        </mrow>
+        <mrow>
+          3k = 2 
+        </mrow>
+        <mrow>
+          \intertext{Divide both sides by 3.}
+        </mrow>
+        <mrow>
+          k = \frac{2}{3}
+        </mrow>
+        This is the final solution. As a subtlety, since the variable
+        <m>k</m> is in the denominator at the start, we know that
+        <m>k \neq 0</m>, since that would lead to the nonsensical
+        operation of division by zero. 
+      </md>
+    </example>
+    These examples cover solving equations using the four basic
+    arithmetic operations. Many more examples for solving with other
+    functions and operations are found in subsequent sections.
+  </subsection>
+  <subsection xml:id="subsection-solving-caution">
+    <title>A Caution When Solving</title>
+      <p>
+        As we saw in <xref ref="example-variables1" />, there are some
+        subtleties in solving. Many of these involve possible division
+        by zero; we should always be aware of the possibility of
+        division by zero by zero. This is particularly true when
+        cancelling a variable. I can illustrate this with another
+        example.
+        <me>
+          a(4a-6) = a(5a+1)
+        </me>
+        In this equation, if we wanted to try to solve for <m>a</m>,
+        it would be reasonable to divide by <m>a</m> to make both
+        sides of the equation a little more approachable. That cancels
+        off the <m>a</m> on both sides. 
+        <me>
+          4a-6 = 5a+1
+        </me>
+        From here, we could solve as before. Omitting the steps, the
+        result is <m>a = -7</m>. However, if we look at the original
+        equation, <m>a = 0</m> is also a solution, since the equation
+        then result in the true statement <m>0=0</m>. 
+      </p>
+      <p>
+        The point here is that whenever we divide by something on both
+        sides of the equation, we have to be a bit aware of the
+        possibility that the thing we wanted to divide by might have
+        been zero. If it was zero, it can lead to extra solution which
+        we might otherwise have missed. 
+      </p>
   </subsection>
 </section>

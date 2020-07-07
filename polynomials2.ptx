@@ -3,5 +3,6 @@
   <title>Polynomials Part 2 Name</title>
   <xi:include href="more-quadratics.ptx" />
   <xi:include href="higher-degree-polynomials.ptx" />
+  <xi:include href="polynomial-division.ptx" />
   <xi:include href="polynomials2-activity.ptx" />
 </chapter>
