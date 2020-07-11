@@ -1,0 +1,4 @@
+Thinks to possible add somewhere
+- a note about square roots being implicitly positive and using $\pm$
+  when necessary.
+- 

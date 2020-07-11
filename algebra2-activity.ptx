@@ -1,16 +1,259 @@
 <section xml:id="section-algebra2-activity">
   <title>Algebra Part 2 Activity</title>
-  <subsection xml:id="subsection-activity-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-activity-factoring-variable">
+    <title>Factoring Out a Variable</title>
     <activity>
       <statement>
         <p>
+          Solve by factoring out a variables and cancelling. Maybe
+          sure to note any extra solutions produced by cancelling.  
+          <me>
+            9x^2 + 3x = 12x^2
+          </me>
         </p>
       </statement>
       <solution>
         <p>
+          We factor the variable <m>x</m> out of each side. 
+          <me>
+            x(9x + 3) = x(12x)
+          </me>
+          Then we can cancel of (or equivalently divide by) the
+          variable. 
+          <me>
+            9x + 3 = 12x
+          </me>
+          Then we solve. Here, I'll subtract <m>9x</m> from both sides
+          of the equation.
+          <me>
+            3 = 3x
+          </me>
+          Dividing by 3 gives the solution <m>x=1</m>. Since we
+          divided by the variable, we must also consider the
+          possibility that <m>x=0</m>. If we put <m>x=0</m> in the
+          origina equation, we get <m>0=0</m>, which is true, so
+          <m>x=0</m> is a second solution. 
         </p>
       </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve by factoring out a variables and cancelling. Maybe
+          sure to note any extra solutions produced by cancelling.  
+          <me>
+            7t^2 + 8t^3 = 3t^2
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Here the lowest power of the variable is <m>t^2</m>, so we
+          can factor that out of both sides of the equation.
+          <me>
+            t^2(7 + 8t) = t^2(3)
+          </me>
+          Then we can cancel off (or equivalently divide by)
+          <m>t^2</m>. 
+          <me>
+            7 + 8t = 3
+          </me>
+          Then we solve by subtracting 7 from both sides of the
+          equation.
+          <me>
+             8t = -4
+          </me>
+          Finally, we divide by 8.
+          <me>
+             t = \frac{-4}{8} = \frac{-1}{2} 
+          </me>
+          Again, since we divided by <m>t^2</m>, we must consider the
+          possibility that <m>t=0</m>. This value satisafy the
+          original equation, so we conclude that <m>t=0</m> is a
+          second solution. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve by factoring out a variables and cancelling. Maybe
+          sure to note any extra solutions produced by cancelling.  
+          <me>
+            4l^3 + 8l = 20l
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can factor out <m>l</m> from both sides of the equation.
+          <me>
+            l(4l^2 + 8) = l(20)
+          </me>
+          We can cancel off (or equivalently divide by) <m>l</m>. 
+          <me>
+            4l^2 + 8 = 20
+          </me>
+          Then we can subtract 8 from both sides of the equation.
+          <me>
+            4l^2 = 12
+          </me>
+          Then we can divide by 4. 
+          <me>
+            l^2 = 3
+          </me>
+          Finally, to isolate the variable, we have to take the square
+          root of both sides.
+          <me>
+            l = \pm \sqrt{3}
+          </me>
+          The notation <m>\sqrt{3}</m> is implicity positive, but we
+          could also have the variable be the negative square root.
+          Therefore, we write <m>\pm \sqrt{3}</m> for both possible
+          solutions. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-factoring-roots">
+    <title>Factoring with Square Roots</title>
+    <activity>
+      <statement>
+        <p>
+          Simplify this square root by factoring out a factor which a
+          reasonable square root. 
+          <me>
+            \sqrt{150}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need to find a factor of 302 which has a nice square
+          root. We can do this by trial an error, trying small square
+          numbers (trying factors of 4, 9, 16, 25, and so on). We
+          would first find that 25 is s a factor which has
+          a nice square root. 
+          <me>
+            \sqrt{150} = \sqrt{(25)(6)}
+          </me>
+          Then we can split up the square root.
+          <me>
+            \sqrt{25} \sqrt{6}
+          </me>
+          Then we can evaluate the square root of 25.
+          <me>
+            5\sqrt{6}
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Simplify this square root by factoring out a factor which a
+          reasonable square root. 
+          <me>
+            \sqrt{343}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need to find a factor of 392 which has a nice square
+          root. We can do this by trial and error, trying small
+          values. We find that 49 is a factor which has a nice square
+          root. (Again, I just did this by testing small factors with
+          nice square roots: 4,, 9, 16, and so on). 
+          <me>
+            \sqrt{343} = \sqrt{(49)(7)}
+          </me>
+          Then we split up the square root. 
+          <me>
+            \sqrt{49}\sqrt{7}
+          </me>
+          Then we evalute the square root of 49. 
+          <me>
+            7 \sqrt{7}
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Factor a variable out of this square root expression.
+          <me>
+            \sqrt{9z^2 + 13z^3}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can see that <m>z^2</m> is a factor of both terms in the
+          square root, so we factor that out.
+          <me>
+            \sqrt{z^2(9 + 13z)}
+          </me>
+          Then we can split up the square root. 
+          <me>
+            \sqrt{z^2}\sqrt{9 + 13z}
+          </me>
+          Then we can evalute the first square root. 
+          <me>
+            |z| \sqrt{9 + 13z}
+          </me>
+          Now we've factor out a variable and simplified the square
+          root. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Factor a variable out of this square root expression.
+          <me>
+            \sqrt{u^4 - u^3}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The term <m>u^3</m> is a factor of both terms under the
+          square root. However <m>u^3</m> isn't a term we can
+          reasonable take out of a square root: there isn't a nice
+          square root of a cube. Instead, I'll factor <m>u^2</m> out
+          of both terms. 
+          <me>
+            \sqrt{u^2 (u^2 - u)}
+          </me>
+          Then we can split up the square root. 
+          <me>
+            \sqrt{u^2} \sqrt{u^2 - u}
+          </me>
+          Then we can evalute the first square root. 
+          <me>
+            |u| \sqrt{u^2 - u}
+          </me>
+          Now we've factored a variable out of the square root and
+          simplified the square root expression.
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-algebra2-concepts">
+    <title>Conceputal Questions</title>
+    <activity>
+      <statement>
+        <ul>
+          <li>
+            What does it mean to factor?
+          </li>
+          <li>
+            What is the distribute law and where does it apply?
+          </li>
+        </ul>
+      </statement>
     </activity>
   </subsection>
 </section>

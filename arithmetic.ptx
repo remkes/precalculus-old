@@ -55,6 +55,66 @@
       rules of exponents. 
     </p>
   </subsection>
+  <subsection xml:id="subsection-distributive-law">
+    <title>Distributive Law</title>
+    <p>
+      Addition and subtraction work well with each other (we can do
+      them in any order). Multiplication and division likewise work
+      well with each other. But we need a rule to describe the
+      interaction between addition/subtraction and
+      multiplication/division. This rule is likely familiar to you in
+      practice, but the terminology might be new (depending on your
+      mathematical background.) We call this the distributive law;
+      more over, we say that multiplication/division distribute over
+      addition/subtraction. This means that the multiplication or
+      division will spread out and apply to each term in the addition
+      or the subtraction.
+    </p>
+    <p>
+      Here are some examples of the distributve law, using the variety
+      of notations as discussed in the previous section. First,
+      multiplication distributes over addition.
+      <me>
+        (4)(6 + 11) = (4)(6) + (4)(11) = 24 + 44 + 68
+      </me>
+      Second, multiplication distributes over subtraction.
+      <me>
+        7 \times (12 - 3) = 7 \times 12 - 7 \times 3 = 84 - 21 = 63
+      </me>
+      Third, division distributes over addition.
+      <me>
+        (6 + 4) \div 2 = 6 \div 2 + 4 \div 2 = 3 + 2 + 5 
+      </me>
+      Finally, division distributes over subtraction.
+      <me>
+        \frac{1}{7} (21 - 14) = \frac{21}{7} - \frac{14}{7} = 3 - 2 =
+        1
+      </me>
+      There is a particular case of the distributive law for division
+      when terms are written as fractions. Consider these two
+      examples.
+      <me>
+        \frac{9 + 18}{3} = \frac{9}{3} + \frac{18}{3} = 3 + 6 + 9
+      </me>
+      <me>
+        \frac{25 - 10}{5} = \frac{25}{5} - \frac{10}{5} = 5 - 2 = 3
+      </me>
+      This is the distributive law for divisions; the fraction is
+      division and we apply the division to both term in the
+      numerator. Very likely you may have learned this rule by a
+      different name or explanation: something like splitting up the
+      numerators of fractions. In particular, this only applies to
+      numerators. We cannot split up denonminators of fractions. The
+      following statement is <emph>NOT</emph> true.
+      <me>
+        \frac{1}{2 + 3} \neq \frac{1}{2} + \frac{1}{3} 
+      </me>
+      The right side is <m>\frac{1}{5}</m>. The left side (using
+      common denominator as described in <xref
+      ref="chapter-fractions1" />) is <m>\frac{5}{6}</m>. These are
+      obviously not the same number.
+    </p>
+  </subsection>
   <subsection xml:id="subsection-order-of-operations">
     <title>Order of Operations</title>
     <p>

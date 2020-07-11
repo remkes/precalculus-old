@@ -1,8 +1,367 @@
 <section xml:id="section-manipulation">
   <title>Manipulating Algebraic Expressions</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-factoring-numbers">
+    <title>Factoring Numbers</title>
     <p>
+      Once we are comfortable with variables, there are a variety of
+      useful techniques, tools and tricks for manipulating expressions
+      involving constants and variables. In this module, we'll go over
+      a selection these tools and tricks. The first is various forms
+      of factoring.
+    </p>
+    <p>
+      Factoring comes from the properties of multiplication of
+      numbers. Consider this simple addition.
+      <me>
+        12 + 15 = 27
+      </me>
+      All of the terms are divisible by 3, so we can write them as
+      multiples of 3. 
+      <me>
+        (3)(4) + (3)(5) = 27
+      </me>
+      Factoring is pulling the 3 out of the entire expression (using
+      the distributive law).
+      <me>
+        3(4 + 5) = 27
+      </me>
+      Thus we have isolated the common factor, 3, from the left side
+      of the equation. We could then divide both sides by this
+      isolated 3. 
+      <me>
+        4 + 5 = \frac{27}{3} = 9 
+      </me>
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-factoring-variables">
+    <title>Factoring with Variables</title>
+    <p>
+      Factoring is not terribly intense with numbers. We are more
+      interesting in factoring with variables. However, when we factor
+      with variables, we are not doing anything essentially different
+      from what we just did here with numbers. 
+    </p>
+    <p>
+      There are a vareity of situations where we might want to factor
+      out a variable. We might be solving an equation where we can
+      remove a variable.
+      <me>
+        x^2 - 5x = 9x 
+      </me>
+      Here, we can factor the variable <m>x</m> out of the left side
+      of the equation.
+      <me>
+        x(x - 5) = 9x 
+      </me>
+      If we used the distributive law to distribute the factored
+      <m>x</m> again, we would recover the original expression. (If
+      you want to check if you've done your factoring correctly,
+      multiply the factor back in and see that it matched the original
+      expression.) After factoring, we can divide by the variable
+      <m>x</m> to lead to an easier equation. 
+      <me>
+        x - 5 = 9  \implies x = 9 + 5 = 14
+      </me>
+      This gives us the solution <m>x=14</m>. However, we also have
+      the solution <m>x=0</m>. It is important to remember anytime you
+      divide by a variable, or cancel off a variables (which is the
+      same thing), you have to consider the alternatively possibility
+      that the variable might be zero. Our equation here has two
+      solutions: <m>x = 14</m> and <m>x = 0</m>.
+    </p>
+    <p>
+      Sometimes we might want to factor something out of the numerator
+      and denonminator of a fraction to try to simplify the fraction.
+      Here is an example, where <m>p</m> is the variable. 
+      <me>
+        \frac{p^3 + 4p}{p^2 -7p}
+      </me>
+      The variable is a common factor to both numerator and
+      denominator, so we can factor it out of both. 
+      <me>
+        \frac{p(p^2 + 4)}{p(p -7)}
+      </me>
+      Then, since <m>p</m> is a factor of the whole numbers and of the
+      whole denominator, we can cancel it out. 
+      <me>
+        \frac{p(p^2 + 4)}{p(p - 7)} = \frac{p^2+4}{p - 7} 
+      </me>
+      The reason why we can do this is that any expression
+      <m>\frac{p}{p}</m> evaulates to 1 (assuming that <m>p \neq
+      0</m>). Multiplying by 1 does do anything, so the fraction with
+      and the fraction with <m>\frac{p}{p}</m> is the same thing. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-factoring-binomials">
+    <title>More Complicated Factors</title>
+    <p>
+      We can do more than just factor out a variable. Sometimes we can
+      factor out a binomial (such as <m>(x-9)</m>), or some other more
+      complicated expression. The more complicated the term, the more
+      difficult it can be to recognize the factor. There are no
+      simply, algorithmic rules for this kind of factors. Much of the
+      skill comes from practice and familiarity with a variety of
+      mathematical situations. I'll give a couple examples here, but
+      don't assume that all problems will look like these examples;
+      they are meant to demonstrate but not be representative.
+    </p>
+    <p>
+      First let's look at an expression where we can factor out a
+      binomial. 
+      <me>
+        4x^2 - 2x + 4x - 2 
+      </me>
+      Here there is a pattern with repeated 4s and 2s. I'm going to
+      try to produce a common binomial in the first two and second two
+      terms by factoring. 
+      <me>
+        x(4x - 2) + 1(4x - 2)
+      </me>
+      Applying the distributive law to both of these factors would
+      produce the original expression (in the second, multiplying by 1
+      has no effect). Then, if we think of the term (4x-2) as a thing,
+      we have <m>x</m> times that thing plus 1 times that thing.
+      Therefore, we can write this expression as 
+      <me>
+        (x + 1)(4x - 2)
+      </me>
+      This is a factorization of the original expression. Both the
+      binomials <m>(x+1)</m> and <m>(4x-2)</m> are factors of the
+      expression. This is an example of factoring a quadratic, which
+      is discussed in more detail in <xref ref="chapter-polynomials1"
+      />. For now, let me make one more point on this example. Say we
+      had this quadratic.
+      <me>
+        4x^2 + 2x - 2 
+      </me>
+      Then, in the middle, I could add <m>2x</m> and subtract the
+      same, which doesn't change anything. (I can add and subract any
+      quantity I want; adding and subtracting the same thing has no
+      effect on any expression.) 
+      <me>
+        4x^2 - 2x + 2x + 2x - 2 
+      </me>
+      Now I can group the third and fourth terms. 
+      <me>
+        4x^2 - 2x + 4x - 2 
+      </me>
+      Now I have the same expression that I started with, which
+      factors as above. Therefore, I can conclude that 
+      <me>
+        4x^2 + 2x - 2 = (x + 1)(4x - 2)
+      </me>.
+      The point of this remark is that often various ways to factor an
+      expression are hidden. Helpful factorizations are often not
+      obvious and can, in fact, be very difficult to find. As I said
+      before, this isn't algorithmic. Sometimes, creativity and
+      persistence is required to find the right way to manipulate an
+      expressions. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-factoring-roots">
+    <p>
+      Sometimes we need want to factor things out of a square root (or
+      other root). Let's start with numbers and consider this square
+      root. 
+      <me>
+        \sqrt{40}
+      </me>
+      We can write 40 as <m>(4)(10)</m>. 
+      <me>
+        \sqrt{(4)(10)}
+      </me>
+      Then it is a property of square root (since they are essentially
+      exponents, using the properties of exponents in <xref
+      ref="chapter-exponents1" />) that we can split up a square root
+      over multiplication or division.
+      <me>
+        \sqrt{(4)(10)} = (\sqrt{4})(\sqrt{10})
+      </me>
+      Then we can evaluate the first part: the square root of 4 is 2.
+      <me>
+        2 \sqrt{10}
+      </me>
+      What we have done here is essentially factored out 4 from the
+      square root. But when we took it out of the square root, we had
+      to apply the square root, so 4 became 2. This is a useful
+      technique for writing square roots in simply form, since any
+      factor which has a nice square root can be removed. Here are a
+      couple more examples. 
+      <me>
+        \sqrt{700} = \sqrt{(100)(7)} = 10 \sqrt{7} 
+      </me>
+      <me>
+        \sqrt{320} = \sqrt{(64)(5)} = 8 \sqrt{5} 
+      </me>
+    </p>
+    <p>
+      We can do the same thing with variables and roots. Here is an
+      expression with variables inside a square root. 
+      <me>
+        \sqrt{x^4 - x^2} 
+      </me>
+      We can factor the term inside the square root.
+      <me>
+        \sqrt{x^2(x^2 - 1)} 
+      </me>
+      Then we can split up the square root over the multiplication.
+      <me>
+        \sqrt{x^2}\sqrt{x^2 - 1} 
+      </me>
+      Then we can get rid of the first square root, as we did with
+      numbers above. However, there is a subltety here with variables.
+      We can't just write <m>\sqrt{x^2} = x</m>. If the variable
+      turned out to have a negative value, say -3, then we would
+      square it to produce 9 and square root to produce 3. We would
+      have lost the negative sign. To recognize this, we use the
+      absolute value of the variable (discusssed in more detail in
+      <xref ref="section-absolute-value" />). 
+      <me>
+        \sqrt{x^2}\sqrt{x^2 - 1} = |x| \sqrt{x^2 - 1}
+      </me>
+      We've factored the <m>x^2</m> out of the square root; in the
+      process, by applying the square root, it became <m>|x|</m>.
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-bad-distribution">
+    <p>
+      The distributive law of multiplication/division over
+      subtraction/addition is fundamental. In my experience, it is
+      intuitively well understood by most students. In this section, I
+      want to talk about the danger of that intuitive understanding.
+      Because distribution seems so natural and reasonable, students
+      will often try to distribute where it isn't appropriate. This
+      section is a series of cautions about overuse of the
+      distributive law. 
+    </p>
+    <p>
+      First to recap. Distribution is necessay for multiplication and
+      division.
+      <me>
+        \frac{1}{4} (9 + 15) = \frac{9}{4} + \frac{15}{4} 
+      </me>
+      If we do the addition give, we get <m>9 + 15 = 24</m>, and then
+      dividing by 4 gives 6. If we distribute, we get a sum of
+      fraction (discussed in <xref ref="chapter-fractions1" />). The
+      sum of fraction, using common denominator, gives
+      <m>\frac{24}{6}</m>, which is again 6. The distributive law
+      works here.
+    </p>
+    <p>
+      Consider these next two expression.
+      <me>
+        \sqrt{16 + 9} ?=? \sqrt{16} + \sqrt{9}
+      </me>
+      This looks like distribution: we've distributed the square root
+      over the sum of the two numbers. However, let's check the
+      values. The left side, if we do the sum, is <m>\sqrt{25} =
+      5}</m>. The right side, when we do the square roots and then the
+      sum, is <m>4 + 3 = 7</m>. 5 is not 7, so these are not equal. 
+      <me>
+        \sqrt{16 + 9} \neq \sqrt{16} + \sqrt{9}
+      </me>
+      I could restate this with variables. 
+      <me>
+        \sqrt{a + b} \neq \sqrt{a} + \sqrt{b}
+      </me>
+      With variable, this might be less obvious. That brings me to an
+      important point. 
+      <blockquote>
+        IF YOU WANT TO CHECK IS AN ALGEBRAIC MANIPULATION WORKS, TRY
+        INSERTING NUMBERS FOR THE VARIABLES AND SEE IF IT HOLDS.
+      </blockquote>
+      Algebraic expression with variables mean something when the
+      variables are replaced with numbers. I find that many student
+      get into the habit of treating manipulations of rules with
+      symbols while forgetting what those symbols stand for. Taking
+      some time to put in some numbers and check is a nice reminder
+      tha all algebraic expressions actually mean something about
+      numbers. We know that distribution doesn't work for square roots
+      because if we put in in <m>a = 16</m> and <m>b = 9</m>, we get 5
+      on the left and 7 on the right, which are not equal. 
+    </p>
+    <p>
+      Square roots are not the only place where students often use
+      distribution incorrectly. Here are some other common places
+      where distribution fails. For all of these, we show the problem
+      by choosing numbers for the variables and explicitly calculating
+      the right and left sides. We will get different values, so the
+      two sides cannot be equal. 
+      <ul>
+        <li>
+          Distribution does not work for denominators, as mentioned
+          already in <xref ref="section-arithmetic" />. 
+          <me>
+            \frac{1}{a + b} \neq \frac{1}{a} + \frac{1}{b} 
+          </me>
+          We can check this by using <m>a = 2</m> and <m>b = 3</m>.
+          The left side evalutes to 
+          <me>
+            \frac{1}{2 + 3} = \frac{1}{5} 
+          </me>.
+          The right side evalutes to 
+          <me>
+            \frac{1}{2} + \frac{1}{3} = \frac{5}{6} 
+          </me>.
+          <m>\frac{1}{5}</m> is not the same as <m>\frac{5}{6}</m>.
+        </li>
+        <li>
+          Distribution does not work for exponents (covered in <xref
+          ref="chapter-exponents1" />). 
+          <me>
+            (a + b)^2 \neq a^2 + b^2 
+          </me>
+          We can check this by using <m>a = 2</m> and <m>b = 3</m>.
+          The left side evalutes to 
+          <me>
+            (2 + 3)^2 = 5^2 = 25
+          </me>.
+          The right side evalutes to 
+          <me>
+            2^2 + 3^2 = 4 + 9 = 13 
+          </me>.
+          25 is not the same thing as 13. 
+        </li>
+        <li>
+          Distribution does not work for logarithms (covered in <xref
+          ref="chapter-logarithms" />). 
+          <me>
+            \log_2 (a + b) \neq \log_2 a + \log_2 b 
+          </me>
+          We can check this by using <m>a = 2</m> and <m>b = 4</m>.
+          This is a little bit less obvious, since we have ask a
+          calcluate or computer for the value of the logarithm on the
+          left side. 
+          <me>
+            \log_2 (2 + 4) = \log_2 6 \doteq 2.585
+          </me>.
+          The right side can be exactly evaluated. 
+          <me>
+            \log_2 2 + \log_2 4 = 1 + 2 = 3 
+          </me>.
+          The approximate value 2.585 is certainly not 3. 
+        </li>
+        <li>
+          Distribution does not work for trigonometric functions
+          (covered in <xref ref="chapter-trigonometry" />). 
+          <me>
+            \sin (a + b) \neq \sin a + \sin b 
+          </me>
+          We can check this by using <m>a = \frac{\pi}{2}</m> and <m>b
+          = \frac{\pi}{2}</m>.
+          The left side evalutes to 
+          <me>
+            \sin \left( \frac{\pi}{2} + \frac{\pi}{2} \right) = \sin
+            \pi = 0 
+          </me>.
+          The right side evalutes to 
+          <me>
+            \sin \left( \frac{\pi}{2} \right) + \sin \left(
+            \frac{\pi}{2} \right) = 1 + 1 = 2 
+          </me>.
+          0 is not the same as 2. 
+        </li>
+      </ul>
     </p>
   </subsection>
 </section>

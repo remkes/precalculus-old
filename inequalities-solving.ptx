@@ -1,0 +1,80 @@
+<section xml:id="section-inequalities-solving">
+  <title>Solving Inqualities</title>
+  <subsection xml:id="subsection-inequalities-questions">
+    <title>Inequalities as Questions</title>
+    <p>
+      When I talked about equations with varibles in <xref
+      ref="section-variables" />, I said that an equation with a
+      variable was implicity a question. The queation
+      <me>
+        4x - 7 = 12
+      </me>
+      was implicit the question: what number(s), when we multiply by 4
+      and then subtract 7, result in 12? An inequality is also a
+      question. If we make this equality an inequality, 
+      <me>
+        4x - 7 \lt 12
+      </me>
+      we are asking the question: what numers, when we mulitply by 4
+      and then subtrat 7, are less than 12? 
+    </p>
+    <p>
+      The major difference, now, is that we expect many more answers
+      (in general). There might be only one number which satisfies the
+      equation, but infinitely many numbers which satisfy the
+      inequality. This raising the question of how to represent these
+      large gets of numbers. For the purposes of this section, we'll
+      just represent them using the inequalities themslves. It I want
+      to talk about all the numbers larger than 5, I can just talk
+      about all <m>x</m> such that <m>x \gt 5</m>. In <xref
+      ref="chapter-real-numbers" />, we'll talk about other notations
+      for set of numbers, including set notation and interval
+      notation.
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-solving-inequalities">
+    <p>
+      For now, sovling inequalities will be simply tryin go write the
+      inequalities in a consise form. Let's consider the example
+      we started with above. 
+      <me>
+        4x - 7 \lt 12
+      </me>
+      To write this in a more succint form, let's do some
+      manipulations, keeping in mind the rules about what operations
+      perserve and reverse inequalities. First, I'll add 7 to both
+      side; addition and subtration were operations that preserved
+      inequalities. 
+      <me>
+        4x \lt 21
+      </me>
+      Then I'll divide by sides by 4. Division by positive numbers is
+      also an operation that preserve inequalities. 
+      <me>
+        x \lt \frac{21}{4}
+      </me>
+      This is a reasonable answer. The originaly inequality describes
+      (is solved by!) all numbers which are strictly larger than
+      <m>\frac{21}{4}</m>.
+    </p>
+    <p>
+      Here is another example. 
+      <me>
+        15 - 6x  \geq 42
+      </me>
+      First, I'll subtract 15 from both sides. Subtraction preserves
+      inequalities. 
+      <me>
+        - 6x  \geq 35
+      </me>
+      Then I'll divide both sides by <m>-6</m>. Dividing by a negative
+      number reverses inequalities, so I'll reverse the notation.
+      <me>
+        x  \leq \frac{35}{-6} = - \frac{35}{6} 
+      </me>
+      The set of number specified by this inequality is all number
+      less than <m>- \frac{35}{6}</m>. That's a reasonable description
+      of this set of numbers, so that is a solution to the inequality. 
+    </p>
+  </subsection>
+</section>

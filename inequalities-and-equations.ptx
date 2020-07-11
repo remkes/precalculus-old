@@ -1,8 +1,212 @@
 <section xml:id="section-inequalities-and-equations">
   <title>Inequalities and Equations</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-inequality">
+    <title>Equality and Inequality</title>
     <p>
+      I made a big deal in <href ref="section-variables" /> of the
+      idea of equality as a central concept in mathematics,
+      particularly the notion of preserving equality by treating both
+      sides of an equal the same under any operation. We have
+      something very similar for inequalities as well. As a basic
+      reminder, we have four inequality operations.
+      <ul>
+        <li>
+          Greater than: <m>\gt</m>. 
+        </li>
+        <li>
+          Less than: <m>\lt</m>.
+        </li>
+        <li>
+          Greater than or equal to: <m>\geq</m>.
+        </li>
+        <li>
+          Less than or equal to: <m>\leq</m>.
+        </li>
+      </ul>
+      For the first two (<m>\lt</m> and <m>\gt</m>), if we want to
+      point out that equality is not included, we will often say
+      <emph>stricky</emph> greater than or less than. 
+    </p>
+    <p>
+      An inequality is any expression involving one of the four
+      inequality opartions. Like an equation, it has a left side and a
+      right side, related by the inequality. For example
+      <me>
+        4y^2 - 9 > 12
+      </me>
+      describes the set of all numbers (represented by the variable
+      <m>y</m> such that when we square the number, mutilply by 4 and
+      subtract 9, the result is (strictly) greater than 12. 
+    </p>
+    <p>
+      Working with inequalities is very much like working with
+      equations. In equations, we said we could perform any operation
+      as long as we performed the same operation to both sides of the
+      equation, so that we preserved the equality. Here we have
+      something similar but slightly more restrictive. 
+      <blockquote>
+        We can perform any operation to an inequality as long as it is
+        it performed to both sides of the equation and <emph>it is an
+        operation which preserved inequalities</emph>.
+      </blockquote>
+      Unlike equality, not all operations preserve inequalities. We
+      need to make a cataloge of those operation which are allowed --
+      operations which preserve the inequality. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-inequality-preserving">
+    <p>
+      Here is a list of operations that preserve inequalities, each
+      with a brief example
+      <ul>
+        <li>
+          Addition and subtraction. 
+          <md>
+            <mrow>
+              5 \amp \lt 7
+            </mrow>
+            <mrow>
+              5 + 6 \amp \lt 7 + 6 
+            </mrow>
+            <mrow>
+              11 \amp \lt 13
+            </mrow>
+          </md>
+        </li>
+        <li>
+          Multiplication or division by positive numbers.
+          <md>
+            <mrow>
+              5 \amp \lt 7
+            </mrow>
+            <mrow>
+              5 \times 2 \amp \lt 7 \times 2
+            </mrow>
+            <mrow>
+              10 \amp \lt 14
+            </mrow>
+          </md>
+        </li>
+        <li>
+          Positive exponents, as long as both sides are positive. 
+          <md>
+            <mrow>
+              5 \amp \lt 7
+            </mrow>
+            <mrow>
+              5^2 \amp \lt y^2
+            </mrow>
+            <mrow>
+              25 \amp \lt 49 
+            </mrow>
+          </md>
+          Note that exponents can easily fail to preserve inequality
+          is one of the sides is not positive.
+          <md>
+            <mrow>
+              -5 \amp \lt 3
+            </mrow>
+            <mrow>
+              (-5)^2 \amp \lt 3^2 ?
+            </mrow>
+            <mrow>
+              25 \amp \lt 9 ?
+            </mrow>
+          </md>
+          This is no longer true, since 25 is clearly greater and 9. 
+        </li>
+        <li>
+          Logarithms, if both terms are positive.  (The logarithm
+          isn't even defined if one of the terms is negative) 
+          <md>
+            <mrow>
+              8 \amp \lt 16
+            </mrow>
+            <mrow>
+              \log_2 8 \amp \lt \log_2 16
+            </mrow>
+            <mrow>
+              3 \amp \lt 4
+            </mrow>
+          </md>
+        </li>
+      </ul>
+    </p>
+    <p>
+      In the language of <xref ref="chapter-functions1" /> and <xref
+      ref="chapter-functions2" />, any function which is increasing
+      will preserve an inequality when applied to both sides. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-inequalities-reversing">
+    <p>
+      Some operations reverse inequalities instead of preserving them.
+      We can also work with these operations when we manipulate
+      inequalities if we remember to reverse the inequalities. For
+      common problems, there are two operations that reverse
+      inequalities.
+      <ul>
+        <li>
+          Mulitplication or division by negative numbers. 
+          <md>
+            <mrow>
+              3 \amp \lt 5
+            </mrow>
+            <mrow>
+              (3)(-4) \amp \gt (5)(-4)
+            </mrow>
+            <mrow>
+              -12 \amp \gt -20
+            </mrow>
+          </md>
+        </li>
+        <li>
+          Negative exponents, as long as both sides of the inequality
+          are positive. 
+          <md>
+            <mrow>
+              3 \amp \lt 5
+            </mrow>
+            <mrow>
+              3^{-2} \amp \gt 5^{-2}
+            </mrow>
+            <mrow>
+              \frac{1}{3^2} \amp \gt \frac{1}{5^2} 
+            </mrow>
+            <mrow>
+              \frac{1}{9} \amp \gt \frac{1}{25} 
+            </mrow>
+          </md>
+        </li>
+        <li>
+          As a special case of the previous operation, appyling the
+          exponent <m>-1</m> is the same as taking the reciprocal of
+          both sides. We can think of that as its own operation.
+          Taking the reciprocal of an inequality reverses the
+          inequality. In general, this still requires that the terms
+          are both positive; however, it also works when the terms are
+          both negative. It can fail when one term is positive and one
+          is negative. 
+          <md>
+            <mrow>
+              3 \amp \lt 5
+            </mrow>
+            <mrow>
+              \frac{1}{3} \amp \gt \frac{1}{5}
+            </mrow>
+          </md>
+        </li>
+      </ul>
+    </p>
+    <p>
+      In the language of <xref ref="chapter-functions1" /> and <xref
+      ref="chapter-functions2" />, any function which is decreasing
+      will reverse an inequality when applied to both sides. However,
+      many operations neither preserve or reverse inequalitys. For
+      example, we cannot usually apply a trigonometric function to an
+      inequailty, since trigonometric functions oscillate up an down.
+      We can't expect any consistent behaviour with these functions
+      applied to inequalities. 
     </p>
   </subsection>
 </section>

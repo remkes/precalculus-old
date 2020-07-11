@@ -2,6 +2,6 @@
   xml:id="chapter-inequalities1">
   <title>Inequalities Part 1</title>
   <xi:include href="inequalities-and-equations.ptx" />
-  <xi:include href="inequalities-arithmetic.ptx" />
+  <xi:include href="inequalities-solving.ptx" />
   <xi:include href="inequalities1-activity.ptx" />
 </chapter>
