@@ -2,6 +2,5 @@
   xml:id="chapter-inequalities1">
   <title>Inequalities Part 2</title>
   <xi:include href="absolute-value.ptx" />
-  <xi:include href="inequalities-and-functions.ptx" />
   <xi:include href="inequalities2-activity.ptx" />
 </chapter>

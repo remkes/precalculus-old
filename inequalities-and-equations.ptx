@@ -55,6 +55,7 @@
     </p>
   </subsection>
   <subsection xml:id="subsection-inequality-preserving">
+    <title>Preserving Inequalities</title>
     <p>
       Here is a list of operations that preserve inequalities, each
       with a brief example
@@ -88,13 +89,13 @@
           </md>
         </li>
         <li>
-          Positive exponents, as long as both sides are positive. 
+          Positive whole exponents, as long as both sides are positive. 
           <md>
             <mrow>
               5 \amp \lt 7
             </mrow>
             <mrow>
-              5^2 \amp \lt y^2
+              5^2 \amp \lt 7^2
             </mrow>
             <mrow>
               25 \amp \lt 49 
@@ -107,13 +108,13 @@
               -5 \amp \lt 3
             </mrow>
             <mrow>
-              (-5)^2 \amp \lt 3^2 ?
+              (-5)^2 \amp \lt 3^2 
             </mrow>
             <mrow>
-              25 \amp \lt 9 ?
+              25 \amp \lt 9
             </mrow>
           </md>
-          This is no longer true, since 25 is clearly greater and 9. 
+          This is no longer true, since 25 is clearly greater than 9. 
         </li>
         <li>
           Logarithms, if both terms are positive.  (The logarithm
@@ -139,6 +140,7 @@
     </p>
   </subsection>
   <subsection xml:id="subsection-inequalities-reversing">
+    <title>Reversing Inequalities</title>
     <p>
       Some operations reverse inequalities instead of preserving them.
       We can also work with these operations when we manipulate
@@ -207,6 +209,64 @@
       inequailty, since trigonometric functions oscillate up an down.
       We can't expect any consistent behaviour with these functions
       applied to inequalities. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-inequalities-squareroots">
+    <title>Square Roots</title>
+    <p>
+      I want to make a special discussion of square root, since they
+      show up frequently enough that they are worth considering and
+      they present a bit of challenge. Consider this inequality.
+      <me>
+        z^2 \lt 9 
+      </me>
+      We take take the square root of both sides of the inequality.
+      <me>
+        z \lt 3 
+      </me>
+      This looks good: if <m>z</m> is less than 3, then when we square
+      it, <m>z^2</m> should be less than 9. However, <m>z \lt 3</m>
+      also includes all the negative numbers; for many large negative
+      numbers, their square beocmes positive and will be larger than
+      9. This is a problem. We need another restriction. The result of
+      the square root is, in fact, two inequalities.
+      <me>
+        -3 \lt z \lt 3 
+      </me>
+      Only when <m>z</m> is between <m>-3</m> and <m>3</m> will its
+      square be less than <m>9</m>. I can state this generally. If
+      <m>x</m> is a variable and <m>a</m> is a positive number, the
+      inequality 
+      <me>
+        x^2 \lt a
+      </me>
+      is equivalent to the double inequality 
+      <me>
+        -\sqrt{a} \lt x \lt \sqrt{a}
+      </me>
+    </p>
+    <p>
+      For greater than inequalities we have something similar as well.
+      Consider an example first.
+      <me>
+        t^2 \geq 16 
+      </me>
+      If we square root, we get <m>t \geq 4</m>. That certainly works;
+      numbers larger than <m>4</m> have square larger than <m>16</m>.
+      However, there are also some negative numbers than have square
+      (which are positive!) which are larger than <m>16</m>. We also
+      need <m>t \leq -4</m>. 
+    </p>
+    <p>
+      Now I'll state this generally. If <m>x</m> is a variable and
+      <m>a</m> is a positive number, then the inequality 
+      <me>
+        x^2 \gt a
+      </me>
+      is equivalent to the double inequality 
+      <me>
+        x \gt \sqrt{a} \text{ and } x \lt -\sqrt{a}
+      </me>
     </p>
   </subsection>
 </section>

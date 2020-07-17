@@ -1,16 +1,277 @@
 <section xml:id="section-inequalities2-activity">
   <title>Inequalities Part 2 Activity</title>
-  <subsection xml:id="subsection-activity-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-activity-absolute-value-solving">
+    <title>Solving with Absolute Value</title>
     <activity>
       <statement>
         <p>
+          Solve this equation.
+          <me>
+            |h - 5| + 4 = 12
+          </me>
         </p>
       </statement>
       <solution>
         <p>
+          First I want to isolate the absolute value, so I'll
+          subtract <m>4</m> from both sides. 
+          <me>
+            |h - 5| = 8
+          </me>
+          The first case is for <m>h \geq 5</m>, when the term in the
+          absolute value is positive. 
+          <me>
+            h - 5 = 8
+          </me>
+          In this case, we solve and get <m>h = 13</m>, which is a
+          valid solution in the range for this case. The second case
+          is <m>h \lt 5</m>, where the term in the absolute value is
+          negative. 
+          <me>
+            (-1)(h - 5) = 8
+          </me>
+          Then we proceed to solve by multiplying by <m>(-1)</m> and
+          adding <m>5</m> to get <m>h = -3</m>. This solution is in
+          the approprate range for this case. We conclude that there
+          are two solutions: <m>h = 13</m> and <m>h = -3</m>. We can
+          also observe that these are exactly the two number which are
+          distance <m>8</m> away from 5, which is a reasonable
+          interpretation of the original equation. 
         </p>
       </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve this equation.
+          <me>
+            -8|r + 8| + 2 = 0 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First I want to isolate the absolute value, so I'll
+          subtract <m>2</m> from both sides. 
+          <me>
+            -8|r + 8| = -2
+          </me>
+          Then I'll divide both sidse by <m>-8</m>. 
+          <me>
+            |r + 8| = \frac{1}{4} 
+          </me>
+          Then we work in cases. The term in the absolute value is
+          positive when <m>r \geq -8</m>, so that is our first case.
+          In this case, we can just drop the absolute value. 
+          <me>
+            r + 8 = \frac{1}{4} 
+          </me>
+          Then we can solve, finding that <m>r = \frac{-31}{4}</m>.
+          This is greater (slightly) than <m>-8</m>, so it is a valid
+          solution for the first case. We move on to the second
+          case, where the term in the absolute value is negative. This
+          happens when <m>r \lt -8</m>. We multiply the absolute value
+          term by <m>(-1)</m>.
+          <me>
+            (-1)(r + 8) = \frac{1}{4} 
+          </me>
+          Then we solve. We multiply both sides by <m>(-1)</m> and
+          then subtract <m>8</m> from both sides to sinde <m>r =
+          \frac{-33}{4}</m>. This is less (slightly) than <m>-8</m>,
+          so it is a valid solution for the second case. In total, we
+          have two solution, <m>r = \frac{-31}{8}</m> and <m>r =
+          \frac{-33}{8}</m>. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve this equation.
+          <me>
+            |w + 5| + 12 = 4|w + 5|
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Here there are two terms which involve <m>|w + 5|</m>. I
+          would like to only have one such term. To get there, I can
+          subtract <m>|w + 5|</m> from both sides of the equation. On
+          the right side, we have <m>4</m> of this term; subtracting
+          one of them leaves, of course, <m>3</m> of the term.
+          <me>
+            12 = 3|w + 5|
+          </me>
+          Then I can divide both sides of the equation by <m>3</m>.
+          <me>
+            4 = |w + 5|
+          </me>
+          Now I can work with the two cases that apply to an absolute
+          value. In the first case, <m>w \geq -5</m> and I can just
+          drop the absolute value. 
+          <me>
+            4 = w + 5
+          </me>
+          We solve this to get <m>w = -1</m>, which is a valid
+          solution in our case. In the second case, <m>w \lt -5</m>
+          and I multiply by <m>(-1)</m> for the absolute value. 
+          <me>
+            4 = (-1)(w + 5)
+          </me>
+          I can solve this (multiply by <m>(-1)</m> and subtract 5) to
+          get <m>w = -9</m>. This is a value solution in the range for
+          the second case. In total, we conclude that we have two
+          solutions: <m>w = -1</m> and <m>w = -9</m>. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-absolute-value-inequalities">
+    <title>Inequalities with Absolute Value</title>
+    <activity>
+      <statement>
+        <p>
+          Solve this inequality. 
+          <me>
+            |u - 3| \geq 7
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          I can split this into two inequalities. For the negative
+          case, I have to reverse the inequality. 
+          <md>
+            <mrow>
+              u - 3 \amp \geq 7 
+            </mrow>
+            <mrow>
+              u - 3 \amp \leq -7 
+            </mrow>
+          </md>
+          Then we can solve these inequalities by adding 3 to both
+          sides.
+          <md>
+            <mrow>
+              u \amp \geq 10 
+            </mrow>
+            <mrow>
+              u \amp \leq -4 
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve this inequality. 
+          <me>
+            5|b + 10| \lt 15b
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First I'll divide each side by <m>5</m>.
+          <me>
+            |b + 10| \lt 3b
+          </me>
+          Then we can work in the two cases required for absolute
+          value. For the first case, <m>b \geq -10</m> and we can drop
+          the absolute value.
+          <me>
+            b + 10 \lt 3b
+          </me>
+          We can subtract <m>b</m> from both sides. 
+          <me>
+            10 \lt 2b
+          </me>
+          Then I can divide by <m>2</m>.
+          <me>
+            5 \lt b
+          </me>
+          We get the range <m>b \gt 5</m>, which is included in this
+          case, so we can accept the entire range as part of the
+          solution. Now we move on to the second case, where <m>b \lt
+          -10</m>. In this case, we multiply the absolute value term
+          by <m>(-1)</m>. 
+          <me>
+            (-1)(b + 10) \lt 3b
+          </me>
+          Then we solve. We start by multiplying by <m>(-1)</m>, which
+          reverses the inequality.
+          <me>
+            b + 10 \gt -3b
+          </me>
+          Then we can subtract <m>b</m> from both sides. 
+          <me>
+            10 \gt -4b
+          </me>
+          Finally, we can divide by <m>-4</m>, which again reverses
+          the inequality.
+          <me>
+            - \frac{5}{2} \lt b
+          </me>
+          We get a range of <m>b \gt -\frac{5}{2}</m>. However, this
+          case is only consider <m>b \lt -10</m>. There is no overlap
+          between these ranges, so there are no solution in this case.
+          We conclude that the original inequality is solved simply by
+          the range <m>b \gt 5</m>.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve this inequality. 
+          <me>
+            |k^2 + 9| \gt 14
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We work in our two cases. In the first case, we want the
+          term in the absolute value to be positive: <m>k^2 + 9 \gt
+          0</m> or <m>k^2 \gt -9</m>. But square are always positive,
+          so this inequality is always satisfied. In this situation,
+          the first case covers all number and there is not second
+          case. Since the term in the absolute value is positive, we
+          can just drop the absolute value and solve.
+          <me>
+            k^2 + 9 \gt 14
+          </me> 
+          We subtract <m>9</m> from both sides.
+          <me>
+            k^2 \gt 5
+          </me> 
+          Here I follow <xref
+          ref="subsection-inequalities-squareroots" /> to solve this
+          inequality. One piece of the solution is the direct square
+          root of the inequality: <m>k \gt \sqrt{5}</m>. But I also
+          have to consider negative <m>k</m> which become positive
+          when squares. This gives me the second part of the solution:
+          <m>k \lt -\sqrt{5}</m>. The solution to the original
+          inequality consists of both these ranges. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-inequalities2-concepts">
+    <title>Conceptual Questions</title>
+    <activity>
+      <statement>
+        <ul>
+          <li>
+            What is absolute value?
+          </li>
+          <li>
+            What makes solving with absolute value difficult?
+          </li>
+        </ul>
+      </statement>
     </activity>
   </subsection>
 </section>

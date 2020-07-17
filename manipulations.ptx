@@ -159,6 +159,7 @@
     </p>
   </subsection>
   <subsection xml:id="subsection-factoring-roots">
+    <title>Factoring with Roots</title>
     <p>
       Sometimes we need want to factor things out of a square root (or
       other root). Let's start with numbers and consider this square
@@ -224,6 +225,7 @@
     </p>
   </subsection>
   <subsection xml:id="subsection-bad-distribution">
+    <title>Some Distribution Cautions</title>
     <p>
       The distributive law of multiplication/division over
       subtraction/addition is fundamental. In my experience, it is
@@ -255,7 +257,7 @@
       This looks like distribution: we've distributed the square root
       over the sum of the two numbers. However, let's check the
       values. The left side, if we do the sum, is <m>\sqrt{25} =
-      5}</m>. The right side, when we do the square roots and then the
+      5</m>. The right side, when we do the square roots and then the
       sum, is <m>4 + 3 = 7</m>. 5 is not 7, so these are not equal. 
       <me>
         \sqrt{16 + 9} \neq \sqrt{16} + \sqrt{9}

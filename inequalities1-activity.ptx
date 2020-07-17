@@ -1,16 +1,183 @@
 <section xml:id="section-inequalities1-activity">
   <title>Inequalities Part 1 Activity</title>
-  <subsection xml:id="subsection-activity-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-activity-solve-inequalities">
+    <title>Solving Inequalities</title>
     <activity>
       <statement>
         <p>
+          Solve this inequality. Express your answer in a simple
+          inequality or in words. 
+          <me>  
+            -5t + 13 \lt 26
+          </me>
         </p>
       </statement>
       <solution>
         <p>
+          We can subtract <m>13</m> from both sides. This preserves in
+          inequality.
+          <me>  
+            -5t \lt 13
+          </me>
+          We can divide by <m>-5</m> on both sides. This reverses the
+          inequality
+          <me>  
+            t \lt \frac{13}{-5} = - \frac{13}{5} 
+          </me>
+          This solve the inequality, which descries all number less
+          than <m>-\frac{13}{5}</m>. 
         </p>
       </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve this inequality. Express your answer in a simple
+          inequality or in words. 
+          <me>  
+            9p + 4 \gt 13p - 10
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can add 10 to both sides. This preserves the inequality.
+          <me>  
+            9p + 14 \gt 13p 
+          </me>
+          We can subtract <m>9p</m> from both sides. This preserves
+          the inequality.
+          <me>  
+            14 \gt 4p 
+          </me>
+          We can divide by 4 on both sides. This preserves the
+          inequality. 
+          <me>  
+            \frac{14}{4} \gt p 
+          </me>
+          This solves the inequality, which describes all number less
+          than <m>\frac{14}{2}</m>. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve this inequality. Express your answer in a simple
+          inequality or in words. 
+          <me>  
+            \sqrt{4t-5} \lt 100
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can square both sides. Since both sides are positive,
+          this will preserve the inequality.
+          <me>  
+            4t-5 \lt 10000
+          </me>
+          Then we can add 5 to both sides. This preserves the
+          inequality.
+          <me>  
+            4t \lt 10005
+          </me>
+          Then we can divide both sides by 4. This preserves the
+          inequality.
+          <me>  
+            t \lt \frac{10005}{4}
+          </me>
+          This gives us a range of solutions: all numbers less than
+          <m>\frac{10005}{4}</m>. However, we also have to make sure
+          the square root is defined. This means we also have 
+          <me>  
+            4t - 5 \geq 0 
+          </me>
+          We can solve this similarly, by adding 5 then dividing by 4. 
+          <me>  
+            t \geq \frac{5}{4} 
+          </me>
+          This gives a lower bound for the variable <m>t</m>. All in
+          all, we conclude that <m>t</m> must be greater than or equal to
+          <m>\frac{5}{4}</m>, but less than <m>\frac{10005}{4}</m>. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve this inequality. Express your answer in a simple
+          inequality or in words. 
+          <me>  
+            t^2 + 1 \geq 5
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can subtract <m>1</m> from both sides, which preserves
+          the inequality. 
+          <me>  
+            t^2 \geq 4
+          </me>
+          Then we can square root both sides. Since both sides are
+          positive, this preserves the inequality.
+          <me>  
+            t \geq 2
+          </me>
+          We also have to consider the possibility that <m>t</m> might
+          have been negative. If so, its square would still be
+          positive. In order for the square to exceed <m>4</m>, we
+          need <m>t \leq -2</m>. Therefore, this inequality is solved
+          by two groups of numbers: those greater than or equal to
+          <m>2</m> and those less than or equal to <m>-2</m>.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Solve this inequality. Express your answer in a simple
+          inequality or in words. 
+          <me>  
+            y^2 + 4 \lt 2
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We subtract <m>4</m> from both sides of the equation. 
+          <me>  
+            y^2 \lt -2
+          </me>
+          We could try to keep going here, but there is a problem. The
+          right side is positive (all squares are positive), but it is
+          supposed to be less than a negative number. This cannot
+          happen. We conclude that there are no number which satisfy
+          this inequality. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-inequalities1-concepts">
+    <title>Conceptual Questions</title>
+    <activity>
+      <statement>
+        <ul>
+          <li>
+            What is an inequality?
+          </li>
+          <li>
+            When we work with equality, we can perform any operation
+            as long as we apply it to both sides. Why isn't that true
+            for inequalities? Why do some operations preserve, some
+            reverse, and some to not respect inequalities at all?
+          </li>
+          <li>
+            What does it mean to solve an inequality?
+          </li>
+        </ul>
+      </statement>
     </activity>
   </subsection>
 </section>

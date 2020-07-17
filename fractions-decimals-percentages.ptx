@@ -1,8 +1,207 @@
 <section xml:id="section-fractions-decimals-percentages">
   <title>Fractions, Decimals and Percentages</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-expression-of-numbers">
+    <title>Expression of  Numbers</title>
     <p>
+      When we write a number, we often have choice of how to represent
+      it. Consider all of these numbers:
+      <me>
+        4 \text{ or }
+        4.0 \text{ or }
+        4.\bar{0} \text{ or }
+        \frac{4}{1} \text{ or }
+        \sqrt{16} \text{ or }
+        \frac{12}{3} 
+      </me>
+      These are all ways of writing the same number. One of the subtle
+      and implicit skills in mathematics is switching between the
+      different ways of writing numbers. We aren't going to get into
+      all the detail of this switching in these notes, but I'll
+      mentioned a few points in this section.
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-fraction-decimals">
+    <title>Fractions and Decimals</title>
+    <p>
+      Decimal expansion carry meaning using powers of <m>10</m>. The
+      decimal
+      <me>
+        5.098
+      </me>
+      exactly means the fraction 
+      <me>
+        \frac{5098}{1000}
+      </me>.
+      From that point, we could reduce the fraction to lowest terms if
+      we wish. <m>2</m> is a common factor, so we can divide by 2. 
+      <me>
+        \frac{5098}{1000} = \frac{2599}{500}
+      </me>
+      There are no more common factors, so this is lowest terms. 
+      <me>
+        5.098 = \frac{2599}{500}
+      </me>
+    </p>
+    <p>
+      In general, for a finite decimal expansions, we can write it as
+      a fraction over a power of <m>10</m>. The power of <m>10</m> is
+      determined by the number of digits after the decimal point: if
+      there are <m>n</m> digits, then the denominator of the fraction
+      is <m>10^n</m>. In the example above, there were three digits,
+      so the denominator was <m>10^3 = 1000</m>. 
+    </p>
+    <p>
+      Some numbers are expressed as infinite repeating decimals.
+      <me>
+        0.36363636\ldots
+      </me>
+      These are often written with a bar over the repeating piece to
+      indicated repetition.
+      <me>
+        0.36363636\ldots = 0.\overline{36}
+      </me>
+      All repeating decimals can be expressed as fractions. There is a
+      general algorithm for doing so, but I've decided not to put that
+      algorithm in these notes.
+    </p>
+    <p>
+      Likewise, there is a general algorithm for writing a fraction as
+      a repeated decimal, essentially doing long division until we
+      produce a repeating string of digits. Again, I've decided not to
+      put that algorithm in these notes. 
+    </p>
+    <p>
+      Finally, some numbers can only be written as non-repeating
+      decimals. Here is the start of the decimal expansion for
+      <m>\sqrt{2}</m>.
+      <me>
+        \sqrt{2} \doteq 1.41421356237 \ldots
+      </me>
+      There is no regular pattern to these digits. Since there is no
+      regular pattern, <m>\sqrt{2}</m> cannot be written as a
+      fraction. It is an irrational number (by definition, a number
+      which cannot be expressed as a fraction). All fractions
+      correspond to repeating decimals expansions and any
+      non-repeating decimal expansion corresponds to an irrational
+      number. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-choosing-numbers">
+    <title>How Should I Write a Number?</title>
+    <p>
+      If we have all these different ways to write numbers, which ones
+      should we choose? The answers, of course, is that it depends on
+      the context and the need. 
+    </p>
+    <p>
+      Though much could be said on this topic, the major point I want
+      to make in this section is the difference between exact and
+      approximate values. By exact values, I mean any symbol or
+      expression that tells us exactly which number we are talking
+      about. For example, <m>\pi</m> is an exact value, where
+      <m>3.1415</m> is an approxmation. Similarly, <m>\sqrt{7}</m> is an
+      exact value, where <m>2.65</m> is an approximation. 
+    </p>
+    <p>
+      When writing approximate values, it's not strictly correct to
+      use the equals sign. An approximation is not equal to the
+      original number -- it's just approximately equal. There are
+      (unfortunately) several common notations for approximately
+      equal. In these notes, I use an equals sign with a dot to
+      indicate approximation.
+      <me>
+        \pi \doteq 3.1415
+      </me>
+      The other most common notation is an equals sign with a
+      tidle-like symbol on top.
+      <me>
+        \pi \cong 3.1415
+      </me>
+      You should use one of these symbols whenever you write an
+      approxmation, to indicate that you've moved frome exact values
+      to approximate values. 
+    </p>
+    <p>
+      Exact values are good for any kind of mathematical procedure.
+      Usually when we are doing calculations, proofs or other
+      mathematical constructions, we want to work with exact values.
+      In pure mathematics, we work almost exclusively with exact
+      values. 
+    </p>
+    <p>
+      However, there are limitations. Perhaps we do a long calculation
+      and end up with the following exact value.
+      <me>
+        \pi^2 + 7\sqrt{\frac{53}{2}} 
+      </me>
+      That's a fine exact value, but at a glance is it very hard to
+      know, roughly, what size of number this is. That's where
+      approximation is more valuable. 
+      <me>
+        \pi^2 + 7\sqrt{\frac{53}{2}} \doteq 45.904
+      </me>
+      Writing an approximate decimal value gives us a better sense of
+      this number: it's nearly 46. It we needed to use this in some
+      application, we'd probably want to know this approximate value. 
+    </p>
+    <p>
+      So why don't we work with approximate values all the way
+      through? Sometimes we do, but there is a problem. Approximate
+      values have an error. If I write <m>\pi \doteq 3.14</m>, this
+      has an error of a little less than <m>\frac{1}{500}</m>. For
+      whatever you are doing, that might be a perfectly reasonable
+      amount of error. However, error propogates through calculate. As
+      you do arithmetic with approximate values, the error gets works.
+      As an example, <m>3.14^2 = 9.8596</m> but a <m>\pi^2 \doteq
+      9.8696</m>. The error is now a little more than
+      <m>\frac{1}{100}</m>. If we continued to do more arithmetic, the
+      error will grow. After a few of arithmetic steps, the error
+      might be larger than the number itself, making the calculation
+      meaningless. The study of error and error propogation is a
+      branch of mathematics itself, which I'm not going to cover. My
+      point here is that we use exact values when we can in order to
+      limit the propogation or error. If we want an approximate
+      decimal answer, it is best to do the approximates as late as
+      possible in the calculation. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-fractions-percentages">
+    <title>Fractions and Percentages</title>
+    <p>
+      A percentage is a fraction of <m>100</m> (literally, from the
+      Latin <qt>per centum</qt>, meaning from a hundred). When we
+      write <m>47\%</m>, we mean this fraction and decimal:
+      <me>
+        \frac{47}{100} = 0.47
+      </me>.
+    </p>
+    <p>
+      To convert from fractions to decimals, we multiply by <m>100</m>.
+      The fraction <m>3/17</m> has a decimal approximation of
+      <m>0.1764</m>. Multiplying by <m>100</m> gives <m>17.64\%</m>. 
+    </p>
+    <p>
+      To convert from decimals to fraction, we divide by <m>100</m>.
+      <m>48\%</m> becomes the fraction <m>\frac{48}{100}</m>, which
+      can be writen in lowest terms as <m>\frac{12}{25}</m>. 
+    </p>
+    <p>
+      There are many common operations with percentages in a variety
+      of application. For these notes, I've chosen to simply include
+      one: percentage changes. If we have two values, how do we
+      calculate the percentage change from one value to the other? If
+      the values are <m>a_1</m> and <m>a_2</m>, then the 
+      percentage change from <m>a_1</m> to <m>a_2</m> is calculate by 
+      <me>
+        \frac{a_2 - a_1}{a_1} \times 100 
+      </me>.
+      For an example, say a population increases from <m>154,244</m>
+      to <m>157,934</m>. I'll just apply the previous expression.
+      <me>
+        \frac{157934 - 154244}{154244} \times 100 \doteq 2.39
+      </me>
+      The percentage increase in this population is approximately
+      <m>2.39\%</m>.
     </p>
   </subsection>
 </section>

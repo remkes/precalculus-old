@@ -1,8 +1,340 @@
 <section xml:id="section-absolute-value">
   <title>Absolute Value</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-absolute-value-definition">
+    <title>What is Absolute Value</title>
     <p>
+      The absolute value of a number <m>x</m>, written <m>|x|</m>, is
+      a relatively simple thing to define: if <m>x</m> is positive,
+      then absolute value does nothing; if <m>x</m> is negative,
+      absolute value makes it positive. In functional notation, we
+      could write this as a piecewise function.
+      <me>
+        |x| = \left\{ \begin{matrix} 
+          x \amp x \geq 0 \\
+          -x \amp x \lt 0 
+        \end{matrix} \right. 
+      </me>
+      Here are some simple examples.
+      <md>
+        <mrow>
+          |4| \amp = 4 
+        </mrow>
+        <mrow>
+          |-7| \amp = 7 
+        </mrow>
+        <mrow>
+          |0| \amp = 0 
+        </mrow>
+        <mrow>
+          |\sqrt{17}| \amp = \sqrt{17}
+        </mrow>
+        <mrow>
+          \left| \frac{-55}{107} \right| \amp = \frac{55}{107} 
+        </mrow>
+      </md>
+      Absolute value is a useful little tool when we don't care about
+      whether a number is positive or negative, but just want to know
+      how large it is. 
+    </p>
+    <p>
+      Absolute value is natural suited to questions of change. For
+      example, we could wonder which day in a certain place had the
+      greatest temperature change. An increase would be positive and
+      a decrease would be negative, but we only care about the
+      greatest span in temperatures, so we would take the absolute
+      value to get a positive answer. 
+    </p>
+    <p>
+      Absolute value is also very useful for questions of distance.
+      The distance between two number <m>a</m> and <m>b</m> (on the
+      number line, say) is given by <m>|a-b|</m>. This was, we don't
+      have to know, in advance, whether <m>a</m> or <m>b</m> is larger
+      to talk about the distance between them.
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-absolute-value-solving">
+    <title>Solving with Absolute Value</title>
+    <p>
+      Sometime we have to solve with absolute value in equalities or
+      inequalities. Since absolute value has different behaviours for
+      positive and negative numbers, we usually have to split up the
+      equation or inequality into two pieces. For any absolute value,
+      we have two cases: whether the thing inside the absolute value
+      is negative or positive. In symbols, let <m>|\star|</m>
+      represent an absolute value, where <m>\star</m> is some
+      mathematics expression (a number, a variable, a combination of
+      numbers and variables, etc). 
+      <ul>
+        <li>
+          Case 1: when <m>\star \geq 0</m> we simply drop the abolute
+          value (replace <m>|\star|</m> by simply <m>\star</m>) and
+          continue to solve. 
+        </li>
+        <li>
+          Case 1: when <m>\star \lt 0</m> we multiply the absolute
+          value term by <m>(-1)</m> (replace <m>|\star|</m> by
+          <m>(-1)\star</m>) and continue to solve. 
+        </li>
+      </ul>
+      In each case, when we get a solution, we have to check that the
+      solution fits with the range of each case. Any solutions which
+      are out of the range of the case that produced them are invalid. 
+    </p>
+    <p>
+      Let's demonstrate this by examples. 
+      <me>
+        |x + 3| = 7 
+      </me>
+      We have two cases. The first case is when the term inside the
+      asbolute value is positive: <m>x + 3 \geq 0</m>. Equiavlently,
+      <m>x \geq -3</m>. In this case, we can drop the absolute value,
+      since the thing inside it is always positive. 
+      <me>
+        x + 3 = 7 
+      </me>
+      Then we solve to get <m>x=4</m>. When we find a solution like
+      this, we need to check that it part of the case are consiering.
+      The current case is <m>x \geq -3</m>, so <m>x = 4</m> is a fine
+      solution and we can accept it. 
+    </p>
+    <p>
+      Now we procedd with the second case, when the term inside the
+      absolute value is negative. This happens when <m>x \lt -3</m>. 
+      In this case, when I drop the absolute value, I have to multiply
+      by <m>(-1)</m>, since multiplying a negative value by a negative
+      makes it positive. 
+      <me>
+        (-1)(x + 3) = 7 
+      </me>
+      We can solve this by multiplying by <m>(-1)</m>.
+      <me>
+        x + 3 = -7 
+      </me>
+      Then we finish by subtracting <m>3</m> from both sides, giving a
+      solution og <m>x = -10</m>. This solution first our case, since
+      <m>-10</m> is less than <m>-3</m>. In total, we conclude that
+      there are two solutions: <m>x = 4</m> and <m>x = -10</m>.
+    </p>
+    <p>
+      Let's take a very similar example
+      <me>
+        |x - 10| = 4
+      </me>
+      We solve in cases again. For the first case, we need the
+      expression inside the absolute value to be positive. This
+      happens when <m>x \geq 10</m>. In this case, we can drop the
+      absolute value.
+      <me>
+        x - 10 = 4
+      </me>
+      Then we can solve and find <m>x = 14</m>. Since <m>14</m> is
+      greater than <m>10</m>, this is a valid solution for our first
+      case.
+    </p>
+    <p>
+      Then we look at the second case, when the term inside the
+      absolute value is negative. This happens when <m>x \lt 10</m>.
+      In this case, we multiply by <m>(-1)</m> in place of the
+      absolute value, since multiplying a negative by a negative makes
+      it positive. 
+      <me>
+        (-1)(x - 10) = 4
+      </me>
+      Then we can solve by multiplying both sides by <m>-1</m> and
+      adding 10 to both sides. We get <m>x = 6</m>. This value is
+      within the range for this second case, since <m>6</m> is less
+      than <m>10</m>, so this is a valid solution. We conclude we have
+      two solutions: <m>x = 6</m> and <m>x = 14</m>. 
+    </p>
+    <p>
+      This example was very similar to the previous, but it has an
+      important interpretation. The absolute value <m>|x-10|</m> can
+      be interpreted as the distance between the numbers <m>x</m> and
+      <m>10</m>. So the equation <m>|x-10| = 4</m> ask which numbers
+      are <m>4</m> away from <m>10</m>; the answer, unsurprisingly,
+      are the two numbers <m>6</m> and <m>14</m>. 
+    </p>
+    <p>
+      To further make this point, here are two more examples.
+      <me>  
+        |x- 15| = 12
+      </me>
+      This is all numbers which are <m>12</m> away from <m>15</m>:
+      these must be <m>x=3</m> and <m>x = 27</m>. 
+      <me>  
+        |x + 7| = 9
+      </me>
+      We can rewrite this as a subtraction.
+      <me>  
+        |x - (-7)| = 9
+      </me>
+      This is all numbers which are <m>9</m> away from <m>-7</m>:
+      these must be <m>x=2</m> and <m>x = -16</m>. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-absolute-value-inequalities">
+    <p>
+      We can also have absolute values in inequalities. Consider this
+      example.
+      <me>
+        |x-4| \gt 6
+      </me>
+      As with equalities, we work in cases, depending on whether the
+      expression inside the absolute value is positive or negative.
+      The first cases is <m>x \geq 4</m>, where we can just drop the
+      absolute value.
+      <me>
+        x-4 \gt 6
+      </me>
+      Then we can solve normally. Adding <m>4</m> to both sides of the
+      equation give <m>x \gt 10</m>. Therefore, in the case <m>x \geq
+      4</m>, the inequality describes all number larger than or equal
+      to 10. All those numbers are also larger than 4, so they all fit
+      the case. 
+    </p>
+    <p>
+      In the second case, when <m>x \lt 4</m>, the term in the
+      absolute value is negative, so we multiply by <m>(-1)</m> to make
+      it positive. 
+      <me>
+        (-1)(x-4) \gt 6
+      </me>
+      Now we have to solve. We first multiply both sides by
+      <m>(-1)</m>, which reverses the inequality. 
+      <me>
+        x-4 \lt -6
+      </me>
+      Then adding <m>4</m> to both sides of the equation gives <m>x
+      \lt -2</m>. The solution consists of all numbers stritcly less
+      than <m>-2</m>. Our case is <m>x \lt 4</m>, and all number less
+      than <m>-2</m> are also less than <m>4</m>, so all these numbers
+      fit the case. 
+    </p>
+    <p>
+      We conclude that the original inequality describes two sets of
+      numbers: all number strictly larger than <m>10</m> and all
+      number strictly less than <m>-2</m>. The solution consists of
+      both collections of numbers.
+    </p>
+    <p>
+      The left side of the original inequality can be interpreted as
+      the distance between <m>x</m> and <m>4</m>. Therefore, this is
+      describe all numbers which are at least <m>6</m> away from
+      <m>4</m> on the number line. Above <m>6</m>, that is all numbers
+      larger than <m>10</m>, and below <m>6</m>, that is all numbers
+      less than <m>-2</m>, as we found. In this interpretation, it
+      makes sense that there should be two ranges, one above and one
+      below.
+    </p>
+    <p>
+      Inequalities with absolute value can be more complicated, of
+      course. Here is another example which mostly illustrates how
+      messy inequalities and absolute values can get. At several
+      points, we'll have to carefully think through what the various
+      inequalities mean and how to proceed reasonably. 
+      <me>
+        |x^2 - 8|^2 + 9 \lt 25
+      </me>
+      First we'll subtract <m>9</m> from both sides.
+      <me>
+        |x^2 - 8|^2 \lt 16 
+      </me>
+      When we square root both sides. This preserves the inequality
+      because both sides are positive. Since the absolute value is
+      positive, we don't need to worry about the possible negative
+      square root here. 
+      <me>
+        |x^2 - 8| \lt 4 
+      </me>
+      Now that we've worked our way down to the absolute value term,
+      we can now work in two cases. In the first case, the term inside
+      the absolute value is positive. This happens when <m>x^2 \geq
+      8</m>. This case covers <m>x \geq \sqrt{8}</m>, but also <m> x
+      \leq -\sqrt{8}</m>. In this case, we can just drop the absolute
+      value.
+      <me>
+        x^2 - 8 \lt 4 
+      </me>
+      Then we can solve. First we add <m>8</m> to both sides.
+      <me>
+        x^2 \lt 12
+      </me>
+      Then we take the square root. We get <m>x \lt \sqrt{12}</m>.
+      However, as discussed in <xref
+      ref="subsection-inequalities-squareroots" /> we also need <m>x \gt
+      -\sqrt{12}</m>. Finally, we have to compare this to the numbers
+      that this case works for.  This case is all number <m>x \geq
+      \sqrt{8}</m> and <m>x \leq \sqrt{8}</m>. Matching this solution
+      to the case gives us two collections of numbers:
+      <me>
+        -\sqrt{12} \lt x \leq \sqrt{8} \text{ and }
+        \sqrt{8} \leq x \lt \sqrt{12} 
+      </me>.
+      In interval notation (as described in <xref
+      ref="chapter-real-numbers" />):
+      <me>
+        \left( -\sqrt{12}, -\sqrt{8} \right] \cup 
+        \left[ \sqrt{8}, \sqrt{12} \right)
+      </me>
+      That's the first case. For the second case, we consider the
+      situation where the term inside the inequality is negative. This
+      happens if <m>x^2 \lt 8</m>. In the square root, this is <m>x
+      \lt \sqrt{8}</m>, but also <m>x \gt -\sqrt{8}</m>, so that
+      <m>x</m> is also not a large negative number. We can express
+      this case as one range: <m>-\sqrt{8} \lt x \lt \sqrt{8}</m>. In
+      this case, the absolute value become multiplication by
+      <m>-1</m>. 
+      <me>
+        (-1)(x^2 - 8) \lt 4 
+      </me>
+      Then we can solve. First we multiply by <m>(-1)</m>, which
+      reverses the inequality.
+      <me>
+        x^2 - 8 \gt -4 
+      </me>
+      Then we add <m>8</m> to both sides.   
+      <me>
+        x^2 \gt 4 
+      </me>
+      Then we square root to get <m>x \gt 2</m>. However, as discussed
+      in <xref ref="subsection-inequalities-squareroots" /> we also
+      need <m>x \lt -2</m>. So we get two ranges of numbers, those
+      above <m>2</m> and those below <m>-2</m>.  However, our case was
+      restricted to those numbers between <m>-\sqrt{8}</m> and
+      <m>\sqrt{8}</m>. But that together, this case gives two groups
+      of numbers:
+      <me>
+        -\sqrt{8} \leq x \lt -2 \text{ and }
+        2 \lt x \leq \sqrt{8} 
+      </me>.
+      In interval notation (as described in <xref
+      ref="chapter-real-numbers" />):
+      <me>
+        \left[ -\sqrt{8}, -2 \right) \cup 
+        \left( 4, \sqrt{8} \right]
+      </me>
+      Now we have to put it all together. The two cases together
+      describe four collections of numbesr, but those collections of
+      number can be combined. The first case gave us negative number
+      from <m>-\sqrt{12}</m> to <m>-\sqrt{8}</m> and then the second
+      case gave us negative number from <m>\sqrt{8}</m> to <m>-2</m>.
+      Together we get the range from <m>-\sqrt{12}</m> to <m>-2</m>.
+      The same is true for the positive ranges; they fit together on
+      either side of <m>\sqrt{8}</m>. All in all, the solution to this
+      inequality is the two collection of numbers described by 
+      <me>
+        -\sqrt{12} \lt x \lt -2 \text{ and }
+        2 \lt x \lt \sqrt{12} 
+      </me>.
+      In interval notation (as described in <xref
+      ref="chapter-real-numbers" />):
+      <me>
+        \left( -\sqrt{12}, -2 \right) \cup 
+        \left( 4, \sqrt{12} \right)
+      </me>
+      That is the solution to the inequality. You can see that the
+      organizating and bookkeeping, with multiple cases and multiple
+      intervals for each case, get a bit hectic. 
     </p>
   </subsection>
 </section>

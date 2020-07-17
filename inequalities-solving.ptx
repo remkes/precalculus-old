@@ -76,5 +76,142 @@
       less than <m>- \frac{35}{6}</m>. That's a reasonable description
       of this set of numbers, so that is a solution to the inequality. 
     </p>
+    <example>
+      <me>
+        9x - 4 \lt 17x + 5 
+      </me>
+      <p>
+        I can add 4 to both sides of the inequality, which preserves
+        the inequality. 
+        <me>
+          9x \lt 17x + 9 
+        </me>
+        Now I can subtract <m>17x</m> from both sides of the
+        inequality, which preserves the inequality.
+        <me>
+          -8x \lt 9 
+        </me>
+        Now I can divide by <m>-8</m>, which reverses the inequality.
+        <me>
+          x \lt \frac{9}{-8} = - \frac{9}{8} 
+        </me>
+        This solves the inequality. The original expression is
+        satisfied by all <m>x</m> which are less than
+        <m>-\frac{9}{8}</m>.
+      </p>
+    </example>
+    <example>
+      <me>
+        \sqrt{6x-4} \geq 17 
+      </me>
+      <p>
+        To get rid of the square root, we need to square both sides.
+        That's an exponential operation, so it  preserves inequalities
+        only if both sides of the inequality are positive. Here, that
+        is the case: 17 is positive and the square root is a positive
+        number. We square both sides of the inequality. 
+        <me>
+          6x-4 \geq 289
+        </me>
+        Then we can add <m>4</m> to both sides, which preserve the
+        inequality.
+        <me>
+          6x \geq 293
+        </me>
+        Finally, we divide by <m>6</m>, which also preserves the
+        inquality because <m>6</m> is positive. 
+        <me>
+          x \geq \frac{293}{6}
+        </me>
+        This gives us a solution to the inequality: all number greater
+        than or equal to <m>\frac{293}{6}</m>. Before we finish this
+        example, though, we have one subtlety to mention. We need the
+        square root at the start of the problem to be possible, to the
+        term in side the square root cannot be negative: <m>6x-4 \geq
+        0</m>. We can solve this inequality similarly to get <m>x \geq
+        \frac{4}{6} = \frac{2}{3}</m>. In our solution of <m>x \geq
+        \frac{293}{6}</m> is more restrictive, since
+        <m>\frac{293}{6}</m> is much later than <m>\frac{2}{3}</m>, so
+        the square root restrict is satisfied by our solution. 
+      </p>
+    </example>
+    <example>
+      <me>
+        x^2 + 6 \geq 3 
+      </me>
+      <p>
+        First, we can subtract 6 from both sides, which preserves the
+        inequality.
+        <me>
+          x^2 \geq -3
+        </me>
+        If we were solving an equation, at this point we would try to
+        square root both sides. That wouldn't work too well, since we
+        can't take square roots of negative numbers. However, this is
+        an inequality, so we don't need the precise equality. The
+        right side is a square, which is always positive. All positive
+        numbers are greater than <m>-3</m>. Therefore, we can conclude
+        that this inequality is satisfied by all possible numbers. 
+      </p>
+      <p>
+        This example hopefully makes the point that when solving
+        inequalities, we can't be to mechanistic about it. We can't
+        just walk through a series of mechanical steps; we have to
+        stop and think about what the inequality means and what it
+        would entail for numbers to satisfy it. A mechanical approach
+        to this equation would try to take a negative square root,
+        fail, and stop, missing the fact that all numbers already
+        satisfy the inequality.
+      </p>
+    </example>
+    <example>
+      <me>
+        x^2 + 6 \geq 10 
+      </me>
+      <p>
+        This is very similar to the previous example, but we avoid the
+        negative square root when we start with <m>10</m> on the right
+        side. The first step is the same: we can subtract 6 from both
+        sides, which preserves the inequality.
+        <me>
+          x^2 \geq 4 
+        </me>
+        Then we can square root both side. The square root is an
+        exponent and both sides are positive, so it preserves the
+        inequality. 
+        <me>
+          x \geq 2 
+        </me>
+        We see that all numbers greater than or equal to <m>2</m>
+        satisfy the inequality. 
+      </p>
+      <p>
+        However, here again there are subtleties that a mechanical
+        approach might miss. When we took the square root, we didn't
+        consider the possibility that <m>x</m> might be a negative
+        number. This is more complciated, since the square of a
+        negative becomes positive. Therefore, any slightly large negative
+        numbers, such as <m>-10</m>, have squares larger than 4 (in
+        this case, <m>(-10)^2 = 100</m>. Since the negative square
+        become positive, we have a reveral of inequalities. The
+        solution includes the numbers above, which are larger than
+        <m>2</m>, but also all negative numbers less or equal to
+        <m>-2</m>. If <m>x \leq -2</m>, then its square must be at
+        least 4, satisfying the original equality. 
+      </p>
+      <p>
+        You might ask: why didn't I give a rule about squares, square
+        roots and negative numbers. I could have given such a rule;
+        however, if I followed in that direction, I'd end up with a
+        monumental list of rules for manipulating inequalities in a
+        variety of situations. This isn't really how most mathematics
+        is done; instead, we build up some practice and intuition
+        about inequalities and carefully think about what each
+        individual inequality means. It's more conceptual and less
+        mechanistic. That makes is trickier to learn and teach -- I
+        can't just give you all the rules and algorithms -- but such
+        is the nature of mathematics. 
+      </p>
+    </example>
   </subsection>
 </section>
