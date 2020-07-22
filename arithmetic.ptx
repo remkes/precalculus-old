@@ -75,7 +75,7 @@
       of notations as discussed in the previous section. First,
       multiplication distributes over addition.
       <me>
-        (4)(6 + 11) = (4)(6) + (4)(11) = 24 + 44 + 68
+        (4)(6 + 11) = (4)(6) + (4)(11) = 24 + 44 = 68
       </me>
       Second, multiplication distributes over subtraction.
       <me>
@@ -94,7 +94,7 @@
       when terms are written as fractions. Consider these two
       examples.
       <me>
-        \frac{9 + 18}{3} = \frac{9}{3} + \frac{18}{3} = 3 + 6 + 9
+        \frac{9 + 18}{3} = \frac{9}{3} + \frac{18}{3} = 3 + 6 = 9
       </me>
       <me>
         \frac{25 - 10}{5} = \frac{25}{5} - \frac{10}{5} = 5 - 2 = 3

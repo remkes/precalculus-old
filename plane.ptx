@@ -1,8 +1,59 @@
 <section xml:id="section-plane">
   <title>The Cartesian Plane</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-coordintaes">
+    <title>Coordinates</title>
     <p>
+      While most of these modules are focus on the skills and
+      techniques of algebra and functions, this section is devoted to
+      (two-dimensional) geometry. The type of geometry that you need
+      to learn or review here is Cartesian geometry: geometry
+      described by coordintaes. 
+    </p>
+    <p>
+      Coordinates are a way of identifying points in geometry (and,
+      once we have points, also shapes, distances, and many other
+      constructions). The setup of coordinates has several steps. The
+      <ul>
+        <li>
+          We are working in a two dimensional environment. I'll call
+          this environment simply <m>the plane</m>. If you want to be
+          more specific, you could call is <m>the Cartesian plane</m>
+          to indicate the coordinate system we are using. 
+        </li>
+        <li>
+          First, we choose a point to act as the centre of the plane.
+          This point is called the <emph>origin</emph>. 
+        </li>
+        <li>
+          Going out from the origin are two lines, one horizontal and
+          one vertical. These are called <m>axes</m>. By convention,
+          we usually called the horizontal axis the <m>x</m>-axis and
+          the vertical axis the <m>y</m>-axis. The axis have a notion
+          of distance along them, often indicated by marks like on a
+          ruler. Again by convention, we think of moving right as
+          the positive <m>x</m> direction and moving up as the
+          positive <m>y</m> direction.
+        </li>
+        <li>
+          Once we have the origin and the axis, then any point in the
+          plane can be identified by its position relative to the two
+          axis. The point <m>(3,6)</m> is the unique point that we get
+          to by moving <m>3</m> units horizontally (to the right) and
+          moving <m>6</m> units vertically (upward). If we have negative
+          coordinates, we move in the other direction. The point
+          <m>(-5,-2)</m> is the unique point that we get to by moving
+          <m>5</m> units horizontally (to the left, since it is negative)
+          and <m>2</m> units vertically (downward, since it is
+          negative). 
+        </li>
+      </ul>
+      <xref ref="figure-points-in-the-cartesian-plane" /> shows five
+      points and their coordinates. The point <m>(0,0)</m> is the
+      origin. 
+      <figure xml:id="figure-points-in-the-cartesian-plane">
+        <caption>Points in the Cartesian Plane <m>\RR^2</m></caption>
+        <image width="90%" source="images/figure01"/>
+      </figure>
     </p>
   </subsection>
 </section>

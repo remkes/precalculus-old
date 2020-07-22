@@ -1,8 +1,57 @@
 <section xml:id="section-graphs">
   <title>Graphs of Functions</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-functions-coordinates">
+    <title>Functions and Coordinates</title>
     <p>
+      This section relies a bit on the concepts review in <xref
+      ref="chapter-functions1" />, where we discuss the idea of a
+      function. 
+    </p>
+    <p>
+      If we have a function <m>y = f(x)</m> where <m>x</m> is the
+      independent variables and <m>y</m> is the dependent variables,
+      we can visualize the function using coordinates. The choice of
+      <m>x</m> and <m>y</m> here intentionally matches with the
+      choices of the axis of the plane. Our convention is to put the
+      independent variable on the horizontal axis and the dependent
+      variable on the vertical axis. Let's use an example function to
+      show how we display the function with coordinates. I'll choose
+      the square root function.
+      <me>
+        f(x) = \sqrt{x} 
+      </me>
+      Given any <m>x</m> value, say <m>x = 9</m>, the function outputs
+      a <m>y</m> value which is the square root of the input, in this
+      case <m>y = \sqrt{9} = 3</m>. That gives us a points in
+      coorinates: <m>(9,3)</m>. All values of the function are pairs
+      like this: an input and an ouput. All of these pairs can be
+      thought of as coordinates. These coordinate produce a shape in
+      the plane, which we call the <em>graph</em> of the function.
+      <xref ref="figure-square-root-graph" /> shows the graph of the
+      square root function with several points labeled. 
+      <figure xml:id="figure-square-root-graph">
+        <caption>The Graph of <m>f(x) = \sqrt{x}</m></caption>
+        <image width="90%" source="images/figure07"/>
+      </figure>
+    </p>
+    <p>
+      In this way, we can draw a picture of any function using
+      coordinates. These pictures give us a very useful way to see
+      what the function is doing. A lot of the qualitative analyais of
+      functions is done throught their graphs. For the square root
+      function, we can talk about how the function starts at the
+      origin, increases steeply at first, but over time bends down and
+      becomes a nearly horizontal. 
+    </p>
+    <p>
+      Computers (including calculations) are very good at graphing
+      function. When I encounted a new function that I would like to
+      understand, I'll usually ask a computer for a graph of the
+      function, to give me an idea of what I'm working with. I
+      encourage you to make use of this advantage of technology. 
     </p>
   </subsection>
 </section>
+
+
+

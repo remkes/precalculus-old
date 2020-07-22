@@ -1,8 +1,219 @@
 <section xml:id="section-fractions-variables">
   <title>Fractions and Variables</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-fractions-variables-concepts">
+    <title>Fractions with Variables</title>
     <p>
+      One we start working with variables, functions and related
+      mathematical expressions, all of these things can show up in
+      fractions.
+      <me>
+        \frac{\sqrt{t^2+5} + t}{t^2 \cos t}
+      </me>
+      As we will see, the rules of fraction arithmetic remain the
+      same, though some of the processes become more cumbersome and
+      complicated with variable expressions. 
+    </p>
+    <p>
+      With variables and mathematical expressions, we also have to
+      worry about potential division by zero. In the fraction
+      <me>
+        \frac{6y-5}{y+3}
+      </me>,
+      all values of <m>y</m> except for <m>y = -3</m> are acceptable,
+      but <m>y = -3</m> would lead to division by zero. It is very
+      valuable to always keep in mind potential division by zero and
+      take note of the values of variables that must be avoided. 
+    </p>
+    <p>
+      For fractions with variables, we can still multiply numerator
+      and denonminator by the same thing and preserve the fraction.
+      <me>
+        \frac{\sin z}{z} = \frac{(\sin z) (z^2)}{(z)(z^2)} = \frac{z^2
+        \sin z}{z^3} 
+      </me>
+      However, this is only true is we haven't multiplied by zero. We
+      need to keep in our mind that this expression doesn't work for
+      <m>z = 0</m>. If we had multiplied numerator and denominator by
+      <m>(z - 2)</m> instead, then we would have to keep in mind that
+      are new expression is not valid for <m>z = 2</m>. 
+    </p>
+    <p>
+      These new fractions don't necessary have any special
+      terminology, except for one case. When the numerator and
+      denominator are both polynomials (as discussed in <xref
+      ref="chapter-polynomials1" />), the fraction is called a
+      <emph>rational function</emph>. For example
+      <me>
+        \frac{k^2 + 3k - 4}{7k^3 - 4}
+      </me>
+      is a rational function (in the variable <m>k</m>) and 
+      <me>
+        \frac{a^7 + 4a^3 - 9a}{a^5 - 35}
+      </me>
+      is a rational function (in the variable (<m>a</m>). However, 
+      <me>
+        \frac{\sqrt{x^2+1}}{x-1}
+      </me>
+      is not a rational function, since the square root is not a
+      polynomial. 
+    </p>
+    <p>
+      Most of the examples in this section, and most of the problems
+      in the activity, will be using rational functions. If might be
+      useful to do this section along side <xref
+      ref="chapter-polynomials1" />. I'll use some of the techniques
+      review in that chapter, such as the multiplication of binomial
+      and the simplification of some polynomial expressions. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-fractions-factoring">
+    <title>Fraction and Factoring</title>
+    <p>
+      For fraction with variables, we don't really talk about lowest
+      terms anymore (that terminology is restricted to numbers, where
+      there is a clearer idea of a simplest form). However, we can
+      still factor terms out of the numerator and denominator of a
+      fraction to simplify the expression.
+    </p>
+    <p>
+      In the first part, we can still factor numbers out the numerator
+      and denmoninator. 
+      <me>
+        \frac{8x^2 + 4x}{2 + 10\sqrt{x}}
+      </me>
+      In this expression, we can factor <m>2</m> out of both numerator
+      and denominator.
+      <me>
+        \frac{2(4x^2 + 2x)}{2(1 + 5\sqrt{x})}
+      </me>
+      Then we can divide numerator and denominator by <m>2</m>. We
+      often don't explicitly show this division, but just cross off
+      the <m>2</m> from each piece. We often refer to this as
+      <qt>cancelling off</qt>. 
+    </p>
+    <p>
+      More substantially, we can also factor our and cancel off
+      expressions with variables.
+      <me>
+        \frac{t^2 + 8t}{5t^2 - 4t} 
+      </me>
+      In this rational function, we can factor out <m>t</m> from both
+      numerator and denominator. 
+      <me>
+        \frac{t(t + 8)}{t(5t - 4)} 
+      </me>
+      Then we can cancel of this <m>t</m> (implicitly dividing
+      numerator and denominator by <m>t</m>). 
+      <me>
+        \frac{t(t + 8)}{t(5t - 4)} = \frac{t+8}{5t-4}
+      </me>
+      Here there is one caution and subtlety: the previous equality is
+      only true if <m>t \neq 0</m>. Much like multiplying numerator
+      and denominator by a term, when we cancel of a term, we need to
+      make sure the term was non-zero. If <m>t=0</m>, the left side of
+      the above equation is undefined due to division by zero, but the
+      right side nicely evaluates to <m>(-2)</m>. That violates the
+      equality. Therefore, we have to take note of the addition
+      posibilities that may arise if the cancelled term was actually
+      zero. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-fractions-more-arithmetic">
+    <title>More Fraction Arithmetic</title>
+    <p>
+      <xref ref="section-arithmetic-of-fractions" /> reviewed the
+      rules of fraction arithmetic. The examples in the section where
+      all numbers. However, the rules of fraction arithmetic are the
+      same for expressions involving variables as well.
+    </p>
+    <p>
+      Multiplication of fraction is still multiplication of numerators
+      and mulitplication of denominators.
+      <me>
+        \left(\frac{x^2}{x^2+1}\right) \left(\frac{2^x}{\cos x}
+        \right) = \frac{(x^2)(x^2)}{(x^2+1)\cos x} 
+      </me>
+      Likewise, division of fractions is still multiplication by
+      reciprocals. 
+      <me>
+        \frac{\frac{y^2+1}{y}}{\frac{y^3-6}{y}} = \left( \frac{y^2+1}{y}
+        \right) \left( \frac{y}{y^3-6} \right) =
+        \frac{(y^2+1)(y)}{(y)(y^3-6)}
+      </me>
+      There is a factor of <m>y</m> in numerator and denominator, so
+      as long as <m>y \neq 0</m>, we can factor it out and cancel it
+      off. 
+      <me>
+        \frac{(y)(y^2+1)}{(y)(y^3-6)} = \frac{y^2+1}{y^3-6}
+      </me>
+      This is the result of the division when <m>y \neq 0</m>. (When
+      <m>y = 0</m>, the original expression was not defined due to
+      division by zero, so this division holds for all possible
+      <m>y</m> after all). 
+    </p>
+    <p>
+      Addition and subtraction of fractions with variables still
+      required common denominator. However, the common denominator is
+      now (usually) an expression with variables. 
+      <me>
+        \frac{r + 1}{r^2} + \frac{r - 4}{r - 1} 
+      </me>
+      As with numbers, we can also take the common denominator to be
+      the product of the two denominator. We multiply the numerator
+      and denominator of the first fraction by <m>(r-1)</m>; likewise,
+      we multiply the numerator and denominator of the second fraction
+      by <m>r^2</m>. 
+      <me>
+        \frac{(r + 1)(r - 1)}{r^2(r - 1)} + \frac{(r - 4)(r^2)}{(r -
+        1)(r^2)} 
+      </me>
+      That produces a common demoniator of <m>r^2(r-1)</m>. We can
+      expand the multiplications in the numerator to see what we get. 
+      <me>
+        \frac{r^2 - 1}{r^2(r - 1)} + \frac{r^3 - 4r^2}{r^2(r - 1)} 
+        = \frac{r^2 - 1 + r^3 - 4r^2}{r^2(r - 1)} = \frac{r^3 - 3r^2 -
+        1}{r^2(r - 1)} 
+      </me>
+      Since we multiplied by both<m>r</m> and <m>(r - 1)</m>, this
+      calcluation is only valid when <m>r \neq 0</m> and <m>r \neq
+      1</m>. 
+    </p>
+    <p>
+      As with common denominator with numbers, sometimes there is an
+      easier common denominator than simply the product of the two
+      denominators. An example will illustrate this. 
+      <me>
+        \frac{6}{v^2(v+1)} - \frac{8}{v(v+1)(v+2)} 
+      </me>
+      The two fractions here have reasonable complicated denominators.
+      I'd like to avoid multiplying by the whole denominator if I can.
+      Looking at the two denominators, I see some common factors:
+      <m>v</m> and <m>(v+1)</m>. The first denominator is missing the
+      <m>(v+2)</m> in the second, so if I multiply by <m>(v+2)</m> I
+      get <m>v^2(v+1)(v+2)</m>. The second denominator is missing the
+      square of the variables, so if I multiply by <m>v</m>, I get
+      <m>v^2(v+1)(v+2)</m>. In this way I can produce a common
+      denominator without introducing as much complexity to the
+      situation. Let's proceed with the subtraction, multiplying the
+      numerator and denominator of the first fraction by <m>(v+2)</m>,
+      and the second fraction by <m>v</m>. 
+      <me>
+        \frac{6(v+2)}{v^2(v+1)(v+2)} - \frac{8v}{v^2(v+1)(v+2)} 
+      </me>
+      This produces a common denominator, so I can combine the
+      fractions and do the subtraction.
+      <me>
+        \frac{6(v+2) - 8v}{v^2(v+1)(v+2)} 
+      </me>
+      I can expand the <m>6(v+2)</m>.
+      <me>
+        \frac{6v + 12 - 8v}{v^2(v+1)(v+2)} = \frac{-2v +
+        12}{)v^2(v+1)(v+2})
+      </me>
+      I don't see any more simplification to do here, so this is the
+      result of our subtraction. We are avoiding <m>v = 0</m>, <m>v =
+      -1</m> and <m>v = -2</m> in this calculation to avoid division
+      by zero. 
     </p>
   </subsection>
 </section>

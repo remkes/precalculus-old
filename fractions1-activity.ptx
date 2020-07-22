@@ -1,16 +1,281 @@
 <section xml:id="section-fractions1-activity">
   <title>Fractions Part 1  Activity</title>
-  <subsection xml:id="subsection-activity-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-activity-fraction-arithmetic">
+    <title>Fraction Arithmetic</title>
     <activity>
       <statement>
         <p>
+          Add these fractions.
+          <me>
+            \frac{5}{12} + \frac{3}{9} 
+          </me>
         </p>
       </statement>
       <solution>
         <p>
+          We can both the numerator and denominator of each fraction
+          by the denominator of the other fraction to make a common
+          denominator.
+          <md>
+            <mrow>
+              \frac{5}{12} + \frac{3}{9} \amp = \frac{5 \times 9}{12
+              \times 9} + \frac{3 \times 12}{9 \times 12} 
+            </mrow>
+            <mrow>
+              \amp = \frac{45}{108} + \frac{36}{108}
+            </mrow>
+            <mrow>
+              \intertext{Then we can add the numerators.}
+            </mrow>
+            <mrow>
+              \amp = \frac{45 + 36}{108} = \frac{81}{108}
+            </mrow>
+            <mrow>
+              \intertext{We can reduce this fraction by dividing
+              numberator and denominator by 27.}
+            </mrow>
+            <mrow>
+              \amp = \frac{3}{4}
+            </mrow>
+          </md>
+          We could also have noticed that <m>9</m> and <m>12</m> have
+          a common factor of <m>3</m>, meaning that there is a smaller
+          common denominator of <m>36</m>. Here is the calculation
+          using that common denomninator instead.
+          <md>
+            <mrow>
+              \frac{5}{12} + \frac{3}{9} \amp = \frac{5 \times 3}{12
+              \times 3} + \frac{3 \times 4}{9 \times 4} 
+            </mrow>
+            <mrow>
+              \amp = \frac{15}{36} + \frac{12}{36}
+            </mrow>
+            <mrow>
+              \amp = \frac{15 + 12}{3r} = \frac{27}{36}
+            </mrow>
+            <mrow>
+              \intertext{We can reduce this fraction by dividing
+              numberator and denominator by 9.}
+            </mrow>
+            <mrow>
+              \amp = \frac{3}{4}
+            </mrow>
+          </md>
+          After reducing to lowest terms, we see that this is the same
+          result.
         </p>
       </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Subtract these fractions.
+          <me>
+            \frac{8}{5} - \frac{4}{7} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          There are no common factors between <m>5</m> and <m>7</m>,
+          so the smallest reasonable common denominator is their
+          product, <m>35</m>. We multiply the numerator and
+          denmoinator of the first fraction by <m>7</m> and likewise
+          for the second fraction by <m>5</m>. 
+          <md>
+            <mrow>
+              \frac{8}{5} - \frac{4}{7} \amp = 
+              \frac{8 \times 7}{5 \times 7} - \frac{4 \times 5}{7
+              \times 5}
+            </mrow>
+            <mrow>
+              \amp = \frac{56}{35} - \frac{20}{35}
+            </mrow>
+            <mrow>
+              \amp = \frac{56- 20}{35} = \frac{36}{35}
+            </mrow>
+          </md>
+          This result is already in lowest terms, so we are finished.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Multiply these fractions.
+          <me>
+            \left( \frac{3}{11} \right) \left( \frac{-4}{7} \right) 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To multiply fractions, we simply mulitply numerators and
+          mulitply denominators.
+          <me>
+            \left( \frac{3}{11} \right) \left( \frac{-4}{7} \right) =
+            \frac{3 \times (-4)}{11 \times 7} = \frac{-12}{77}
+          </me>
+          This is already in lowest terms. The negative can be written
+          out front, since multiplying either numerator or denominator
+          by <m>(-1)</m> is the same as making the whole fraction
+          negative. 
+          <me>
+            = - \frac{12}{77} 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Divide these fractions.
+          <me>
+            \frac{\frac{3}{5}}{\frac{10}{3}}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To divide fraction, we multiply by the reciprocal.
+          <me>
+            \frac{\frac{3}{5}}{\frac{10}{3}} = \frac{3}{5}
+            \frac{3}{10} 
+          </me>
+          Then we just multiply numerator and denominator seperately. 
+          <me>
+            \frac{3}{5} \frac{3}{10} = \frac{3 \times 3}{5 \times 10}
+            = \frac{9}{50} 
+          </me>
+          This is in lowest terms, so we are finished. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-fractions-percentages">
+    <title>Fractions and Percentages</title>
+    <activity>
+      <statement>
+        <p>
+          Write this fraction as a percentage. 
+          <me>
+            \frac{3}{20}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          As a decimal (calculate by long division or by
+          calculator/computer), this is <m>0.15</m>. Multiplying by
+          <m>100</m> means that this is 15%. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write this fraction as a percentage. 
+          <me>
+            \frac{7}{53}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          As a decimal (calculate by long division or by
+          calculator/computer), this is approximatly <m>0.132</m>.
+          Multiplying by <m>100</m> means that this is approximately
+          13.2%. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write this percentage as a fraction in lowest terms.
+          <me>
+            48\%
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Percentages are fractions of <m>100</m>, so we start with
+          this percentage over <m>100</m>
+          <me>
+            \frac{48}{100}
+          </me>
+          Then we try to reduce. <m>4</m> is a common factor, so we
+          divide numerator and denominator by <m>4</m>
+          <me>
+            \frac{12}{25}
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the percentage change if a population increases
+          from <m>1403</m> members to <m>1784</m> members.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Percentage change is calculate following the description in
+          <xref ref="subsection-fractions-percentages" />. 
+          <me>
+            \frac{1784 - 1403}{1403} \times 100 = \frac{381}{1403}
+            \times 100 \doteq (0.272) \times 100 \doteq 27.2 \%
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Calculate the percentage change if a population decreases
+          from <m>17,809</m> members to <m>12,512</m> members.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Percentage change is calculate following the description in
+          <xref ref="subsection-fractions-percentages" />. Note that
+          the second value is first in the numerator, which will lead
+          to a negative value, which is expected for this decrease.
+          <me>
+            \frac{12512 - 17809}{17809} \times 100 = \frac{-5297}{17809}
+            \times 100 \doteq (-0.297) \times 100 \doteq -29.7\%
+          </me>
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-fractions1-concepts">
+    <title>Conceptual Questions</title>
+    <activity>
+      <statement>
+        <ul>
+          <li>
+            What is a fraction? Why is it also notation for division?
+          </li>
+          <li>
+            Why does addition and subtraction of fractions need common
+            denominator?
+          </li>
+          <li>
+            Why doesn't multiplication or division of fraction also
+            need common denominator?
+          </li>
+          <li>
+            How do we manage multiply representation of numbers?
+          </li>
+          <li>
+            What is a percentage?
+          </li>
+        </ul>
+      </statement>
     </activity>
   </subsection>
 </section>

@@ -1,14 +1,223 @@
 <section xml:id="section-cartesian-activity">
   <title>Cartesian Geometry Activity</title>
-  <subsection xml:id="subsection-activity-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-activity-equations-lines">
+    <title>Equations of Lines</title>
     <activity>
       <statement>
         <p>
+          Write the equation of the line with <m>y</m>-intercept
+          <m>7</m> and slope <m>\frac{-3}{2}</m>. 
         </p>
       </statement>
       <solution>
         <p>
+          We just need to put the slope and the intercept into the
+          slope-intercept form of the equation of a line.
+          <md>
+            <mrow>
+              y \amp = mx + b 
+            </mrow>
+            <mrow>
+              y \amp = \frac{-3}{2} x +  7
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the equation of the line with <m>y</m>-intercept
+          <m>-4</m> and slope <m>5</m>. 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We just need to put the slope and the intercept into the
+          slope-intercept form of the equation of a line.
+          <md>
+            <mrow>
+              y \amp = mx + b 
+            </mrow>
+            <mrow>
+              y \amp = 5x - 4
+            </mrow>
+          </md>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the equation of the line with slope <m>-2</m> that goes
+          through the point <m>(1,1)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          I start by putting the slope into into the slope-intercept
+          form.
+          <me>
+            y = (-2) x + b 
+          </me>
+          I need to figure out the intercept. I can do this by putting
+          the point into equation and solving for <m>b</m>.
+          <md>
+            <mrow>
+              y \amp = -2x + b 
+            </mrow>
+            <mrow>
+              1 \amp = (-2)(1) + b 
+            </mrow>
+            <mrow>
+              1 \amp = -2 + b 
+            </mrow>
+            <mrow>
+              3 \amp = b 
+            </mrow>
+          </md>
+          That gives me the value for the intercept, so I can finish
+          the equation of the line.
+          <me>
+            y = -2x + 3 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the equation of the line with slope <m>\frac{1}{4}</m>
+          that goes through the point <m>(-2,3)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          I start by putting the slope into into the slope-intercept
+          form.
+          <me>
+            y = \frac{1}{4} x + b 
+          </me>
+          I need to figure out the intercept. I can do this by putting
+          the point into equation and solving for <m>b</m>.
+          <md>
+            <mrow>
+              y \amp = \frac{1}{4} x + b 
+            </mrow>
+            <mrow>
+              3 \amp = \frac{1}{4} (-2) + b 
+            </mrow>
+            <mrow>
+              3 \amp = \frac{-1}{2} + b 
+            </mrow>
+            <mrow>
+              3 + \frac{1}{2} \amp = b 
+            </mrow>
+            <mrow>
+              \frac{7}{2} \amp = b 
+            </mrow>
+          </md>
+          That gives me the value for the intercept, so I can finish
+          the equation of the line.
+          <me>
+            y = \frac{1}{4} x + \frac{7}{2} 
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the equation of the line that goes through the point
+          <m>(0,1)</m> and <m>(5,5)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First I need to calculate the slope. I can do this by taking
+          the difference of the <m>y</m> coordinates (the rise) and
+          dividing by the difference of the <m>x</m> coordinates (the
+          run). 
+          <me>
+            m = \frac{5 - 1}{5 - 0} = \frac{5}{4} 
+          </me>
+          Now that I have the slope, I can put it into the
+          slope-intercept form.
+          <me>
+            y = \frac{5}{4} x + b 
+          </me>
+          I need to figure out the intercept. I can do this by putting
+          either point into equation and solving for <m>b</m>.
+          <md>
+            <mrow>
+              y \amp = \frac{5}{4}x + b 
+            </mrow>
+            <mrow>
+              5 \amp = \frac{5}{4} (5)  + b 
+            </mrow>
+            <mrow>
+              5 \amp = \frac{25}{4} + b 
+            </mrow>
+            <mrow>
+              5 - \frac{25}{4} \amp = b 
+            </mrow>
+            <mrow>
+              \frac{-5}{4} \amp = b 
+            </mrow>
+          </md>
+          That gives me the value for the intercept, so I can finish
+          the equation of the line.
+          <me>
+            y = \frac{5}{4} x - \frac{5}{4}
+          </me>
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Write the equation of the line that goes through the point
+          <m>(-2,-2)</m> and <m>(6,1)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First I need to calculate the slope. I can do this by taking
+          the difference of the <m>y</m> coordinates (the rise) and
+          dividing by the difference of the <m>x</m> coordinates (the
+          run). 
+          <me>
+            m = \frac{1 - (-2)}{6 - (-2)} = \frac{3}{8} 
+          </me>
+          Now that I have the slope, I can put it into the
+          slope-intercept form.
+          <me>
+            y = \frac{3}{8} x + b 
+          </me>
+          I need to figure out the intercept. I can do this by putting
+          either point into equation and solving for <m>b</m>.
+          <md>
+            <mrow>
+              y \amp = \frac{3}{8}x + b 
+            </mrow>
+            <mrow>
+              -2 \amp = \frac{3}{8} (-2)  + b 
+            </mrow>
+            <mrow>
+              -2 \amp = \frac{-3}{4} + b 
+            </mrow>
+            <mrow>
+              -2 + \frac{3}{4} \amp = b 
+            </mrow>
+            <mrow>
+              \frac{-5}{4} \amp = b 
+            </mrow>
+          </md>
+          That gives me the value for the intercept, so I can finish
+          the equation of the line.
+          <me>
+            y = \frac{3}{8} x - \frac{5}{4}
+          </me>
         </p>
       </solution>
     </activity>

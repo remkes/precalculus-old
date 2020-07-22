@@ -1,16 +1,241 @@
 <section xml:id="section-fractions2-activity">
   <title>Fractions Part 2 Activity</title>
-  <subsection xml:id="subsection-activity-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-activity-fractions-variables">
+    <title>Fraction Arithmetic with Variables</title>
     <activity>
       <statement>
         <p>
+          Add these fractions. Simplify the result if reasonable to do
+          so. 
+          <me>
+            \frac{h^2}{h+3} + \frac{h-6}{4h}
+          </me>
         </p>
       </statement>
       <solution>
         <p>
+          There are no common factors here, so the common denominator
+          is simply the produce of the two denominators. We multiply
+          the numerator and denominator of the first fraction by
+          <m>4h</m> and the second fraction by <m>(h+3)</m>. (We need
+          to avoid <m>h = 0</m> and <m>h = -3</m> to avoid division by
+          zero). 
+          <me>
+            \frac{h^2(4h)}{(h+3)(4h)} + \frac{(h-6)(h+3)}{4h(h+3)}
+          </me>
+          Then we can put this into one fraction with the common
+          denominator and expand the multiplications in the numerator
+          to see how they can be combined.
+          <me>
+            = \frac{4h^3 + h^2 - 3h - 18}{4h(h+3)} 
+          </me>
+          Note that the values <m>h = 0</m> and <m>h = -3</m> are
+          invalid value for this calculation.
         </p>
       </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Subtract these fractions. Simplify the result if reasonable to do
+          so. 
+          <me>
+            \frac{\cos x}{x^2} - \frac{\sin x}{x(x-3)}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          There is a common factor in these denominators, so I'll look
+          for a better choice than just the product of the two
+          denominators. I need <m>x^2</m> for the first and a factor
+          of <m>(x-3)</m> so the second, so the common denominator
+          <m>x^2(x-3)</m> should work. I'll multiply the numerator and
+          denominator of the first fraction by <m>(x-3)</m>, and by
+          <m>x</m> for the second fraction.
+          <me>
+            = \frac{(\cos x)(x-3)}{(x^2)(x-3)} - \frac{(\sin
+            x)(x)}{x(x-3)(x)}
+          </me>
+          I'll expand the various multiplications and write the result
+          over the common demoninator.
+          <me>
+            = \frac{(x - 3)\cos x - x \sin x}{(x^2)(x - 3)}
+          </me>
+          I could write this numerator different, but it's not
+          obviously simpler one way of another. I'll leave it like
+          this. Note that <m>x = 0</m> and <m>x = 3</m> are invalid
+          value for this calculation.
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Add these fractions. Simplify the result if reasonable to do
+          so. 
+          <me>
+            \frac{t^2}{\tan t} + \frac{1}{t^3} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          There are no common factors here, so the common denominator
+          is simply the produce of the two denominators. We multiply
+          the numerator and denominator of the first fraction by
+          <m>t^3</m> and the second fraction by <m>(\tan t)</m>. 
+          <me>
+            \frac{(t^2)(t^3)}{(tan t)(t^3)} + \frac{(\tan
+            t)}{(t^3)(\tan t)} 
+          </me>
+          Then we can put this into one fraction with the common
+          denominator and expand the multiplications in the numerator
+          to see if they can be combined.
+          <me>
+            = \frac{t^5 + \tan t}{t^3 \tan t} 
+          </me>
+          There is nothing else to be done to simplify or combine this
+          expression. Note that the value <m>t = 0</m> and all the
+          possible (infintely many!) <m>t</m> such that <m>\tan t =
+          0</m> are invalid for this calculation. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Subtract these fractions. Simplify the result if reasonable
+          to do so. 
+          <me>
+            \frac{j - 5}{j - 7} - \frac{j^2 + 4}{(j - 7)^2}        
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Both fractions have powers of <m>(j - 7)</m> in the
+          denominators. I should be able to use the highest power of
+          <m>(j - 7)</m> as the common denominator. In this plan, I
+          actually can leave the second fraction entirely untouched
+          and multiply the numerator and denominator of the first
+          fraction by <m>(j - 7)</m>.
+          <me>
+            \frac{(j - 5)(j - 7)}{j - 7(j - 7)} - \frac{j^2 + 4}{(j -
+            7)^2}
+          </me>
+          Then I can expand the numerator in the first fraction and
+          write the subtraction over the common denominator. I must be
+          careful to apply the subtraction to both piece of the second
+          numerator. 
+          <me>
+            = \frac{j^2 - 12j + 35 - (j^2 + 4)}{(j - 7)^2}
+          </me>
+          Then I can simplify the numerator by grouping like powers of
+          <m>j</m>. The <m>j^2</m> terms will cancel. 
+          <me>
+            = \frac{- 12j + 31}{(j - 7)^2}
+          </me>
+          There is nothing more to do to simplify this expression.
+          Note that <m>j = 7</m> is invalid for this calculation. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Multiply these fractions. Simplify the result if reasonable
+          to do so. 
+          <me>
+            \frac{z^2}{(z-2)^2} \frac{(z-1)(z-2)}{z^4} 
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we can simply multiply the numerators and
+          denominators. 
+          <me>
+            \frac{z^2}{(z-2)^2} \frac{(z-1)(z-2)}{z^4} =
+            \frac{z^2(z-1)(z-2)}{z^4(z-2)^2} 
+          </me>
+          I notice that there are some common factor here. Since
+          everything here is multiplication, everything is already a
+          factor of the whole numerator or denominator, so I can
+          proceed to cancel some terms. First, <m>z^2</m> is a factor
+          of both numerator and denominator, so I can cancel that off. 
+          <me>
+            \frac{z^2(z-1)(z-2)}{z^4(z-2)^2} = 
+            \frac{(z-1)(z-2)}{z^2(z-2)^2} 
+          </me>
+          Next, <m>(z-2)</m> is also a common factor, so I can cancel
+          it off as well.
+          <me>
+            \frac{(z-1)(z-2)}{z^2(z-2)^2} = \frac{(z-1)}{z^2(z-2)} 
+          </me>
+          INow there are no common factors, so this is the final
+          result. Throughout the calculation, I note that <m>z = 0</m>
+          and <m>z = 2</m> are values that would lead to division by
+          zero and therefore must be avoided. 
+        </p>
+      </solution>
+    </activity>
+    <activity>
+      <statement>
+        <p>
+          Divide these fractions. Simplify the result if reasonable
+          to do so. 
+          <me>
+            \frac{\frac{7x-14}{x^2}}{\frac{4x-8}{x^3}}
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To divide fraction, we multiply by the reciprocal.
+          <me>
+            \left( \frac{7x-14}{x^2} \right) \left( \frac{x^3}{4x-8}
+            \right) = \frac{(7x-14)(x^3)}{(x^2)(4x-8)}
+          </me>
+          Then we can try to simplify. There is a common factor of
+          <m>x^2</m> in the numerator and denominator, so we can
+          cancel that off. 
+          <me>
+            = \frac{(7x-14)(x)}{(4x-8)}
+          </me>
+          Looking more carefully, we can factor <m>7</m> out of the
+          numerator and <m>4</m> out of the denominator.
+          <me>
+            = \frac{7(x-2)(x)}{4(x-2)}
+          </me>
+          This factoring reveals a common factor of <m>(x-2)</m> in
+          the numerator and denominator. We can cancel this common
+          factor off as well. 
+          <me>
+            = \frac{7x}{4}
+          </me>
+          No more simplification can be done here, since this is a
+          pretty concise answer. Note that throughout this question,
+          we have to avoid <m>x = 2</m> and <m>x = 0</m>. 
+        </p>
+      </solution>
+    </activity>
+  </subsection>
+  <subsection xml:id="subsection-activity-fractions2-concepts">
+    <title>Conceptual Questions</title>
+    <activity>
+      <statement>
+        <ul>
+          <li>
+            Why are the arithmetic rules the same for fractions with
+            variables?
+          </li>
+          <li>
+            Why do we have to worry about special values of variables
+            then might result in zeros in our calculations?
+          </li>
+        </ul>
+      </statement>
     </activity>
   </subsection>
 </section>

@@ -366,4 +366,28 @@
       </ul>
     </p>
   </subsection>
+  <subsection xml:id="subsection-simplify">
+    <title>Simplification</title>
+      <p>
+        This factoring is one of the many techniques in algebra that
+        is covered by the vague and tricky verb <qt>simplify</qt>. I
+        can't give you a perfectly clean understanding of this term,
+        since it is inherently a bit vague. It means, in general, to
+        manipulate a mathematical expression to turn it into a form
+        that is easier: easier to understand, easier to work with in
+        the future, easier to compare to other things.
+      </p>
+      <p>
+        Often, if there is a common factor to a number of terms, it
+        will be easier to understand the expression in factor form.
+        Therefore, often simplify will involve factoring as discussed
+        in this section. It may also involve other techniques -- it's
+        not just factoring. 
+      </p>
+      <p>
+        I wish I could be more concrete about how to simplify, but no
+        one simply system applies to all situation. How and when to
+        simplify is much more a matter of experience and practice. 
+      </p>
+  </subsection>
 </section>
