@@ -20,7 +20,7 @@
           |4| \amp = 4 
         </mrow>
         <mrow>
-          |-7| \amp = 7 
+          |-7| \amp = -(-7) = 7
         </mrow>
         <mrow>
           |0| \amp = 0 
@@ -29,7 +29,8 @@
           |\sqrt{17}| \amp = \sqrt{17}
         </mrow>
         <mrow>
-          \left| \frac{-55}{107} \right| \amp = \frac{55}{107} 
+          \left| \frac{-55}{107} \right| \amp = -\frac{-55}{107} =
+          \frac{55}{107}
         </mrow>
       </md>
       Absolute value is a useful little tool when we don't care about
@@ -66,14 +67,12 @@
       numbers and variables, etc). 
       <ul>
         <li>
-          Case 1: when <m>\star \geq 0</m> we simply drop the abolute
-          value (replace <m>|\star|</m> by simply <m>\star</m>) and
-          continue to solve. 
+          Case 1: when <m>\star \geq 0</m> we simply drop the absolute
+          value and continue to solve. 
         </li>
         <li>
           Case 1: when <m>\star \lt 0</m> we multiply the absolute
-          value term by <m>(-1)</m> (replace <m>|\star|</m> by
-          <m>(-1)\star</m>) and continue to solve. 
+          value term by <m>(-1)</m> and continue to solve. 
         </li>
       </ul>
       In each case, when we get a solution, we have to check that the

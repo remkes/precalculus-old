@@ -67,7 +67,7 @@
     </p>
   </subsection>
   <subsection xml:id="subsection-fractions-factoring">
-    <title>Fraction and Factoring</title>
+    <title>Fractions and Factoring</title>
     <p>
       For fraction with variables, we don't really talk about lowest
       terms anymore (that terminology is restricted to numbers, where
@@ -84,7 +84,8 @@
       In this expression, we can factor <m>2</m> out of both numerator
       and denominator.
       <me>
-        \frac{2(4x^2 + 2x)}{2(1 + 5\sqrt{x})}
+        \frac{2(4x^2 + 2x)}{2(1 + 5\sqrt{x})} = \frac{4x^2 + 2x}{1 + 5
+        \sqrt{x} 
       </me>
       Then we can divide numerator and denominator by <m>2</m>. We
       often don't explicitly show this division, but just cross off
@@ -102,9 +103,10 @@
       <me>
         \frac{t(t + 8)}{t(5t - 4)} 
       </me>
-      Then we can cancel of this <m>t</m> (implicitly dividing
-      numerator and denominator by <m>t</m>). 
-      <me>
+      Then we can cancel of this <m>t</m>. Implicitly, when we do this
+      cancelation, we are dividing numerator and denominator by
+      <m>t</m>. 
+      <me>. 
         \frac{t(t + 8)}{t(5t - 4)} = \frac{t+8}{5t-4}
       </me>
       Here there is one caution and subtlety: the previous equality is
@@ -131,7 +133,7 @@
       and mulitplication of denominators.
       <me>
         \left(\frac{x^2}{x^2+1}\right) \left(\frac{2^x}{\cos x}
-        \right) = \frac{(x^2)(x^2)}{(x^2+1)\cos x} 
+        \right) = \frac{(x^2)(2^x)}{(x^2+1)\cos x} 
       </me>
       Likewise, division of fractions is still multiplication by
       reciprocals. 
@@ -208,7 +210,7 @@
       I can expand the <m>6(v+2)</m>.
       <me>
         \frac{6v + 12 - 8v}{v^2(v+1)(v+2)} = \frac{-2v +
-        12}{)v^2(v+1)(v+2})
+        12}{v^2(v+1)(v+2}
       </me>
       I don't see any more simplification to do here, so this is the
       result of our subtraction. We are avoiding <m>v = 0</m>, <m>v =

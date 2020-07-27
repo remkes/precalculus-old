@@ -16,17 +16,17 @@
       <ul>
         <li>
           We are working in a two dimensional environment. I'll call
-          this environment simply <m>the plane</m>. If you want to be
-          more specific, you could call is <m>the Cartesian plane</m>
+          this environment simply <em>the plane</em>. If you want to be
+          more specific, you could call is <em>the Cartesian plane</em>
           to indicate the coordinate system we are using. 
         </li>
         <li>
           First, we choose a point to act as the centre of the plane.
-          This point is called the <emph>origin</emph>. 
+          This point is called the <em>origin</em>. 
         </li>
         <li>
           Going out from the origin are two lines, one horizontal and
-          one vertical. These are called <m>axes</m>. By convention,
+          one vertical. These are called <em>axes</em>. By convention,
           we usually called the horizontal axis the <m>x</m>-axis and
           the vertical axis the <m>y</m>-axis. The axis have a notion
           of distance along them, often indicated by marks like on a

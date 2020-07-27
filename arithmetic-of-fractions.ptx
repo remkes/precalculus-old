@@ -8,8 +8,8 @@
       <me>
         \frac{3}{7} \text{ or } \frac{x^2-1}{9 - \sqrt{x}} 
       </me>
-      The top piece of a fraction is called the <emph>numerator</emph>
-      and the bottom piece is called the <emph>denomninator</emph>.
+      The top piece of a fraction is called the <em>numerator</em>
+      and the bottom piece is called the <em>denomninator</em>.
     </p>
     <p>
       In mathematics, we use the fraction notation <m>\frac{a}{b}</m>
@@ -45,10 +45,10 @@
     <title>Some Notations and Comments</title>
     <p>
       A fraction where the numerator is smaller than the denominator
-      (<m>\frac{4}{11}</m>) is called a <emph>proper fraction</emph>.
+      (<m>\frac{4}{11}</m>) is called a <em>proper fraction</em>.
       A fraction where the numerator is larger thatn the denominator
-      (<m>\frac{13}{11}</m>) is called a <emph>improper
-      fraction</emph>/. 
+      (<m>\frac{13}{11}</m>) is called a <em>improper
+      fraction</em>/. 
       In much of elementary arithmetic, students are encouraged to
       write improper fractions as mixed fractions. Here is an example. 
       <me>
@@ -157,18 +157,18 @@
       our example, we can multiple the first fraction by <m>3</m> (the
       denominator of the other fraction).
       <me>
-        \frac{4}{5} = \frac{12}{15} 
+        \frac{4 \times 3}{5 \times 3} = \frac{12}{15} 
       </me>
       We can multiplicy the numerator and denominator of the second
       fraction by <m>5</m> (the denominator of the first fraction).
       <me>
-        \frac{7}{3} = \frac{35}{15} 
+        \frac{7 \times 5}{3 \times 5} = \frac{35}{15} 
       </me>
       Now both of the fractions are expressed in fifteenths. In this
       form they are comparables and can be added or subtracted. Here
       is addition.
       <me>
-        \frac{4}{5} + \frac{7}{3} = \frac{12}{15} + \frac{35}{15}
+        \frac{4}{5} + \frac{7}{3} = \frac{12}{15} + \frac{35}{15} = 
         \frac{12 + 35}{15} = \frac{47}{15}
       </me>
       Subtraction is similar.
@@ -220,7 +220,7 @@
     </p>
     <p>
       For those of you who like a more complete and formal answer,
-      <m>72</m> is the <emph>least common multiple</emph> of <m>24</m>
+      <m>72</m> is the <em>least common multiple</em> of <m>24</m>
       and <m>36</m>. I'm not going to review GCDs or LCM in these
       notes, but for those of you who remember that material, the LCM
       of the denominators is always the most efficient choice for a
@@ -280,7 +280,7 @@
       Using this, I can say that diving by <m>5</m> is the same thing
       as multiplying by <m>\frac{1}{5}</m>. This gives me a rule for
       fractions: to divide by a fraction is to multiply by its
-      reciprocal. (A <emph>reciprocal</emph> of a fraction is the
+      reciprocal. (A <em>reciprocal</em> of a fraction is the
       fraction with denominator and numerator interchanged.) 
     </p>
     <p>
@@ -302,7 +302,7 @@
         \frac{20}{21} 
       </me>
       This expression, with a fraction inside another fraction, is
-      called a <emph>nested fraction</emph>. The rules for division
+      called a <em>nested fraction</em>. The rules for division
       can also be thought of as rules for dealing with nested
       fractions. Here is the rule in general form.
       <me>

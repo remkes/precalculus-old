@@ -118,43 +118,43 @@
           5(x-7) \amp = \frac{x}{3} 
         </mrow>
         <mrow>
-          \intertext{Multiply both sides by 3.}
+          \amp \text{Multiply both sides by 3.}
         </mrow>
         <mrow>
           (3)(5)(x-7)) \amp = x 
         </mrow>
         <mrow>
-          \intertext{Multiply the 3 and 5.}
+          \amp \text{Multiply the 3 and 5.}
         </mrow>
         <mrow>
           15(x-7) \amp = x 
         </mrow>
         <mrow>
-          \intertext{Distribute the 15.}
+          \amp \text{Distribute the 15.}
         </mrow>
         <mrow>
-          15x - 35 \amp = x 
+          15x - 105 \amp = x 
         </mrow>
         <mrow>
-          \intertext{Subtract <m>x</m> from both sides.}
+          \amp \text{Subtract <m>x</m> from both sides.}
         </mrow>
         <mrow>
-          15x - 35 - x \amp = x - x 
+          15x - 105 - x \amp = x - x 
         </mrow>
         <mrow>
-          14x - 35 \amp = 0
+          14x - 105 \amp = 0
         </mrow>
         <mrow>
-          \intertext{Add 35 to both sides.}
+          \amp \text{Add 35 to both sides.}
         </mrow>
         <mrow>
-          14x \amp = 35
+          14x \amp = 105 
         </mrow>
         <mrow>
-          \intertext{Divide by 14 on both sides.}
+          \amp \text{Divide by 14 on both sides.}
         </mrow>
         <mrow>
-          x \amp = \frac{35}{14}
+          x \amp = \frac{105}{14}
         </mrow>
       </md>
       The solution to the original equation is <m>x =
@@ -163,28 +163,28 @@
     <example>
       <md>
         <mrow>
-          12t = \frac{4t-7}{3} 
+          12t \amp = \frac{4t-7}{3} 
         </mrow>
         <mrow>
-          \intertext{Multiply both sides by 3.}
+          \amp \text{Multiply both sides by 3.}
         </mrow>
         <mrow>
-          36t = 4t-7
+          36t \amp = 4t-7
         </mrow>
         <mrow>
-          \intertext{Subtract <m>4t</m> from both sides.}
+          \amp \text{Subtract <m>4t</m> from both sides.}
         </mrow>
         <mrow>
-          36t - 4t = 4t - 7 - 4t 
+          36t - 4t \amp = 4t - 7 - 4t 
         </mrow>
         <mrow>
-          32t = - 7  
+          32t \amp = - 7  
         </mrow>
         <mrow>
-          \intertext{Divide both sides by 32.}
+          \amp \text{Divide both sides by 32.}
         </mrow>
         <mrow>
-          t = \frac{-7}{32}   
+          t \amp = \frac{-7}{32}   
         </mrow>
       </md>
       This is the solution to the original equation. 
@@ -192,31 +192,31 @@
     <example xml:id="example-variables1">
       <md>
         <mrow>
-          \frac{7k-2}{k} = 4
+          \frac{7k-2}{k} \amp = 4
         </mrow>
         <mrow>
-          \intertext{Multiply both sides by <m>k</m>.}
+          \amp \text{Multiply both sides by <m>k</m>.}
         </mrow>
         <mrow>
-          7k-2 = 4k
+          7k-2 \amp = 4k
         </mrow>
         <mrow>
-          \intertext{Subtract <m>4k</m> from both sides.}
+          \amp \text{Subtract <m>4k</m> from both sides.}
         </mrow>
         <mrow>
-          3k - 2 = 0 
+          3k - 2 \amp = 0 
         </mrow>
         <mrow>
-          \intertext{Add 2 to both sides.}
+          \amp \text{Add 2 to both sides.}
         </mrow>
         <mrow>
-          3k = 2 
+          3k \amp = 2 
         </mrow>
         <mrow>
-          \intertext{Divide both sides by 3.}
+          \amp \text{Divide both sides by 3.}
         </mrow>
         <mrow>
-          k = \frac{2}{3}
+          k \amp = \frac{2}{3}
         </mrow>
         This is the final solution. As a subtlety, since the variable
         <m>k</m> is in the denominator at the start, we know that

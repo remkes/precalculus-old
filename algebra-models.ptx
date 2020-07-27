@@ -72,12 +72,24 @@
       </p>
       <p>
         To translate this into mathematics, let <m>p</m> be the
-        population of employed Canadians. Then <m>14p</m> is the
-        number of daily kilometers these Canadian drive. From this
-        point, we would need to know how much fuel is used for these
-        drives, and perhaps how many days in a year these Canadians
-        commute is we want year statistics. Finally, we'd subtract 5%
-        to see what the change in fuel consumption would be. 
+        population of employed Canadians. <m>75</m>% of them commute
+        by car, so we need to multiply by <m>\frac{75}{100}</m>. Doing
+        this I get <m>\frac{3p}{4}</m> for the number of Canadian that
+        commute by car. On averge, they drive <m>7</m>km one way, so
+        <m>14</m>km in total.  Then <m>14\frac{3}{4}p =
+        \frac{21}{2}p</m> is the number of daily kilometers these
+        Canadian drive. There is some average fuel comsumption for
+        these kilometer, which we can call <m>f</m>. Then the fuel
+        used up by these commutes will be <m>\frac{21}{2}pf</m>.
+        Finally, we want to know what a 5% sating would bring, so we
+        calcluate 5% of this fuel usage. 5% is the same as
+        <m>\frac{5}{100} = \frac{1}{20}</m>, so I'll divide by
+        <m>20</m>. The total fuel saved would be <m>\frac{21}{40}
+        pf</m> where <m>p</m> is the number of employed Canadian and
+        <m>f</m> is an average amount of fuel used per kilometer. Note
+        that this gives us the saving <em>per day</em>; if we wanted the
+        savings per year, we would have to multiply by the average
+        number of working days per year.
       </p>
     </example>
     <example>
@@ -88,24 +100,25 @@
         infrastructure and other costs which don't depend on the
         number of flights) and a cost per trip <m>T</m> (representing
         the fuel costs, airport fees, staff costs for the pilots and
-        crew, and other costs that are encured per flight). The income
-        from a flight (again, oversimplified) is given by the price
-        <m>P</m> per passanger. If we know the numbers <m>F,T,P</m>
-        how many passangers are required per flight for the flight to
-        be profitable>?
+        crew, and other costs that are incurred per flight). The income
+        from a flight (again, oversimplified) is given by the ticket
+        price <m>P</m> per passanger. Over a period of 100 flights, if
+        we know the numbers <m>F,T,P</m> how many passangers are
+        required per flight for the flight to be profitable?
       </p>
       <p>
         We can translate this into an algebraic equation (or
-        inequality). The costs are <m>F + Tn</m> and the revenue is
-        <m>Pn</m>. If we want the break even point, we would solve
-        this equation
+        inequality). The costs are <m>F + 100T</m> and the revenue is
+        <m>100Pn</m> where <m>n</m> is the number of passanger (on
+        average) per trip. If we want the break even point, we would
+        solve this equation
         <me>
-          F + Tn = Pn 
+          F + 100T = 100Pn 
         </me>.
         If we wanted the range where <m>n</m> leads to profitable
         flights, we would solve the inequality 
         <me>
-          F + Tn \lt Pn 
+          F + 100T \lt 100Pn
         </me>.
       </p>
     </example>
