@@ -46,12 +46,12 @@
       side; addition and subtration were operations that preserved
       inequalities. 
       <me>
-        4x \lt 21
+        4x \lt 19
       </me>
       Then I'll divide by sides by 4. Division by positive numbers is
       also an operation that preserve inequalities. 
       <me>
-        x \lt \frac{21}{4}
+        x \lt \frac{19}{4}
       </me>
       This is a reasonable answer. The originaly inequality describes
       (is solved by!) all numbers which are strictly larger than

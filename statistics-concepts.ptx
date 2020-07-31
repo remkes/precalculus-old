@@ -1,8 +1,15 @@
 <section xml:id="section-statistics-concepts">
   <title>Concepts in Statistics</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-what-is-statistics">
+    <title>What is Statistics</title>
     <p>
+      Mathematics deals with the properties of numbers, shapes, sets,
+      functions and similar objects. Statistics is the much more
+      focused study of numerical data. In statistics, we are given
+      some data and asked, using mostly mathematical tools, to say
+      somehting about the meaning of the data.
     </p>
+    <p>
+    </p>"
   </subsection>
 </section>
