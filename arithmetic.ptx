@@ -1,6 +1,10 @@
 <section xml:id="section-arithmetic">
   <title>Arithmetic</title>
   <subsection xml:id="subsection-operations">
+    <figure>
+      <caption>Basic Operations and Distribution</caption>
+      <video xml:id="video-operations-distribution" youtube="-QDL_-OLfwE" />
+    </figure>
     <title>Basic Operations</title>
     <p>
       I assume that you are comfortable with the basic arithmetic
@@ -117,6 +121,10 @@
   </subsection>
   <subsection xml:id="subsection-order-of-operations">
     <title>Order of Operations</title>
+    <figure>
+      <caption>Order of Operations</caption>
+      <video xml:id="video-order-of-operations" youtube="GS7go9wH9MM" />
+    </figure>
     <p>
       With multiple operations, we have conventions about how to write
       mathematical expressions so that the operations are clear. Most

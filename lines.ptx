@@ -2,6 +2,10 @@
   <title>Lines</title>
   <subsection xml:id="subsection-coordinates-equations">
     <title>Coordinates and Equations</title>
+    <figure>
+      <caption>Lines</caption>
+      <video xml:id="video-lines" youtube="9n5HX5AbNTY" />
+    </figure>
     <p>
       <xref ref="section-plane" /> reviewed or introduced the
       Cartesian plane. Once we have coordiantes, we can use them to
@@ -52,6 +56,10 @@
   </subsection>
   <subsection xml:id="subsection-equations-lines">
     <title>Equations of Lines</title>
+    <figure>
+      <caption>Equations of Lines</caption>
+      <video xml:id="video-lines-equations" youtube="qTYLu7VZ6-4" />
+    </figure>
     <p>
       We can make many equations in the variales <m>x</m> and
       <m>y</m>, giving many types of shapes in the plane. In this

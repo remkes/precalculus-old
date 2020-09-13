@@ -2,6 +2,10 @@
   <title>Arithmetic of Fractions</title>
   <subsection xml:id="subsection-fraction-concepts">
     <title>Fraction Concepts</title>
+    <figure>
+      <caption>Fractons Concepts</caption>
+      <video xml:id="video-fraction-concepts" youtube="dfXSxz9M3L0" />
+    </figure>
     <p>
       A fraction is an expression with one number (or more complicated
       mathematical expression) written over another
@@ -138,6 +142,10 @@
     </p>
   </subsection>
   <subsection xml:id="subsection-fraction-addition">
+    <figure>
+      <caption>Arithmetic of Fractons</caption>
+      <video xml:id="video-fraction-arithmetic" youtube="wh8EHJGe178" />
+    </figure>
     <title>Addition and Subtraction</title>
     <p>
       The addition and subtraction of fractions relies on having a

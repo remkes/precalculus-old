@@ -2,6 +2,10 @@
   <title>Manipulating Algebraic Expressions</title>
   <subsection xml:id="subsection-factoring-numbers">
     <title>Factoring Numbers</title>
+    <figure>
+      <caption>Factoring</caption>
+      <video xml:id="video-factoring" youtube="bH6vu3OMUJ0" />
+    </figure>
     <p>
       Once we are comfortable with variables, there are a variety of
       useful techniques, tools and tricks for manipulating expressions
@@ -160,6 +164,10 @@
   </subsection>
   <subsection xml:id="subsection-factoring-roots">
     <title>Factoring with Roots</title>
+    <figure>
+      <caption>Factoring with Roots, Distribution Pitfalls</caption>
+      <video xml-id="video-fractoring-roots" youtube="V9q3vT9BND8" />
+    </figure>
     <p>
       Sometimes we need want to factor things out of a square root (or
       other root). Let's start with numbers and consider this square

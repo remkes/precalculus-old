@@ -2,6 +2,10 @@
   <title>Inequalities and Equations</title>
   <subsection xml:id="subsection-inequality">
     <title>Equality and Inequality</title>
+    <figure>
+      <caption>Inequality Concepts</caption>
+      <video xml:id="video-inequality-concepts" youtube="3n5lT00wDnk" />
+    </figure>
     <p>
       I made a big deal in <href ref="section-variables" /> of the
       idea of equality as a central concept in mathematics,

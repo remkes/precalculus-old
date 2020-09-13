@@ -2,6 +2,10 @@
   <title>Graphs of Functions</title>
   <subsection xml:id="subsection-functions-coordinates">
     <title>Functions and Coordinates</title>
+    <figure>
+      <caption>Graphs of Functions</caption>
+      <video xml:id="video-graphs" youtube="dYWE57sczbo" />
+    </figure>
     <p>
       This section relies a bit on the concepts review in <xref
       ref="chapter-functions1" />, where we discuss the idea of a

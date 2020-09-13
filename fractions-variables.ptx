@@ -2,6 +2,10 @@
   <title>Fractions and Variables</title>
   <subsection xml:id="subsection-fractions-variables-concepts">
     <title>Fractions with Variables</title>
+    <figure>
+      <caption>Factions with Variables; Factoring</caption>
+      <video xml:id="video-fractions-variables" youtube="7FeYHoeg6SY" />
+    </figure>
     <p>
       One we start working with variables, functions and related
       mathematical expressions, all of these things can show up in
@@ -122,6 +126,11 @@
   </subsection>
   <subsection xml:id="subsection-fractions-more-arithmetic">
     <title>More Fraction Arithmetic</title>
+    <figure>
+      <caption>Fraction Arithmetic with Variables</caption>
+      <video xml:id="video-more-fraction-arithmetic"
+        youtube="7FeYHoeg6SY" />
+    </figure>
     <p>
       <xref ref="section-arithmetic-of-fractions" /> reviewed the
       rules of fraction arithmetic. The examples in the section where
