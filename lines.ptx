@@ -50,7 +50,35 @@
       points do, in fact, satisfy the equation of the line. 
       <figure xml:id="figure-line1">
         <caption>The Line <m>y = \frac{1}{2} x + 2</m></caption>
-        <image width="90%" source="images/figure02"/>
+        <image xml:id="figure02" width="80%">
+          <asymptote>
+            size(12cm);
+            import graph;
+
+            xlimits(-8,8);
+            ylimits(-2,6);
+
+            xaxis("$x$",Ticks("%"));
+            yaxis("$y$",Ticks("%"));
+
+            dot((0,2));
+            dot((2,3));
+            dot((4,4));
+            dot((6,5));
+            dot((-2,1));
+            dot((-4,0));
+            dot((-6,-1));
+            label("$(0,2)$",(0,2),SE);
+            label("$(2,3)$",(2,3),SE);
+            label("$(4,4)$",(4,4),SE);
+            label("$(6,5)$",(6,5),SE);
+            label("$(-2,1)$",(-2,1),SE);
+            label("$(-4,0)$",(-4,0),NW);
+            label("$(-6,-1)$",(-6,-1),SE);
+
+            draw((-8,-2)--(8,6));
+          </asymptote>
+        </image>
       </figure>
     </p>
   </subsection>
@@ -142,7 +170,32 @@
       calculation is show in <xref ref="figure-slope" />
       <figure xml:id="figure-slope">
         <caption>Slope of the Line <m>y = \frac{1}{2} x + 2</m></caption>
-        <image width="90%" source="images/figure03"/>
+        <image xml:id="figure03" width="80%">
+          <asymptote>
+            size(12cm);
+            import graph;
+
+            xlimits(0,8);
+            ylimits(0,6);
+
+            xaxis("$x$",Ticks("%"));
+            yaxis("$y$",Ticks("%"));
+
+            dot((2,3));
+            dot((6,5));
+            label("$(2,3)$",(2,3),NW);
+            label("$(6,5)$",(6,5),NW);
+
+            draw((0,2)--(8,6));
+
+            draw((2,3)--(6,3)--(6,5));
+
+            label("Run $= 6 - 2 = 4$",(4,3),S);
+            label("Rise $= 5 - 3 = 2$",(6,4),E);
+
+            label("Slope $= \frac{2}{4} = \frac{1}{2}$", (3,1),E);
+          </asymptote>
+        </image>
       </figure>
     </p>
     <p>
@@ -192,7 +245,29 @@
       an example to illustrate this slope-intercept form.
       <figure xml:id="figure-slope-intercept">
         <caption>Slope-Intercept Form </caption>
-        <image width="90%" source="images/figure04"/>
+        <image xml:id="figure04" width="80%">
+          <asymptote>
+            size(12cm);
+            import graph;
+
+            xlimits(-4,8);
+            ylimits(-4,3);
+
+            xaxis("$x$",Ticks("%"));
+            yaxis("$y$",Ticks("%"));
+
+            draw((-4,-4)--(8,2));
+
+            draw((2,-1)--(6,-1)--(6,1));
+
+            draw((-2,1)--(0,-2),Arrow);
+
+            label("$y$-intercept $b$",(-2,1),N);
+            label("Slope $m$", (4,-1),S);
+
+            label("$y = mx + b$", (3,-3),E);
+          </asymptote>
+        </image>
       </figure>
     </p>
     <p>
@@ -211,7 +286,30 @@
       horizontal lines. 
       <figure xml:id="figure-horizontal-lines">
         <caption>Horizontal Lines</caption>
-        <image width="90%" source="images/figure05"/>
+        <image xml:id="figure05" width="80%">
+          <asymptote>
+            size(12cm);
+            import graph;
+
+            xlimits(-8,8);
+            ylimits(-8,8);
+
+            xaxis("$x$",Ticks("%"));
+            yaxis("$y$",Ticks("%"));
+
+            draw((-8,-7)--(8,-7));
+            draw((-8,-3)--(8,-3));
+            draw((-8,-1)--(8,-1));
+            draw((-8,4)--(8,4));
+            draw((-8,6)--(8,6));
+
+            label("$y = -7$",(-4,-7),N);
+            label("$y = -3$",(-4,-3),N);
+            label("$y = -1$",(-4,-1),N);
+            label("$y = 4$",(-4,4),N);
+            label("$y = 6$",(-4,6),N);
+          </asymptote>
+        </image>
       </figure>
     </p>
     <p>
@@ -227,7 +325,28 @@
       horizontal lines. 
       <figure xml:id="figure-vertical-lines">
         <caption>Vertical Lines</caption>
-        <image width="90%" source="images/figure06"/>
+        <image xml:id="figure06" width="80%">
+          <asymptote>
+            size(12cm);
+            import graph;
+
+            xlimits(-8,8);
+            ylimits(-8,8);
+
+            xaxis("$x$",Ticks("%"));
+            yaxis("$y$",Ticks("%"));
+
+            draw((-7,-8)--(-7,8));
+            draw((-3,-8)--(-3,8));
+            draw((3,-8)--(3,8));
+            draw((5,-8)--(5,8));
+
+            label("$x = -7$",(-7,6),E);
+            label("$x = -3$",(-3,4),W);
+            label("$x = 3$",(3,-2),W);
+            label("$x = 5$",(5,-4),E);
+          </asymptote>
+        </image>
       </figure>
     </p>
   </subsection>
