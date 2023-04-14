@@ -2,10 +2,12 @@
   <title>Variables and Solving</title>
   <subsection xml:id="subsection-variables-in-equations">
     <title>Variables In Equations</title>
+    <!--
     <figure>
       <caption>Solving with Variables</caption>
       <video xml:id="video-solving-variables" youtube="-snddz2O0wI" />
     </figure>
+    -->
     <p>
       When variables are first introduced, the are symbols that stand
       for some unknown or undetermined number. This is how they
@@ -113,8 +115,11 @@
       are many equations where no sequence of applying operations to both
       sides of the equation will produce a solution. The only such
       example that you'll need to be familiar with is quadratic
+      equations, which are discussed in a future chapter. 
+      <!--
       equations, which are discussed in <xref
       ref="chapter-polynomials1" />.) 
+      -->
     </p>
     <example>
       <md>

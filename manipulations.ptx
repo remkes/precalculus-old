@@ -2,10 +2,12 @@
   <title>Manipulating Algebraic Expressions</title>
   <subsection xml:id="subsection-factoring-numbers">
     <title>Factoring Numbers</title>
+    <!--
     <figure>
       <caption>Factoring</caption>
       <video xml:id="video-factoring" youtube="bH6vu3OMUJ0" />
     </figure>
+    -->
     <p>
       Once we are comfortable with variables, there are a variety of
       useful techniques, tools and tricks for manipulating expressions
@@ -132,9 +134,17 @@
       This is a factorization of the original expression. Both the
       binomials <m>(x+1)</m> and <m>(4x-2)</m> are factors of the
       expression. This is an example of factoring a quadratic, which
+      is discussed in more detail in a future chapter.  For now, let
+      me make one more point on this example. Say we had this
+      quadratic.
+      <!--
+      This is a factorization of the original expression. Both the
+      binomials <m>(x+1)</m> and <m>(4x-2)</m> are factors of the
+      expression. This is an example of factoring a quadratic, which
       is discussed in more detail in <xref ref="chapter-polynomials1"
       />. For now, let me make one more point on this example. Say we
       had this quadratic.
+      -->
       <me>
         4x^2 + 2x - 2 
       </me>
@@ -164,10 +174,12 @@
   </subsection>
   <subsection xml:id="subsection-factoring-roots">
     <title>Factoring with Roots</title>
+    <!--
     <figure>
       <caption>Factoring with Roots, Distribution Pitfalls</caption>
       <video xml-id="video-fractoring-roots" youtube="V9q3vT9BND8" />
     </figure>
+    -->
     <p>
       Sometimes we need want to factor things out of a square root (or
       other root). Let's start with numbers and consider this square
@@ -180,9 +192,15 @@
         \sqrt{(4)(10)}
       </me>
       Then it is a property of square root (since they are essentially
+      exponents), using the properties of exponents (which will be
+      developed in a  future chapter) that we can split up a square root
+      over multiplication or division.
+      <!--
+      Then it is a property of square root (since they are essentially
       exponents, using the properties of exponents in <xref
       ref="chapter-exponents1" />) that we can split up a square root
       over multiplication or division.
+      -->
       <me>
         \sqrt{(4)(10)} = (\sqrt{4})(\sqrt{10})
       </me>
@@ -316,8 +334,12 @@
           <m>\frac{1}{5}</m> is not the same as <m>\frac{5}{6}</m>.
         </li>
         <li>
+          <!--
           Distribution does not work for exponents (covered in <xref
           ref="chapter-exponents1" />). 
+          -->
+          Distribution does not work for exponents (covered in 
+          a future chapter).
           <me>
             (a + b)^2 \neq a^2 + b^2 
           </me>
@@ -333,8 +355,12 @@
           25 is not the same thing as 13. 
         </li>
         <li>
+          <!--
           Distribution does not work for logarithms (covered in <xref
           ref="chapter-logarithms" />). 
+          -->
+          Distribution does not work for logarithms (covered in a
+          future chapter).
           <me>
             \log_2 (a + b) \neq \log_2 a + \log_2 b 
           </me>
@@ -352,8 +378,12 @@
           The approximate value 2.585 is certainly not 3. 
         </li>
         <li>
+          <!--
           Distribution does not work for trigonometric functions
           (covered in <xref ref="chapter-trigonometry" />). 
+          -->
+          Distribution does not work for trigonometric functions
+          (covered in a future chapter).
           <me>
             \sin (a + b) \neq \sin a + \sin b 
           </me>

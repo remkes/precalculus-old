@@ -1,10 +1,12 @@
 <section xml:id="section-arithmetic">
   <title>Arithmetic</title>
   <subsection xml:id="subsection-operations">
+    <!--
     <figure>
       <caption>Basic Operations and Distribution</caption>
       <video xml:id="video-operations-distribution" youtube="-QDL_-OLfwE" />
     </figure>
+    -->
     <title>Basic Operations</title>
     <p>
       I assume that you are comfortable with the basic arithmetic
@@ -55,8 +57,12 @@
         2^6 = 2 \times 2 \times 2 \times 2 \times 2 \times 2 =
         (2)(2)(2)(2)(2)(2) = 32 
       </me>
+      A future chapter will work on the properties and rules of
+      exponents. 
+      <!--
       <xref ref="chapter-exponents1" /> works on the properties and
       rules of exponents. 
+      -->
     </p>
   </subsection>
   <subsection xml:id="subsection-distributive-law">
@@ -121,10 +127,12 @@
   </subsection>
   <subsection xml:id="subsection-order-of-operations">
     <title>Order of Operations</title>
+    <!--
     <figure>
       <caption>Order of Operations</caption>
       <video xml:id="video-order-of-operations" youtube="GS7go9wH9MM" />
     </figure>
+    -->
     <p>
       With multiple operations, we have conventions about how to write
       mathematical expressions so that the operations are clear. Most
@@ -161,11 +169,19 @@
           Even without the explicit parentheses, these inside pieces
           take precedence as if they had parentheses.
         </li>
+        <!--
         <li>
           Exponents take precedence over the four basic arithmetic
           operations. Square roots (and other roots) are essentially
           exponents (as discussed in <xref ref="chapter-exponents1"
           />, so they happen in this step as well. 
+        </li>
+        -->
+        <li>
+          Exponents take precedence over the four basic arithmetic
+          operations. Square roots (and other roots) are essentially
+          exponents (this will be discussed in a future chapter),
+          so they happen in this step as well. 
         </li>
         <li>
           Multiplication and division take precedence over addition
@@ -212,11 +228,11 @@
       doesn't matter, I'll do this in a variety of order. First, I'll
       multiply the numerator. 
       <me>
-        \frac{(60)(4)}{(2)(5)} = \frac{240}{(2)(5) 
+        \frac{(60)(4)}{(2)(5)} = \frac{240}{(2)(5)}
       </me>
       Then I'll multiply the denominator. 
       <me>
-        \frac{240}{(2)(5) = \frac{240}{10} 
+        \frac{240}{(2)(5)} = \frac{240}{10} 
       </me>
       Then I'll finish with the division.
       <me>

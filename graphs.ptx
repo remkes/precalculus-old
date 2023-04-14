@@ -2,14 +2,20 @@
   <title>Graphs of Functions</title>
   <subsection xml:id="subsection-functions-coordinates">
     <title>Functions and Coordinates</title>
+    <!--
     <figure>
       <caption>Graphs of Functions</caption>
       <video xml:id="video-graphs" youtube="dYWE57sczbo" />
     </figure>
+    -->
     <p>
-      This section relies a bit on the concepts review in <xref
+      <!--
+      This section relies a bit on the concepts reviewed in <xref
       ref="chapter-functions1" />, where we discuss the idea of a
       function. 
+      -->
+      This section relies a bit on the concepts reviewed a future
+      chapter on function, where we discuss the idea of a function. 
     </p>
     <p>
       If we have a function <m>y = f(x)</m> where <m>x</m> is the

@@ -2,10 +2,12 @@
   <title>Solving Inqualities</title>
   <subsection xml:id="subsection-inequalities-questions">
     <title>Inequalities as Questions</title>
+    <!--
     <figure>
       <caption>Solving Inequalities</caption>
       <video xml:id="video-solving-inequalities" youtube="FJPTOfb0vhk" />
     </figure>
+    -->
     <p>
       When I talked about equations with varibles in <xref
       ref="section-variables" />, I said that an equation with a
@@ -30,10 +32,16 @@
       large gets of numbers. For the purposes of this section, we'll
       just represent them using the inequalities themslves. It I want
       to talk about all the numbers larger than 5, I can just talk
+      about all <m>x</m> such that <m>x \gt 5</m>. In a future
+      chapter, we'll talk about other notations
+      for set of numbers, including set notation and interval
+      notation.
+      <!--
       about all <m>x</m> such that <m>x \gt 5</m>. In <xref
       ref="chapter-real-numbers" />, we'll talk about other notations
       for set of numbers, including set notation and interval
       notation.
+      -->
     </p>
   </subsection>
   <subsection xml:id="subsection-solving-inequalities">

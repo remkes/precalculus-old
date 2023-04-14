@@ -24,16 +24,16 @@
             <mrow>
               \amp = \frac{45}{108} + \frac{36}{108}
             </mrow>
-            <mrow>
-              \intertext{Then we can add the numerators.}
-            </mrow>
+          </md>
+          Then we can add the numerators.
+          <md>
             <mrow>
               \amp = \frac{45 + 36}{108} = \frac{81}{108}
             </mrow>
-            <mrow>
-              \intertext{We can reduce this fraction by dividing
-              numberator and denominator by 27.}
-            </mrow>
+          </md>
+          We can reduce this fraction by dividing numberator and
+          denominator by 27.
+          <md>
             <mrow>
               \amp = \frac{3}{4}
             </mrow>
@@ -53,10 +53,10 @@
             <mrow>
               \amp = \frac{15 + 12}{3r} = \frac{27}{36}
             </mrow>
-            <mrow>
-              \intertext{We can reduce this fraction by dividing
-              numberator and denominator by 9.}
-            </mrow>
+          </md>
+          We can reduce this fraction by dividing numberator and
+          denominator by 9.
+          <md>
             <mrow>
               \amp = \frac{3}{4}
             </mrow>

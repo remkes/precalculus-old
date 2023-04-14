@@ -2,10 +2,12 @@
   <title>Absolute Value</title>
   <subsection xml:id="subsection-absolute-value-definition">
     <title>What is Absolute Value</title>
+    <!--
     <figure>
       <caption>Absolute Value</caption>
       <video xml:id="video-absolute-value" youtube="Tz0M8DnC3eY" />
     </figure>
+    -->
     <p>
       The absolute value of a number <m>x</m>, written <m>|x|</m>, is
       a relatively simple thing to define: if <m>x</m> is positive,
@@ -59,10 +61,12 @@
   </subsection>
   <subsection xml:id="subsection-absolute-value-solving">
     <title>Solving with Absolute Value</title>
+    <!--
     <figure>
       <caption>Absolute Value</caption>
       <video xml:id="video-av-solving" youtube="H1wCZxKdrEs" />
     </figure>
+    -->
     <p>
       Sometime we have to solve with absolute value in equalities or
       inequalities. Since absolute value has different behaviours for
@@ -277,8 +281,11 @@
         -\sqrt{12} \lt x \leq \sqrt{8} \text{ and }
         \sqrt{8} \leq x \lt \sqrt{12} 
       </me>.
+      <!--
       In interval notation (as described in <xref
       ref="chapter-real-numbers" />):
+      -->
+      In interval notation (as described in a future chapter):
       <me>
         \left( -\sqrt{12}, -\sqrt{8} \right] \cup 
         \left[ \sqrt{8}, \sqrt{12} \right)
@@ -314,8 +321,11 @@
         -\sqrt{8} \leq x \lt -2 \text{ and }
         2 \lt x \leq \sqrt{8} 
       </me>.
+      <!--
       In interval notation (as described in <xref
       ref="chapter-real-numbers" />):
+      -->
+      In interval notation (as described in a future chapter):
       <me>
         \left[ -\sqrt{8}, -2 \right) \cup 
         \left( 4, \sqrt{8} \right]
@@ -333,8 +343,11 @@
         -\sqrt{12} \lt x \lt -2 \text{ and }
         2 \lt x \lt \sqrt{12} 
       </me>.
+      <!--
       In interval notation (as described in <xref
       ref="chapter-real-numbers" />):
+      -->
+      In interval notation (as described in a future chapter):
       <me>
         \left( -\sqrt{12}, -2 \right) \cup 
         \left( 4, \sqrt{12} \right)

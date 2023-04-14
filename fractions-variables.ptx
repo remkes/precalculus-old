@@ -2,10 +2,12 @@
   <title>Fractions and Variables</title>
   <subsection xml:id="subsection-fractions-variables-concepts">
     <title>Fractions with Variables</title>
+    <!--
     <figure>
       <caption>Factions with Variables; Factoring</caption>
       <video xml:id="video-fractions-variables" youtube="7FeYHoeg6SY" />
     </figure>
+    -->
     <p>
       One we start working with variables, functions and related
       mathematical expressions, all of these things can show up in
@@ -42,11 +44,18 @@
       are new expression is not valid for <m>z = 2</m>. 
     </p>
     <p>
+      <!--
       These new fractions don't necessary have any special
       terminology, except for one case. When the numerator and
       denominator are both polynomials (as discussed in <xref
       ref="chapter-polynomials1" />), the fraction is called a
       <emph>rational function</emph>. For example
+      -->
+      These new fractions don't necessary have any special
+      terminology, except for one case. When the numerator and
+      denominator are both polynomials (as discussed in a
+      future chapter), the fraction is called a <emph>rational
+      function</emph>. For example
       <me>
         \frac{k^2 + 3k - 4}{7k^3 - 4}
       </me>
@@ -62,12 +71,18 @@
       polynomial. 
     </p>
     <p>
+      <!--
       Most of the examples in this section, and most of the problems
-      in the activity, will be using rational functions. If might be
+      in the activity, will be using rational functions. It might be
       useful to do this section along side <xref
       ref="chapter-polynomials1" />. I'll use some of the techniques
       review in that chapter, such as the multiplication of binomial
       and the simplification of some polynomial expressions. 
+      -->
+      Most of the examples in this section, and most of the problems
+      in the activity, will be using rational functions. This makes
+      some use of the manipulation of polynomials, which I develop in
+      a future chapter.
     </p>
   </subsection>
   <subsection xml:id="subsection-fractions-factoring">
@@ -89,7 +104,7 @@
       and denominator.
       <me>
         \frac{2(4x^2 + 2x)}{2(1 + 5\sqrt{x})} = \frac{4x^2 + 2x}{1 + 5
-        \sqrt{x} 
+        \sqrt{x}}
       </me>
       Then we can divide numerator and denominator by <m>2</m>. We
       often don't explicitly show this division, but just cross off
@@ -126,11 +141,13 @@
   </subsection>
   <subsection xml:id="subsection-fractions-more-arithmetic">
     <title>More Fraction Arithmetic</title>
+    <!--
     <figure>
       <caption>Fraction Arithmetic with Variables</caption>
       <video xml:id="video-more-fraction-arithmetic"
         youtube="7FeYHoeg6SY" />
     </figure>
+    -->
     <p>
       <xref ref="section-arithmetic-of-fractions" /> reviewed the
       rules of fraction arithmetic. The examples in the section where

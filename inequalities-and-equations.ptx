@@ -2,10 +2,12 @@
   <title>Inequalities and Equations</title>
   <subsection xml:id="subsection-inequality">
     <title>Equality and Inequality</title>
+    <!--
     <figure>
       <caption>Inequality Concepts</caption>
       <video xml:id="video-inequality-concepts" youtube="3n5lT00wDnk" />
     </figure>
+    -->
     <p>
       I made a big deal in <href ref="section-variables" /> of the
       idea of equality as a central concept in mathematics,
@@ -138,9 +140,14 @@
       </ul>
     </p>
     <p>
+      <!--
       In the language of <xref ref="chapter-functions1" /> and <xref
       ref="chapter-functions2" />, any function which is increasing
       will preserve an inequality when applied to both sides. 
+      -->
+      In the language of functions (discussed in a future chapter),
+      any function which is increasing will preserve an inequality
+      when applied to both sides. 
     </p>
   </subsection>
   <subsection xml:id="subsection-inequalities-reversing">
@@ -205,8 +212,13 @@
       </ul>
     </p>
     <p>
+      <!--
       In the language of <xref ref="chapter-functions1" /> and <xref
       ref="chapter-functions2" />, any function which is decreasing
+      will reverse an inequality when applied to both sides. However,
+      -->
+      In the language of functions (deveoped in a future chapter),
+      any function which is decreasing
       will reverse an inequality when applied to both sides. However,
       many operations neither preserve or reverse inequalitys. For
       example, we cannot usually apply a trigonometric function to an

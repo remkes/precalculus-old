@@ -2,10 +2,12 @@
   <title>Translating Problems Into Algebra</title>
   <subsection xml:id="subsection-word-problems">
     <title>Word Problems</title>
+    <!--
     <figure>
       <caption>Translating Problems into Algebra</caption>
       <video xml-id="video-translating" youtube="-snddz2O0wI" />
     </figure>
+    -->
     <p>
       Word problems have historically plagued K-12 mathematics
       students, and with good reason. Many of the conventional word
@@ -60,8 +62,12 @@
         <me>
           \frac{143}{10} 2^{\frac{t}{23}} > 47 
         </me>.
+        Such a problem can be solved with logarithms, which are
+        discussed in a future chapter.
+        <!--
         Such a problem can be solved with logarithms, as in <xref
         ref="chapter-logarithms" />. 
+        -->
       </p>
     </example>
     <example>
