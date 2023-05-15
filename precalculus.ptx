@@ -13,10 +13,8 @@
     <xi:include href="./fractions1.ptx" />
     <xi:include href="./fractions2.ptx" />
     <xi:include href="./cartesian-geometry.ptx" />
-    <!--
-    <xi:include href="./statistics.ptx" />
-    <xi:include href="./visualizations.ptx" />
     <xi:include href="./real-numbers.ptx" />
+    <!--
     <xi:include href="./functions1.ptx" />
     <xi:include href="./functions2.ptx" />
     <xi:include href="./polynomials1.ptx" />
@@ -25,6 +23,8 @@
     <xi:include href="./exponents1.ptx" />
     <xi:include href="./exponents2.ptx" />
     <xi:include href="./logarithms.ptx" />
+    <xi:include href="./statistics.ptx" />
+    <xi:include href="./visualizations.ptx" />
     -->
     <backmatter>
     </backmatter>

@@ -1,9 +1,190 @@
 <section xml:id="section-number-line">
   <title>The Number Line</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-numbers">
+    <title>Numbers</title>
     <p>
-      To be completed
+      Most of the sections so far have been pretty practical: how to
+      solve equations, inequalities; how to simplify fractions. This
+      section takes a step back and is more conceptual. This is
+      important. Mathematics is not just a series of calculation: it
+      is an amazing framework of interconnected concepts. To be ready
+      for university calculus is to be comfortable with the
+      fundamental concepts and ideas of mathematics along with
+      proficiency in calculation algorithms. In this spirit, this
+      section starts with a very important question.
+    </p>
+    <p>
+      What are numbers? This is an extremely old question,
+      possibly the oldest question in mathematics. Our current answer
+      to this question describes several types of numbers.
+      <ul>
+        <li>
+          The first numbers are the positive counting numbers: <m>1,
+          2, 3, 4, 5, \ldots</m>. These are called the <term>natural
+          numbers</term>. In theory, they continue forever, so even in
+          this first type, we say that there are infinitely many
+          natural numbers.  (The three dots notation, <m>\ldots</m>,
+          is frequently used in mathematics.  It means that whatever
+          pattern has been established will continue without end. Here
+          is means that the counting number keep increases, adding one
+          each time, without every stopping.) 
+        </li>
+        <li>
+          In addition to the natural numbers, there is a special
+          numbers that measures nothing. This is, of course, zero:
+          <sq>0</sq>. Historically, this is
+          actually the newest number on this entire list: the
+          development and use of zero is a fascinating historical
+          study. For some reason, the idea of making a special sign to
+          indicate nothing was a phenomenal mental block in the
+          development of mathematics. Usually, the term
+          <sq>natural numbers</sq> starts at 1, so zero is not
+          considered in the natural numbers. The term <term>whole
+          numbers</term> is sometimes used to describe the counting
+          numbers starting with zero. 
+        </li>
+        <li>
+          Conventionally, the next set of numbers are the negative
+          counting numbers: <m>-1, -2, -3, -4, -5, \ldots</m>. Again,
+          these continue for ever. The positive and negative whole
+          numbers, together, are called the <m>integers</m>. 
+        </li>
+        <li>
+          Now that I've given names to the whole numbers, the next
+          step are numbers which are parts of a whole: fractions of
+          integers. I've already talked about fraction a great deal in
+          <xref ref="chapter-fractions1" />. They are numbers like
+          <m>\frac{3}{4}</m>, <m>\frac{17}{23}</m> and
+          <m>\frac{-110}{3457}</m>. Fractions can be positive or
+          negative. Since they are forms out of any integers, there
+          are, again, infinitely many of them. Collectively, the
+          fractions are called the <m>rational numbers</m>. 
+        </li>
+        <li>
+          Finally, there are numbers which cannot be represented as
+          fractions. These are called <m>irrational numbers</m>. They
+          include roots, like <m>\sqrt{7}</m> and
+          <m>\sqrt[5]{11}</m>, and other special irrationals like
+          <m>\pi</m>. The rest of this section will be spent
+          understanding these numbers and how to work with them. 
+        </li>
+        <li>
+          All of these numbers put together, including the
+          irrationals, are called the <m>real numbers</m>. 
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-building-the-line">
+    <title>Visualizing the Numbers</title>
+    <p> 
+      The numbers are visualized by placing them in order. I'll
+      start with the positive integers. By convention, numbers are
+      show growing larger to the right, so I'll place the first few
+      natural numbers after zero. This picture is shown in <xref
+      ref="figure-number-line1" />. 
+    </p>
+    <figure xml:id="figure-number-line1">
+      <caption>Positive Whole Numbers</caption>
+      <image xml:id="figure08" width="80%">
+        <asymptote>
+          size(10cm,0,IgnoreAspect);
+
+          draw((-3,0)--(3,0));
+
+          dot("$0$",(0,0),N);
+          dot("$1$",(1,0),N);
+          dot("$2$",(2,0),N);
+          dot("$3$",(3,0),N);
+          dot("$-1$",(-1,0),N,invisible);
+          dot("$-2$",(-2,0),N,invisible);
+          dot("$-3$",(-3,0),N,invisible);
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      If the positive numbers are written to the right, it makes
+      sense to write the negative numbers going off to the left.
+      This is shown in <xref ref="figure-number-line2" />. 
+    </p>
+    <figure xml:id="figure-number-line2">
+      <caption>Positive Whole Numbers</caption>
+      <image xml:id="figure09" width="80%">
+        <asymptote>
+          size(10cm,0,IgnoreAspect);
+
+          draw((-3,0)--(3,0));
+
+          dot("$0$",(0,0),N);
+          dot("$1$",(1,0),N);
+          dot("$2$",(2,0),N);
+          dot("$3$",(3,0),N);
+          dot("$-1$",(-1,0),N);
+          dot("$-2$",(-2,0),N);
+          dot("$-3$",(-3,0),N);
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      Now the whole numbers are arranged on a line. The fractions
+      fit nicely between, as in <xref ref="figure-number-line3" />. 
+    </p>
+    <figure xml:id="figure-number-line3">
+      <caption>Positive Whole Numbers</caption>
+      <image xml:id="figure10" width="80%">
+        <asymptote>
+          size(10cm,0,IgnoreAspect);
+         
+          draw((-3,0)--(3,0));
+
+          dot("$0$",(0,0),N);
+          dot("$1$",(1,0),N);
+          dot("$2$",(2,0),N);
+          dot("$3$",(3,0),N);
+          dot("$-1$",(-1,0),N);
+          dot("$-2$",(-2,0),N);
+          dot("$-3$",(-3,0),N);
+
+          dot("$\frac{1}{3}$",(0.333,0),S);
+          dot("$\frac{-5}{2}$",(-2.5,0),S);
+          dot("$\frac{13}{6}$",(2.17,0),S);
+          dot("$\frac{101}{35}$",(2.89,0),S);
+          dot("$\frac{-1}{7}$",(-0.14,0),S);
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      This is now the familiar number line. The rational numbers are
+      <term>dense</term> on this line. That meanse that they are
+      infinitely close together and between any two rational number,
+      you can always find another one. The reason for this is
+      fraction arithemic. Between the numbers <m>\frac{3}{11}</m> and
+      <m>\frac{4}{11}</m>, I can find another number by adding these two
+      together and dividing by 2.
+    </p>
+    <me>
+      \frac{\frac{3}{11} + \frac{4}{11}}{2} = \frac{\frac{7}{11}}{2}
+      = \frac{7}{(11)(2)} = \frac{7}{22} 
+    </me>
+    <p>
+      This produces the middle number, which I can see by taking
+      everything to the denominator 22: <m>\frac{3}{11} = \frac{6}{22}
+      \lt \frac{7}{22} \lt \frac{8}{22} = \frac{4}{11}</m>. I can do
+      this in general: between any two fractions <m>a</m> and
+      <m>b</m>, I can make the new fraction <m>\frac{a+b}{2}</m>. I
+      can repeat and repeat. Anywhere in the number line, I can zoom
+      in and find more and more rational, with out end. This is why
+      they are called dense.
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-number-line-gaps">
+    <title>Gaps in the Number Line</title>
+    <p>
+      You might think, after observing the density of the rational
+      numbers, that the number line is complete. You would have
+      good company for this thought: ancient civilizations who
+      developed fractions also though, for many centuries, that the
+      rational number were complete. However, you would be wrong. 
     </p>
   </subsection>
 </section>
