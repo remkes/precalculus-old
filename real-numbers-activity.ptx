@@ -1,17 +1,33 @@
 <section xml:id="section-real-numbers-activity">
   <title>Real Numbers Activity</title>
-  <subsection xml:id="subsection-activity-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-activity-real-numbers-concepts">
+    <title>Conceptual Questions</title>
+    <p>
+      The current section is just a conceptual question: no algorithms
+      or calculation techniques were covered here. Therefore, for this
+      section, the only activity are the conceptual questions.
+    </p>
     <activity>
       <statement>
-        <p>
-          To be completed.
-        </p>
+        <ul>
+          <li>
+            What is the difference between natural number, integers,
+            rational numbers and real numbers?
+          </li>
+          <li>
+            Why are the rational number not complete?
+          </li>
+          <li>
+            Why is the continuum and why is continuity of a line
+            important
+          </li>
+          <li>
+            Why does the problem of the continuum involve infinity,
+            even though it just wants to describe a ordinary line
+            drawn between two points?
+          </li>
+        </ul>
       </statement>
-      <solution>
-        <p>
-        </p>
-      </solution>
     </activity>
   </subsection>
 </section>

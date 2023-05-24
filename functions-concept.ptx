@@ -1,9 +1,395 @@
 <section xml:id="section-functions-concept">
   <title>The Concept of a Function</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-what-is-a-function">
+    <title>What Is A Function</title>
     <p>
-      To be completed
+      The idea of a function is one of the most fundamental, most
+      basic ideas in mathematics. A great deal of mathematics is
+      expressed in the language of functions. In particular, calculus
+      is entirely a study of functions. So what is a function?
+    </p>
+    <p>
+      There are three productive ways to answer the question. A
+      function is a complicated enough idea that it's best to give you
+      all three concepts. The concept of a function that you build in
+      your mind should include all these of these ideas.
+    </p>
+    <p><ol>
+      <li>
+        First, a function is like a machine which acts on things
+        (usually, but not necessarily, numbers). Functions are agents
+        which perform certain actions. The function <m>f(x) = x^2</m>
+        is a process which takes a number and produces the square of
+        that number. I can think of this <m>f</m> as the machine that
+        squares numbers. 
+      </li>
+      <li>
+        <p>
+          Second, a more abstract understanding of a function is as a
+          rule that assigns something in one set to something in
+          another set.  (I reviewed the idea and notation of sets in
+          <xref ref="subsection-sets" />).  Let <m>A</m> and <m>B</m>
+          be sets. A function from <m>A</m> to <m>B</m> takes elements
+          of <m>A</m> and assign, to each of these elements, exactly
+          on element of <m>B</m>.
+        </p>
+      </li>
+      <li>
+        Finally, functions encode relationships and dependencies.  For
+        a function <m>f<m> from a set <m>A</m> to a set <m>B</m>, I
+        can thing of the elements of <m>B</m> depending on the
+        elements of <m>A</m>. This idea is reflected in the phrase
+        <dq>is a function of</dq>. If I say that population growth is a
+        function of food supply, I mean that there is a function which
+        goes from numbers representing food supply to numbers
+        representing growth rates. That function encodes the
+        dependance of growth on food supply.
+      </li>
+    </ol></p>
+  </subsection>
+  <subsection xml:id="subsection-function-notation">
+    <title>Function Notation and Examples</title>
+    <p>
+      I'm going to start but going over function notation, and the
+      demonstrate that notation with a bunch of examples. Mathematics
+      has a variety of ways to represent function, but the following
+      is the most typical.
+      <me>
+        f(x) = 7x^2 - 9 
+      </me>
+      In this notation <m>f</m> is the name of the function. I can us
+      this letter to refer to the function by talking about <sq>the
+      function <m>f</m></sq>. The notation <sq><m>(x)</m></sq> tells
+      me what the function is acting on. The thing inside the brackets
+      can either be a variable, as it here with the letter
+      <sq><m>x</m></sq>, or it could be a number or even a complicated
+      expression. The main idea is that the bracket surround the think
+      on which the function is going to act. Whatever is in the 
+      brackets is the input to the function.
+    </p>
+    <p>
+      When I write <m>f(x) = </m> with a variable, the right side of
+      the equation is going to give the process. Here the process is
+      <m>= 7x^2 - 9</m>. That means that this function takes its
+      input, represented by the variable <m>x</m>, square it,
+      multiplied it by <m>7</m> and then subtracts <m>9</m> (following
+      the usual order of operations, of course). 
+    </p>
+    <p>
+      That's the basic notation: a function has a name or symbol used
+      to refer to is, here <m>f</m>; a repesentation of the input put
+      inside brackets, here <m>x</m>; and, after an equals sign, an
+      expression which describes what the function actually does.  
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-function-domain">
+    <title>Domain and Range of Functions</title>
+    <p>
+      In the abstract understanding of functions (the second of the
+      three notions in the previous section), a function is a rule
+      that goes between two sets. These two sets have names: the soure
+      or input of the function is called the <term>domain</term> of
+      the function, and the set of possible outputs is called the
+      <term>codomain</term> of the function. There is also a notation
+      for this: if <m>A</m> is the domain and <m>B</m> is the
+      codomain, a function from <m>A</m> to <m>B</m> is written as
+      follows.
+      <me>
+        f: A \rightarrow B
+      </me>
+      Unlile the previous notation, this notation doesn't yet tell me
+      what the function does. It only tells me that <m>f</m> is going
+      to be some function that has inputs from the set <m>A</m> and
+      outputs in the set <m>B</m>. I'll look at some examples now.
+    </p>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: \NN rightarrow \NN
+        </me>
+        defined by the formula
+        <me>
+          f(x) = x+3
+        </me>
+        The domain and codomain of this function are both the natural
+        numbers. For each whole positive number, adding three still
+        gives a whole, positive number. The outputs of this function
+        are in <m>\NN</m>
+        whole 
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: \ZZ \rightarow \NN
+        </me>
+        defined by the formula
+        <me>
+          f(x) = x^2 + 1
+        </me>
+        This function claims to go from the integers to the nutural
+        numbers. Does it? For positive whole numbers, the square is
+        still a positive square number and adding one still gives a
+        positive square number. 3 goes to 10, 4 goes to 17, 5 goes to
+        26, and so on. This all works fine. But the domain here also
+        includes negative numbers and zero. Does this also work for
+        those inputs?
+      </p>
+      <p>
+        0 is sent to 1, so that does work. For any negative <m>-n</m>,
+        the square <m>(-n)^2 = n^2</m> is positive. Then adding 1
+        still gives a positive number. Therefore, zero and the
+        negatives are also sent positive whole numbers. This function
+        is valid: it outputs are, indeed, all in <m>\NN</m>.
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: \QQ \rightarrow \QQ
+        </me>
+        defined by the formula
+        <me>
+          f(x) = x - \frac{1}{2}
+        </me>
+        This function takes any fraction and subtracts
+        <m>\frac{1}{2}</m>. By the arithmetic of fractions (as
+        discussed in <xref ref="subsection-fraction-addition" />),
+        adding or subtracting two fractions works by common
+        denominator and always produces a new fraction. Therefore, the
+        output here is still a rational number and the function is
+        valid as presented. 
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: \NN \rightarrow \RR
+        </me>
+        defined by the formula
+        <me>
+          f(x) = \sqrt{x}
+        </me>
+        This function takes any positive whole number to is square
+        root. This neads to be a function with codomain <m>\RR</m>,
+        because many square root of whole numbers are irrational. 
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: [2, \infty) \rightarrow [0, \infty)
+        </me>
+        defined by the formula
+        <me>
+          f(x) = x-2
+        </me>
+        This function takes real numbers and subtracts 2 from them.
+        The codomain reflects this subtraction: the starting numbers
+        are all 2 or larger, so subtracting 2 means that the output
+        are all 0 or larger. 
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: (0,1) \rightarrow (1, \infty) 
+        </me>
+        defined by the formula
+        <me>
+          f(x) = \frac{1}{x} 
+        </me>
+        This function takes a real number to its reciprocal. If <m>x
+        \lt 1</m>, then taking reciprocals flips inequalities (as
+        discussed in <xref ref="subsection-inequalities-reversing"
+        />), so <m>\frac{1}{x} \gt 1</m>. The domain is positive
+        number less than one, so the outputs, by this logic, must be
+        greater than one. The codomain reflects this, since the
+        interval <m>(1,\infty)</m> is all positive numbers greater
+        than 1. 
+      </p>
+    </example>
+    <p>
+      If I look back over the examples, I can notice that not all the
+      numbers in the codomains are actually realized as outputs of the
+      function. This is an important distinctions: the codomains is
+      a set of  <em>possible</m> outputs, but not the set of
+      <em>actual</em> outputs. The set of actual outputs is called the
+      <term>range</term> of the function. It always a subset of the
+      codomain, but it might be a smaller subset. Let me go back
+      through the examples to see what the range of each function is. 
+    </p>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: \NN rightarrow \NN
+        </me>
+        defined by the formula
+        <me>
+          f(x) = x+3
+        </me>
+        Since I am adding three, the outputs are always larger than
+        the inputs. The smallest imput is 1, but the largest output is
+        4. Therefore, the range of this function is <m>\{4, 5, 6, 7,
+        \ldots\},</m>. This is a subset of <m>\NN</m>, but not the
+        whole codomain.
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: \ZZ \rightarow \NN
+        </me>
+        defined by the formula
+        <me>
+          f(x) = x^2 + 1
+        </me>
+        The outputs of this function are numbers which are one larger
+        than the square numbers. That list is <m>\{1, 5, 10, 17, 26,
+        37, 50, \ldots \}. This is the range of the function, which is
+        missing most of <m>\NN</m>, the codomain. 
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: \QQ \rightarrow \QQ
+        </me>
+        defined by the formula
+        <me>
+          f(x) = x - \frac{1}{2}
+        </me>
+        For any fraction, I can add <m>\frac{1}{2}</m> and also have a
+        fraction. Therefore, all fractions show up in the outputs of
+        this function. The range here is <m>\QQ</m>, the same as the
+        comdomain. 
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: \NN \rightarrow \RR
+        </me>
+        defined by the formula
+        <me>
+          f(x) = \sqrt{x}
+        </me>
+        The range here is the square roots of the natural numbers. I
+        could write this as a list: <m>\{1, \sqrt{2}, \sqrt{3}, 2,
+        \sqrt{5}, \sqrt{6}, \sqrt{7}, \sqrt{8}, 3, \sqrt{10} \ldots
+        \}<m>. This is a comparatively small subset of the codomain
+        <m>\RR</m>, since most real numbers are not in this list. 
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: [2, \infty) \rightarrow [0, \infty)
+        </me>
+        defined by the formula
+        <me>
+          f(x) = x-2
+        </me>
+        This function essentially shifts all real numbers down by 2.
+        Therefore, it will cover the entire interval <m>[0,
+        \infty)</m>: all of this set will be outputs, so here, again,
+        the codomain and the range are the same. 
+      </p>
+    </example>
+    <example>
+      <p>
+        Consider the function
+        <me>
+          f: (0,1) \rightarrow (1, \infty) 
+        </me>
+        defined by the formula
+        <me>
+          f(x) = \frac{1}{x} 
+        </me>
+        For any number in <m>(0,1)</m>, its reciprocal is in
+        <m>(1,\infty)</m>. However, the reverse is also true: for any
+        number in <m>(1, \infty)</m>, its reciprocal is in
+        <m>(0,1)</m>. Therefore, the outputs of the function will be,
+        in fact, the entire interval <m>(1, \infty)</m> and, again,
+        the range and the codomain here are the same. 
+      </p>
+    </example>
+    <p>
+      Often when a function is introduced in some mathematical
+      situation, the domain is not stated. Instead, it is left
+      implicit. In these cases, the domain is usually assumed to be
+      the largest set of number it can be. When asked to calculate the
+      domain of a function, this is precisely what I need to do:
+      determine the largest possible domain that works. 
+    </p>
+    <p>
+      To do 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-function-graphs">
+    <title>Graphs of Functions</title>
+
+    <p>
+      In addition to the three concepts, function are also visualized
+      by graphs. (There is a library of functions in the common
+      materials which shows the graphs of many frequently used
+      functions.) Visualizing the action of a function by its graph is
+      a very convenient way to remember the function and its
+      properties.
+    </p>
+          of <m>B</m> consisting of all outputs of the function.
+  </subsection>
+  <subsection xml:id="subsection-real-functions">
+    <title>Functions on <m>\RR</m></title>
+    <p>
+      For the purposes of this course, I will present functions
+      defined on <m>\RR</m> and its subsets. For most functions, I
+      will not explicitly describe a domain; the domain of the
+      function will implicitly be the largest subset of real numbers
+      where the function applies. Likewise the range will implicitly
+      be the subset of all possible outputs of the function.
+    </p>
+    <p>
+      Determining the domain of a function on <m>\RR</m> means
+      avoiding undefined mathematical actions. There are three common
+      restrictions.
+    </p>
+    <p><ul>
+      <li>
+        I cannot divide by zero.
+      </li>
+      <li>
+        I cannot take even roots of negative numbers.
+      </li>
+      <li>
+        I cannot take logarithms of negative numbers or zero.
+      </li>
+    </ul></p>
+    <p>
+      There are special domain restrictions for certain functions,
+      such as inverse trig functions, but these three cover the
+      vast majority of functions I will be presenting. Determining
+      the domain of a function <m>f</m> means excluding real numbers
+      which would lead to one of the three problems.
+    </p>
+    <p>
+      In addition, should I wish to, I can put additional domain
+      restrictions on a function. Functions of time cannot extend
+      infinitely back in time, so I will usually stipulate a starting
+      time; the domain of the function will be after that starting
+      time. Restricting domains is also useful to make a function
+      invertible.
     </p>
   </subsection>
 </section>

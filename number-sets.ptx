@@ -1,0 +1,271 @@
+<section xml:id="section-number-sets">
+  <title>Number Sets</title>
+  <subsection xml:id="subsection--sets">
+    <title>Sets of  Numbers</title>
+    <p>
+      A simple but useful idea in mathematics is the idea of a
+      <term>set</term>. A set is nothing but a collection of things.
+      It can be any things, but for the purposes of these notes, I'll
+      strick to sets of numbers. The things in a set are called the
+      <term>elements</term> of the set. 
+    </p>
+    <p>
+      A set can be described directly using braces and explicitly
+      listing its elements. The set
+      <me>
+        A = \left\{ 4, 8, 22 \right} 
+      </me>
+      has three elements: the numbers <m>4</m>, <m>8</m> and
+      <m>22</m>. Here <sq><m>A</m></sq> is the name of the set and the
+      right side is the explicit description. (Following convention,
+      I'll usually use capital letters as names for sets.) The
+      notation to say that something is an element uses this strange
+      symobl, something like a stylized letter <sq>e</sq>. 
+      <me>
+        4 \in A 
+      </me>
+      If I want to say that something is not a member of set, I can
+      put a cross through this symbol. 
+      <me>
+        5 \notin A 
+      </me>
+    </p>
+    <p>
+      A set is just an unorganized collection: there is no structure.
+      It's is entirely determined by its elements. There are a complet
+      of important consequenes of this idea. First, order doesn't
+      matter. The following two expressions define exactly the same
+      set.
+      <me>
+        \left{ 6, -13, \frac{5}{7}, \pi \right\} = \left\{ \pi, -13, 6
+        \frac{5}{7} \right\} 
+      </me>
+      Second, repetition of elements isn't part fo the definition of a
+      set. All that matter is whether some number is or isn't in the
+      set. The following sets are likewise exactly the same.
+      <me>
+        \left\{ 1, 1, 3, 3, 1 \right\} = \left\{1, 3\right\}
+      </me>
+    </p>
+    <p>
+      In addition to explicit descriptions of sets by simply listing
+      elements, there are many other wasy to describe sets. Mostly
+      importantly, I can simply describe them with words. To describe
+      the set 
+      <me>
+      {2,4,6,8,10,12}
+      </me>
+      I could say <sq> the set of all positive even numbers less than
+      13</sq>. I could similar define <sq>the set of all divisors of
+      1044</sq> or <sq>the set of all prime numbers between 100 and
+      1000</sq>. 
+    </p>
+    <p>
+      So far, all the sets I've describe have been
+      <term>finite</term>: they have finitely many elements. I can
+      also define infinite sets. <sq>The set of all prime
+      numbers</sq>, for example, is an infinite set, since there are
+      infinitely many prime number. For some infinite sets, I can
+      describe them by listing a pattern, using the same three-dot
+      notation and I previous discussed to showing pattern. The set of
+      all positive even numbers, for example, can be described as
+      follows.  
+      <me>
+        E = \{2, 4, 6, 8, 10, 12, \ldots \}
+      </me>
+      The symbol <sq><m>\lots</m></sq> means that the pattern
+      continues without end. The even numbers never stop, but this set
+      contains all of them. So, $105538 \in E$ and $194942734 \in E$,
+      because both are even numbers. 
+    </p>
+    <p>
+      The last impotant idea to mention for sets is the idea of a
+      subset. A <term>subset</term> of some set is a selection of some,
+      but perhaps not all, of the elements of the set. It is written
+      with the notation <m>\subset</m>. I looks like this in explicit
+      notation.
+      <me>
+        {2,9,13,17} \subset {0,2,5,9,13,17,20}
+      </me>
+      This is a true statement since the set on the left containts a
+      selection of the elements from the set on the right. It is a
+      subset of the larger set. This can also work for infinite sets.
+      All multiples of 10 are even, so the set of all multiple of 10
+      is a subset of the positive even numbers. I can write this with
+      pattern notation.
+      <me>
+        {10, 20, 30, 40, 50, \ldots} \subset \{2,4,6,8,10,12,\ldots\}
+      </me>
+      I would also write this explicitly with words.
+      <me>
+        \text{The set of multiple of 10\} \subset \text{The set of
+        positive even numbers} 
+      </me>
+      If I want to say that something is not a subset, I can write a
+      cross through the symbol, much as I did for the <sq>is an
+      element of </sq> symbol. 
+      <me>
+        {1,7,44} \notsubset \{2,4,7,15,22,28,34,44\}
+      </me>
+      This is not a subset since 1 is an element of the first but not
+      of the section. The first set includes something apart from the
+      second set, to it cannot be a selection of elements from the
+      second. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-standard-number-sets">
+    <title>Notations for Numbers</title>
+    <p>
+      In <xref ref="section-number-line" />, I defined several types
+      of number. There are some standard notations for the sets of
+      these numbers. 
+    </p>
+    <p><ul>
+      <li>
+        The natural numbers:
+        <me>
+          \NN = \{1,2,3,4,5,6,\ldots\}
+        </me>
+      </li>
+      <li>
+        The integers:
+        <me>
+          \ZZN = \{\ldots -3,-2,-1,01,2,3,\ldots\}
+        </me>
+      </li>
+      <li>
+        The rational numbers: <m>\QQ</m>
+      </li>
+      <li>
+        The real numbers: <m>\RR</m>
+      </li>
+    </ul></p>
+  </subsection>
+  <subsection xml:id="subsection-intervals">
+    <title>Intervals of the Number Line</title>
+    <p>
+      There is another type of number set that I need to menion, since
+      it is used frequenctly in mathematics. These are the intervals
+      of the number line.
+    </p>
+    <p>
+      An <term>interval</term> is a connected piece of the number
+      line. They are defined by all number between two endpoint. So,
+      for example, an interval could be all real numbers between
+      <m>-2</m> and <m>7</m>, os all real numbers between
+      <m>\frac{-3}{7}</m> and <m>\frac{4}{11}</m>. 
+    </p>
+    <p>
+      In the previous paragraphs, <sq>between</sq> is slightly vague,
+      since it doesn't specify whether the edges are included. Both
+      possibilities are allowed, so let me now be more precise, as
+      well as defining the notation. In the following, I'll use
+      <m>a</m> and <m>b</m> to be any real numbers as long as <m>a \lt
+      b</m>. 
+    </p>
+    <p><ul>
+      <li>
+        The notation <m>[a,b]</m> means all real numberse between
+        <m>a</m> and <m>b</m>, including the endpoints. It is all
+        numbers <m>x</m> such that <m>a \leq x \leq b</m>. 
+      </li>
+      <li>
+        The notation <m>(a,b)</m> means all real numberse between
+        <m>a</m> and <m>b</m>, not including the endpoints. It is all
+        numbers <m>x</m> such that <m>a \lt x \lt b</m>. 
+      </li>
+      <li>
+        The notation <m>[a,b)</m> means all real numberse between
+        <m>a</m> and <m>b</m>, including the left endpoint. It is all
+        numbers <m>x</m> such that <m>a \leq x \lt b</m>. 
+      </li>
+      <li>
+        The notation <m>(a,b]</m> means all real numberse between
+        <m>a</m> and <m>b</m>, including the right endpoint. It is all
+        numbers <m>x</m> such that <m>a \lt x \leq b</m>. 
+      </li>
+    </ul></p>
+    <p>
+      In these notations, a square brackets always indicates inclusion
+      of the end points, and a curve paranthesis always indicates
+      exclusion of the end points. The interval without endpoints,
+      <m>(a,b)</m> is called an <term>open interval</term>. The
+      interval with endpoints, <m>[a,b]</m> is called a
+      <term>closed interval</term>. The other two, <m>(a,b]</m> and
+      <m>[a,b)</m> are called <term>half-open</term>. 
+    </p>
+    <p>
+      If I want to visualize the intervals on the number line, I use
+      dots for included endpoints, and open circles for excluded
+      endpoints. (ADD FIGURE)
+    </p>
+    <p>
+      The intervals I've discussed so far were all bounded: numbers
+      between some fixed lower endpoint and some other fixed upper
+      endpoint. However, intervals can also be unbounded. 
+    </p>
+    <p><ul> 
+      <li>
+        The interval
+        <me>
+          [a,\infty)
+        </me>
+        is all numbers that are greater than or equal to <m>a</m>.
+      </li>
+      <li>
+        The interval
+        <me>
+          (a, \infty) 
+        </me>
+        is all numbers that are greater than <m>a</m>.
+      </li>
+      <li>
+        The interval
+        <me>
+          (-\infty, a]
+        </me>
+        is all numbers that are less than or equal to <m>a</m>.
+      </li>
+      <li>
+        The interval
+        <me>
+          (-\infty, a) 
+        </me>
+        is all numbers that are less than <m>a</m>. 
+      </li>
+    </ul></p>
+    <p>
+      For the finite piece of this, the notation is the same as
+      before. Square brackets are used to indicate that the endpoint
+      is included and curved paranthesis are used to indicate the the
+      endpoint is excluded. For the unbounded sides of the intervals,
+      the symbol <m>\infty</m> is used. This is a tricky symbol, since
+      it is used for a variety of related by distinct purposes in
+      different pieces of mathematics. Here, it simply means that the
+      interval goes on forever. <m>\infty</m> means larger and larger
+      positive numbers, without ever stopping. <m>-\infty</m> means
+      larger and larger negative numbers, without even stopping. 
+    </p>
+    <p>
+      In particualr, <m>\infty</m> here is certainly not a number. I'm
+      not going to put it in any equations or do any arithmetic with
+      it. Instead, it is a short-hand meaning that the interval
+      extends without bound in some direction (positive or negative).
+      This is reflected in the notation: only curve paranthesis are
+      used for the infinite end of an unbounded interval. Square
+      brackets can never be used, since that indicates that the
+      endpoint is included <mdash /> but infinite intervals has no
+      endpoint, so no endpoint can possibly be included. 
+    </p>
+    <p>
+      Finally, I could write the interval <m>(-\infty, \infty)</m>.
+      This is an unbounded interval on both sides, extending without
+      bound to larger and larger positive and negative numbers. This
+      is simply the entire number line. I have already given a
+      notation for the number line: <m>\RR</m>, since the number line
+      is a visualization of all the real numbers. Therefore, I can
+      write <m>\RR = (-\infty,\infty)</m>, and either notation is
+      acceptable for talking about all the real numbers. 
+    </p>
+  </subsection>
+</section>

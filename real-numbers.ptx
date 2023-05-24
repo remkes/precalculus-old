@@ -2,6 +2,6 @@
   xml:id="chapter-real-numbers">
   <title>The Real Numbers</title>
   <xi:include href="number-line.ptx" />
-  <xi:include href="fractions-and-decimals.ptx" />
+  <xi:include href="number-sets.ptx" />
   <xi:include href="real-numbers-activity.ptx" />
 </chapter>

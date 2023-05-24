@@ -183,8 +183,201 @@
       You might think, after observing the density of the rational
       numbers, that the number line is complete. You would have
       good company for this thought: ancient civilizations who
-      developed fractions also though, for many centuries, that the
-      rational number were complete. However, you would be wrong. 
+      developed fractions also thought, for many centuries, that the
+      rational numbers were complete. However, you would be wrong. 
+    </p>
+    <p>
+      One of the strangest and more important discovery in the history
+      of mathematics was the discovery of irrational numbers. There
+      are many of such numbers, but historically, two examples are
+      most imporant. First, any square root which is not an natural
+      number is irrational. The first of these is <m>\sqrt{2}</m>.
+      Square roots, particularly <m>\sqrt{2}</m>, are geometrically
+      very natural. Consider applying the pythagorus theorem to the
+      diagonal of a square with side length 1, as in <xref
+      ref="figure-diagonal-of-the-square"/>.
+    </p>
+    <figure xml:id="figure-diagonal-of-the-square">
+      <caption>The Diagnoal of the Square</caption>
+      <image xml:id="figure11" width="80%">
+        <asymptote>
+          size(8cm,8cm,IgnoreAspect);
+
+          draw((0,0)--(2,0)--(2,2)--(0,2));
+
+          label("$1$",(0,1),W);
+          label("$1$",(1,0),S);
+          
+          draw((2,0)--(0,2));
+
+          label("$\sqrt{2}$",(1,1),NE);
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      In my use of the pythagorean theorem, the two sides of the
+      square are the short sides of my right triangle (<m>a</m> and
+      <m>b</m>) and the diagonal of the square is the hypotenuese
+      (<m>c</m>).  The theorem says that 
+      <me>
+        a^2 + b^2 = c^2 
+      </me>
+      I put the two side lengths into the formula.
+      <me>
+        1^2 + 1^2 = 1 + 1 = 2 = c^2 
+      </me>
+      I get <m>2 = c^2</m>, which is the same as <m>c = \sqrt{2}</m>.
+      So the length of the diagonal of this square is <m>\sqrt{2}</m>.
+      Hopefully, the simplicity of this geometric example shows you
+      that square roots are a common experience in geometric problem.
+      (Indeed, many other applications of the pythagorean theorm will
+      lead to square root). In ancient mathematics, much effort was
+      spent to find a fraction that equaled <m>\sqrt{2}</m>, but it
+      was all in vain. <m>\sqrt{2}</m> has no fraction that matches it
+      perfectly. It can be approximated by various fractions, but
+      never completely captured. It is irrational 
+    </p>
+    <p>
+      The second example is also geometric, one perhaps even more
+      basic and fundamental than the diagonal of the square. The
+      number <m>\pi</m> is the ratio of the circumference of a circle
+      to its (twice radius?). If the (twice radius?) is <m>1</m>, then
+      the length of the path around the whole circle will be the value
+      <m>\pi</m>. In <xref ref="figure-definition-of-pi"/>, I've shown
+      the (twice radius?) as a line before the cirlce, and below that,
+      I've also shown a line that matched the path around the circle;
+      this second line has length <m>\pi</m>.
+    </p>
+    <figure xml:id="figure-definition-of-pi">
+      <caption>The Number <m>\pi</m></caption>
+      <image xml:id="figure12" width="80%">
+        <asymptote>
+          size(12cm,0,IgnoreAspect);
+
+          draw((unitcircle());
+          draw((-1,0)--(1,0));
+
+          draw((-1,-1.5)--(1,-1.5));
+          label("$1$",(0,-1.5),S);
+
+          draw(-1,-2)--(5.28,-2));
+          label("$\pi$",(2.14,-2),S);
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      Again, much effort was spend to try to represent <m>\pi</m> as a
+      fraction, but again it was impossible. There is no fraction that
+      entirely describes <m>\pi</m>. It is also irrational. 
+    </p>
+    <p>
+      These numbesr, <m>\sqrt{2}</m> and <m>\pi</m>, are reasonable
+      lengths: they actually measure some geometric quantity. They
+      should be part of the number line, since all points on the
+      number line can be thought of a lengths from <m>0</m> to that
+      point. The only reasonable conclusion is that the number line,
+      using only the rationals, must have missing numbers. There are
+      gaps in the number line. The irrationals fill those gaps. By
+      adding all such numbers (of which there are, again, infinitely
+      many), the number line is finally complete. 
+    </p>
+    <figure xml:id="figure-number-line-completei">
+      <caption>The Completed Number Line</caption>
+      <image xml:id="figure13" width="80%">
+        <asymptote>
+        </asymptote>
+          size(12cm,0,IgnoreAspect);
+
+          draw((-3,0)--(3,0));
+
+          dot("$0$",(0,0),N);
+          dot("$1$",(1,0),N);
+          dot("$2$",(2,0),N);
+          dot("$3$",(3,0),N);
+          dot("$-1$",(-1,0),N);
+          dot("$-2$",(-2,0),N);
+          dot("$-3$",(-3,0),N);
+
+          dot("$\frac{1}{3}$",(0.333,0),S);
+          dot("$\frac{-5}{2}$",(-2.5,0),S);
+          dot("$\frac{13}{6}$",(2.17,0),S);
+          dot("$\frac{101}{35}$",(2.89,0),S);
+          dot("$\frac{-1}{7}$",(-0.14,0),S);
+
+          dot("$\sqrt{2}$",(0,1.41),N);
+          dot("$\pi$",(0,3.14),N);
+          dot("$-\sqrt{3}", (0,-1.44),N);
+          dot("$\frac{-\pi^2}{11}$", (-0.9,0),N);
+      </image>
+    </figure>
+    <p>
+      After these irrationals have been added, the numer line is
+      complete. This set of numbers, including both rationals and
+      irrationals, is called the <term>real numbers</term>. Typically,
+      the real number are represented by decimal expansions, as I
+      talked about in <xref ref="subsection-fraction-decimals" />.
+      These reprentations are always approximate. 
+      <md>
+        <mrow>
+          \sqrt{2} \doteq = 1.414213562373095 \ldots
+        </mrow>
+        <mrow>
+          \sqrt{7} \doteq = 2.645751311064591 \ldots
+        </mrow>
+        <mrow>
+          \pi \doteq = 3.141592653589793 \ldots
+        </mrow>
+      </md>
+      These decimals expansions are non-repeating. The is no pattern
+      to capture here; they are essentially random strings of digits.
+      The real number is only completely understood by the whole
+      infinite string of decimals, which, of course, cannot be written
+      down. It's a strange business: having numbers represented by
+      unwritable, infinite expression. But it is unavoidable. Other
+      than choosing a symbol to represent the ideas (such as the
+      symbols <sq><m>\sqrt{2}</m></sq> and <sq><m>\pi</m></sq>), any
+      representation of an irrational number must always be infinite
+      and therefore impossible to write down completely.
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-the-continuum">
+    <p>
+      The number line is also sometimes called the
+      <term>continuum</term>. A very important property of the number
+      line, indicated by this term, is that it is continuous. It has
+      not gaps. It forms a uninterupted line. Any line segment I draw
+      should have the same property: I expect it to be a continuous
+      object, with no holes or gaps. 
+    </p>
+    <p>
+      It's only after adding the irrational numbers that the number
+      line (the real numbers) are complete and have this desired
+      continuity problem. This is immensely important, particularly
+      for calculus. Without continuity, the main constructions of
+      calculus are simply not going to work: they will end up falling
+      in the gaps in the number, line, leading to undefined answered
+      and unsolvable problems. It would be a mess. 
+    </p>
+    <p>
+      It's worth pointing how strange this all is. A continuous,
+      unbroken section of line is a very basic concept. It's the
+      starting point for geometry, since I can't even draw shapes
+      without drawing line segmets (straight or curved). It's a basic
+      idea: an uniterrupted connection from one point to another. But
+      inside this very basic idea lurk great and unavoidable problems.
+      I try to capture the line using rational numbers, which seems
+      complete since they are dense. But there are gaps. I fill the
+      gaps with irrational numbers, but these are numbers I can't even
+      properly write down, since they have infinite expressions.
+    </p>
+    <p>
+      Simply put, there is a fundamental and intractable infinite
+      built into something as simple as a line connecting two points.
+      The continuum is vexing, and a great part of the history of
+      mathematics has been coming to terms with the problems of the
+      continuum and how it works. Calculus is ont of the tools that
+      helps to deal with the continuous, since calculus start to deal
+      with these strange infinities.
     </p>
   </subsection>
 </section>
