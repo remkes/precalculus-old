@@ -1,9 +1,63 @@
 <section xml:id="section-functions-models">
   <title>Functions and Models</title>
-  <subsection xml:id="subsection-TBD">
-    <title>Title</title>
+  <subsection xml:id="subsection-functions-as-models">
+    <title>Functions as Models</title>
     <p>
-      To be completed.
+      In <xref ref="subsection-what=is-a-function" />, I talked about
+      three ways to understand a function. The third of these viewed
+      functions as relationships or dependencies. This viewpoint is
+      the most useful for applied mathematics: for using mathematics
+      to understand some phenomenon in the real world. 
     </p>
+    <p>
+      If I use a function to describe some real world situation, that
+      function is called a <term>model</term> of the situation.
+      Applied mathematics is full of mathematical models. Let me start
+      with a number of examples. 
+    </p>
+    <example>
+      <p>
+        Movement in a straight line can be modeled by a function. the
+        movement depends on time, so I will choose <m>t</m> for the
+        independent variable. The function will measure distance, so I
+        will write it <m>d(t)</m>. 
+      </p>
+      <me>
+      </me>
+      <p>
+      </p>
+    </example>
+    <example>
+      <p>
+      </p>
+      <me>
+      </me>
+      <p>
+      </p>
+    </example>
+    <example>
+      <p>
+      </p>
+      <me>
+      </me>
+      <p>
+      </p>
+    </example>
+    <example>
+      <p>
+      </p>
+      <me>
+      </me>
+      <p>
+      </p>
+    </example>
+    <example>
+      <p>
+      </p>
+      <me>
+      </me>
+      <p>
+      </p>
+    </example>
   </subsection>
 </section>

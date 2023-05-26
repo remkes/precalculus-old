@@ -341,39 +341,15 @@
       implicit. In these cases, the domain is usually assumed to be
       the largest set of number it can be. When asked to calculate the
       domain of a function, this is precisely what I need to do:
-      determine the largest possible domain that works. 
+      determine the largest possible domain that works.
     </p>
     <p>
-      To do 
-    </p>
-  </subsection>
-  <subsection xml:id="subsection-function-graphs">
-    <title>Graphs of Functions</title>
-
-    <p>
-      In addition to the three concepts, function are also visualized
-      by graphs. (There is a library of functions in the common
-      materials which shows the graphs of many frequently used
-      functions.) Visualizing the action of a function by its graph is
-      a very convenient way to remember the function and its
-      properties.
-    </p>
-          of <m>B</m> consisting of all outputs of the function.
-  </subsection>
-  <subsection xml:id="subsection-real-functions">
-    <title>Functions on <m>\RR</m></title>
-    <p>
-      For the purposes of this course, I will present functions
-      defined on <m>\RR</m> and its subsets. For most functions, I
-      will not explicitly describe a domain; the domain of the
-      function will implicitly be the largest subset of real numbers
-      where the function applies. Likewise the range will implicitly
-      be the subset of all possible outputs of the function.
-    </p>
-    <p>
-      Determining the domain of a function on <m>\RR</m> means
-      avoiding undefined mathematical actions. There are three common
-      restrictions.
+      Determinign the largest possible domain is mostly done by
+      considering restriction: what operations are impossible and what
+      inputs to the function would lead to these impossible
+      operations? While certain special functions have their own
+      restrictions, for most common functions there are three main
+      things to worrk about.
     </p>
     <p><ul>
       <li>
@@ -386,20 +362,31 @@
         I cannot take logarithms of negative numbers or zero.
       </li>
     </ul></p>
-    <p>
-      There are special domain restrictions for certain functions,
-      such as inverse trig functions, but these three cover the
-      vast majority of functions I will be presenting. Determining
-      the domain of a function <m>f</m> means excluding real numbers
-      which would lead to one of the three problems.
-    </p>
+  </subsection>
+  <subsection xml:id="subsection-restricting-domains">
+    <title>Restricting Domains of Functions</title>
     <p>
       In addition, should I wish to, I can put additional domain
-      restrictions on a function. Functions of time cannot extend
-      infinitely back in time, so I will usually stipulate a starting
-      time; the domain of the function will be after that starting
-      time. Restricting domains is also useful to make a function
-      invertible.
+      restrictions on a function. This can be done for mathematical
+      reasons, but most often, this is a practical consideration. 
     </p>
+    <p>
+      ADD DETAILS 
+    </p>
+  </subsection>
+  <subsection xml:id="subsection-function-graphs">
+    <title>Graphs of Functions</title>
+    <p>
+      In addition to the three way to understand functions from <xref
+      ref="subsection-what-is-a-function" />, I can also understand
+      a function by drawing a picture of it. This picture is called
+      the <term>graph</term> of the function.  Visualizing the action
+      of a function through its  graph is a very convenient way to
+      remember the function and its properties.
+    </p>
+    <p>
+      ADD DETAILS
+    </p>
+  </subsection>
   </subsection>
 </section>
