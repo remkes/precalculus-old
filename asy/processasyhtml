@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Process images
+asy -f html figure01.asy
+asy -f html figure02.asy
+asy -f html figure03.asy
+asy -f html figure04.asy
+asy -f html figure05.asy
+asy -f html figure06.asy
+asy -f html figure07.asy
+asy -f html figure08.asy
+asy -f html figure09.asy
+asy -f html figure10.asy
+asy -f html figure11.asy
+asy -f html figure12.asy
+asy -f html figure13.asy
+
+# Copy and move files
+cp *.html ../images/
+mv *.html ../html/images

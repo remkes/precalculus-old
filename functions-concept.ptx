@@ -324,7 +324,17 @@
         in fact, the entire interval <m>(1, \infty)</m> and, again,
         the range and the codomain here are the same. 
       </p>
+      <p>
+        In general, the range of a function is usually difficult to
+        determine. Based on algebraic techniques (that is, without
+        calculus), it is often prohibitively difficult to do more than
+        guess the range. Among its many other applications, calculus
+        provides tools for precisely calculating range.
+      </p>
     </example>
+  </subsection>
+  <subsection xml:id="subsection-determining-domains">
+    <title>Determining Domains of Functions</title>
     <p>
       Often when a function is introduced in some mathematical
       situation, the domain is not stated. Instead, it is left
