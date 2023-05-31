@@ -12,7 +12,6 @@ asy -f html figure08.asy
 asy -f html figure09.asy
 asy -f html figure10.asy
 asy -f html figure11.asy
-asy -f html figure12.asy
 asy -f html figure13.asy
 
 # Copy and move files
